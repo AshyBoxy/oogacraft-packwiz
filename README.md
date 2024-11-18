@@ -172,10 +172,16 @@ Tools are more things that use physical items and blocks, utilities are more thi
 - Our Villager Discounts
 - Polymorph
     - Polymorphic Energistics
-- REI
-    - Roughly Enough Professions (client only)
 - Show Me What You Got
 - Shulker Box Tooltip
+- EMI
+    - EMI Trades (client only)
+    - EMI Loot
+    - EMIffect (client only)
+    - Extra Mod Integrations (client only)
+    - EMI Enchanting (client only)
+    - EMI Ores
+    - AE2 EMI Crafting Integration
 #### Xaeros
 - way2wayfabric
 - Xaero's Minimap
@@ -267,6 +273,7 @@ https://xkcd.com/927/ (a lot of these do the same things)
 - U Team Core
 - YetAnotherConfigLib
 - YUNG's API
+- Fzzy Config
 
 
 ## Client Only
@@ -394,7 +401,6 @@ They might not be now, I don't think it's worth checking
 - Command Aliases - replace with tpcommands
 - Gamma Utils - kind of cheaty
 - Quality Sounds - doesn't Repurposed Footsteps offer the same?
-- REI - EMI could be better, depends on mod support
 - Simple Discord Link - replace with BOC-Discord
 - WTHIT - replace with Jade
 
@@ -405,8 +411,7 @@ They might not be now, I don't think it's worth checking
 - BOC-Discord (then BOC-MsgClient)
 - Almost Unified
 - Jade
-- possibly EMI to replace REI?
-- REI/EMI integrations for resources and such
+- EMI integrations for resources and such
 - Hephaestus (Tinkers' Construct)
 - https://modrinth.com/mod/spectrum-jetpacks
 - https://modrinth.com/mod/music-maker-mod
@@ -419,3 +424,7 @@ They might not be now, I don't think it's worth checking
 - set up almost unified
 - set up duplicate blocks being replaced (unified)
 - download mods to more uniform filenames?
+
+## Current Issues
+- fabric seasons said to install the croptopia compat mod?
+- i do still want fsit

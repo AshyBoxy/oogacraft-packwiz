@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "README.md"
-hash = "bc6d3cd78b6722a37c7f4532d43d12fabdb8b83b8c9ef90d6601f92ca094d3d9"
+hash = "1f783c7fd45159b79a18dc75c495e3ffbdf3efe1d786844a63848e378fd5a995"
 
 [[files]]
 file = "mods/AnvilFix-development+20230626064221-1.20.1.jar"
@@ -31,6 +31,11 @@ metafile = true
 [[files]]
 file = "mods/advancement-plaques.pw.toml"
 hash = "f2a3d2af3f3ec8ed1bcdd436a76d89ec9655f20809c2274cb1be5392bb3e904e"
+metafile = true
+
+[[files]]
+file = "mods/ae2-emi-crafting.pw.toml"
+hash = "f9de150fd28847bbae0649278f098babfb0ea4961caf93bec38835c4574e5ab3"
 metafile = true
 
 [[files]]
@@ -524,6 +529,36 @@ hash = "730277ea82f283cbb7812857e13129b4c65359b5bd3e163d4461bf6749f06a35"
 metafile = true
 
 [[files]]
+file = "mods/emi-enchanting.pw.toml"
+hash = "aef45a1afd270204f96f05142cd1013146e87428e4ffaef3f54148d7f1836916"
+metafile = true
+
+[[files]]
+file = "mods/emi-loot.pw.toml"
+hash = "e07935009e03be5e7ae2545f413113c7c8cece2053ba74021d4a26f7e29e8a2a"
+metafile = true
+
+[[files]]
+file = "mods/emi-ores.pw.toml"
+hash = "bbaea729b709272743221c0f7553a5628e344aab499690adef306c861971bacb"
+metafile = true
+
+[[files]]
+file = "mods/emi.pw.toml"
+hash = "cb84025b57a3c1d575299c82858235cc555867d14d06aca4388302edcdb46281"
+metafile = true
+
+[[files]]
+file = "mods/emiffect.pw.toml"
+hash = "aa098fe2f0399fe8c95450af73f406eba41aee3bb58f5a450c434c713ca8cf5f"
+metafile = true
+
+[[files]]
+file = "mods/emitrades.pw.toml"
+hash = "71d944c917bf1e4f0f6fac8c39f3b1038becaa039cdf3638982f4cdb58ef99b4"
+metafile = true
+
+[[files]]
 file = "mods/emotecraft.pw.toml"
 hash = "bd53dcb193060715c659e96aedafd08dedd193ebb1f0a79fe15f6786a315a6c0"
 metafile = true
@@ -571,6 +606,11 @@ metafile = true
 [[files]]
 file = "mods/extended-cogwheels.pw.toml"
 hash = "49f7a553eb7bd1c0be5b488276b8c12ae0b3bed828e3605ad238295f00190916"
+metafile = true
+
+[[files]]
+file = "mods/extra-mod-integrations.pw.toml"
+hash = "6825690eefa5d0ab6e5e313c1d61ec7894f4debfa8aba4c412ec8e60eeb68c74"
 metafile = true
 
 [[files]]
@@ -676,6 +716,11 @@ metafile = true
 [[files]]
 file = "mods/fwaystones.pw.toml"
 hash = "8a1832e5352f6ea6307b9af759034ac9a9b654823120cc8181f7f36171d7c24f"
+metafile = true
+
+[[files]]
+file = "mods/fzzy-config.pw.toml"
+hash = "ca24bfcd5025839184bf79d63151d9cdafd5c4668a2c6fa3c034fca488e9bb7e"
 metafile = true
 
 [[files]]
@@ -1088,11 +1133,6 @@ hash = "4a7d1e46795d2d83b18db85d8dbc63740a1d337e12d2b9e550378de59f2b23ab"
 metafile = true
 
 [[files]]
-file = "mods/rei.pw.toml"
-hash = "2c5d9c47c2c16b1207f1335d10f99b1ba976bdc3363784674b8907ddd96e9c0a"
-metafile = true
-
-[[files]]
 file = "mods/reinforced-barrels.pw.toml"
 hash = "8ecb26c89b55887a3403e0c739305d1aa3a65fa1979444ba5f56186dd74c3a1a"
 metafile = true
@@ -1125,11 +1165,6 @@ metafile = true
 [[files]]
 file = "mods/revelationary.pw.toml"
 hash = "95dc1c49d6f94a6484e3c3688fa062fed91b323aa4cc088cc2748ca0dd43a7da"
-metafile = true
-
-[[files]]
-file = "mods/roughly-enough-professions-rep.pw.toml"
-hash = "77403277f00e432aed26bf311388fe78eedd1298c01bcfed641750d597597dd3"
 metafile = true
 
 [[files]]
