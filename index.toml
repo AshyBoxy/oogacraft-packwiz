@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "README.md"
-hash = "1f783c7fd45159b79a18dc75c495e3ffbdf3efe1d786844a63848e378fd5a995"
+hash = "21c33bcc91275e8cd0ff37e8af1ab1028b57c8a4d16ddad293d68f949d99d715"
 
 [[files]]
 file = "mods/AnvilFix-development+20230626064221-1.20.1.jar"

@@ -181,7 +181,7 @@ Tools are more things that use physical items and blocks, utilities are more thi
     - Extra Mod Integrations (client only)
     - EMI Enchanting (client only)
     - EMI Ores
-    - AE2 EMI Crafting Integration
+    - AE2 EMI Crafting Integration (client only)
 #### Xaeros
 - way2wayfabric
 - Xaero's Minimap
