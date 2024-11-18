@@ -669,11 +669,6 @@ hash = "a72cc43ba88e8192e1c1ca42df76c4cc4739fe482985ed1e3259a28647c22fe7"
 metafile = true
 
 [[files]]
-file = "mods/fsit.pw.toml"
-hash = "bbb3954e487faecdccdff0d82c127ccb8ed92323ad92be4be605e5922ee6111b"
-metafile = true
-
-[[files]]
 file = "mods/fusion-connected-textures.pw.toml"
 hash = "975e787e08babdf42a46feb5d399c375e97e92d0461ddfdf61bfe0008893cd9e"
 metafile = true
@@ -859,7 +854,7 @@ metafile = true
 
 [[files]]
 file = "mods/mcpitanlibarch.pw.toml"
-hash = "3f39d13c5b8f7d7e29ce8ca12871d27fa0d55b4eb9175714414f4783638a93be"
+hash = "c2457d0de1448992464dae1158f3274bc650f78bd3e1740fb0ad93ed7659adfc"
 metafile = true
 
 [[files]]
