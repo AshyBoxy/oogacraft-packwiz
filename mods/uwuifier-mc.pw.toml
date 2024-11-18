@@ -1,6 +1,6 @@
 name = "uwuifier-mc"
 filename = "uwuifier-mc-1.1.1.jar"
-side = "sever"
+side = "server"
 
 [download]
 url = "https://github.com/AshyBoxy/uwuifier-mc/releases/download/v1.1.1/uwuifier-mc-1.1.1.jar"

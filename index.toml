@@ -2,15 +2,11 @@ hash-format = "sha256"
 
 [[files]]
 file = "README.md"
-hash = "84ada790ef80be96b0f87dad11cedf70a9899f3d25a2417c649eaee08a73f6b6"
+hash = "d3582467b50fb2ae30be7ee6a09cb2c3d916dd9df90f1becb69cf942b10fcc9b"
 
 [[files]]
 file = "mods/AnvilFix-development+20230626064221-1.20.1.jar"
 hash = "69f2cdea57e84b2be0e74183c68fed894031fe5ecd166776268261ec58627cf2"
-
-[[files]]
-file = "mods/CustomPotions-1.0.0.jar"
-hash = "abf65d684ece86ce9e096ef33e5eab86f43931c485f705ed3b2fa4c63d51e711"
 
 [[files]]
 file = "mods/additional-structures.pw.toml"
@@ -204,7 +200,7 @@ metafile = true
 
 [[files]]
 file = "mods/carpet.pw.toml"
-hash = "3ef96a88003584f3bb0e249aeb102b977400fab8718201f3325dd6ced30e4315"
+hash = "f912004cc3c195008c32edf5ad4108639eb36530221886034cdd03b7916a220a"
 metafile = true
 
 [[files]]
@@ -234,7 +230,7 @@ metafile = true
 
 [[files]]
 file = "mods/chunky.pw.toml"
-hash = "b1581bbfae9d16690f4022536da6567f000130c4ea5e04d92177c1bc61fea709"
+hash = "fed6f66373bb06b6ff552c97cd9cdbdf78ec429320252619e563f9a4fb65feb9"
 metafile = true
 
 [[files]]
@@ -279,7 +275,7 @@ metafile = true
 
 [[files]]
 file = "mods/commandaliases.pw.toml"
-hash = "c993bf9ba1c24abbd34d94b5c5638d487df504cff1f6ebd7ee9ab06c4b096748"
+hash = "f6fe70249fa322b5edb02e46fb1a3c84c5e26ca60ae97f6260e5a1b071e4b190"
 metafile = true
 
 [[files]]
@@ -289,7 +285,7 @@ metafile = true
 
 [[files]]
 file = "mods/companion.pw.toml"
-hash = "b69a0d8a946b728049dc743c65f9328c7c25c872222eadf8a2ab6666e64b3eca"
+hash = "796c5d6ce308df5bf6f3fe9e945f0b59968c9bd37a3f8ee590a8371bcdc31638"
 metafile = true
 
 [[files]]
@@ -314,7 +310,7 @@ metafile = true
 
 [[files]]
 file = "mods/cooldown-coordinator.pw.toml"
-hash = "b96038819cdb13fa6b59055c734b368a650140cf2405f59402852ca1508149d7"
+hash = "d99ee7eb38c2d720172fbf302a9fd2eb7a8fe63e2864be761e5a96c7a464ff91"
 metafile = true
 
 [[files]]
@@ -435,6 +431,11 @@ metafile = true
 [[files]]
 file = "mods/cupboard.pw.toml"
 hash = "4463005ad6ae41db2bf707952d6945297f48601a42ec8b6cac8aef09d653ffd2"
+metafile = true
+
+[[files]]
+file = "mods/custompotions.pw.toml"
+hash = "43157f43cb346a70862051ca8ca4904259db9c641b72766ce12f90a1acc19a94"
 metafile = true
 
 [[files]]
@@ -564,7 +565,7 @@ metafile = true
 
 [[files]]
 file = "mods/exclusions-lib.pw.toml"
-hash = "1d413709cbebfc1c37a6b6525c34a514cc5b85451b8e3708a5b1d7f1572bee65"
+hash = "b32edab0af796383d8c05c068bc91ea1adc9a36d7ad3f24ef5f7b54dc301d5c8"
 metafile = true
 
 [[files]]
@@ -619,7 +620,7 @@ metafile = true
 
 [[files]]
 file = "mods/fallingtree.pw.toml"
-hash = "9603820d581a491036461500b9bf463ec82f8dc00d4c80813e5da84ce43e8a50"
+hash = "c3855a5011cc263726532999f35c8691db9fa60b9d470758dd826d25c29ed4cb"
 metafile = true
 
 [[files]]
@@ -639,7 +640,7 @@ metafile = true
 
 [[files]]
 file = "mods/fix-gpu-memory-leak.pw.toml"
-hash = "c344531240115caf4389148fd9ebe51731aa329cec5e9794a046e7050dae01ea"
+hash = "04e1eb96d78277b16e38c773f43b7ce27937b4cc0edf4294ac34fa8ab3009d0c"
 metafile = true
 
 [[files]]
@@ -654,7 +655,7 @@ metafile = true
 
 [[files]]
 file = "mods/friends-and-foes-beekeeper-hut-fabric.pw.toml"
-hash = "be27c9f5c78d11f671f3d5673bbd8fafb45c615ee542fe5d8a8f4f44c6bdaadd"
+hash = "db985975a6cb47fa014236d7c07335de198b80e13816406cf7379c6f2993dbc4"
 metafile = true
 
 [[files]]
@@ -709,7 +710,7 @@ metafile = true
 
 [[files]]
 file = "mods/grass-seeds.pw.toml"
-hash = "5dad479fdd6d115b6b5643cb7e1757433eb44b5004f731f64a37bf59d79302a2"
+hash = "97088ea104b2ba4ba6c6b29142565cebfc6fe0a3376fe7312a8710143cb128ec"
 metafile = true
 
 [[files]]
@@ -754,7 +755,7 @@ metafile = true
 
 [[files]]
 file = "mods/infinite-trading.pw.toml"
-hash = "609d553b85085133bfaca5d051b64a4ba30eac2c4074defc640df183ed62708c"
+hash = "1d946f8d1242c153b7015a139360eaa7e0601a562a77bd1b50ecb70acbf1a456"
 metafile = true
 
 [[files]]
@@ -828,7 +829,7 @@ metafile = true
 
 [[files]]
 file = "mods/linkart.pw.toml"
-hash = "b0a847b69c1e95697a8693e065ca602fc9d2294739e5229345605c4b1124866f"
+hash = "10e28014df23e20b6176d304efafb18b027d93bcc781fbe992bf23ebbba064f8"
 metafile = true
 
 [[files]]
@@ -913,7 +914,7 @@ metafile = true
 
 [[files]]
 file = "mods/mooshroom-tweaks.pw.toml"
-hash = "d69e61ed77f1136ddcef0b58ff3d6247772217ca32dd641fe27ae84d324c3eb3"
+hash = "c32d94df0cd64ed2463608a4dc4b119165419f6120fc30693b4332c189b40d00"
 metafile = true
 
 [[files]]
@@ -943,7 +944,7 @@ metafile = true
 
 [[files]]
 file = "mods/netherportalfix.pw.toml"
-hash = "2b64b2a63c295cc3e7c91888d156b3f267e05cfddb86486eb171200c1bc2c1c5"
+hash = "85d699d076c93e6369972b69b0c95ff9d3427b9ff55a17d5de2ddd8879a3f18f"
 metafile = true
 
 [[files]]
@@ -958,7 +959,7 @@ metafile = true
 
 [[files]]
 file = "mods/noisium.pw.toml"
-hash = "e94cfc8b72a467d63c5d7593a433edaf698a3792e0c9b95274751ba6d8435288"
+hash = "f4b9d7acc345b8df6dd13e19b36658cbca476abdee703ee6f38c66d33e8fa763"
 metafile = true
 
 [[files]]
@@ -993,7 +994,7 @@ metafile = true
 
 [[files]]
 file = "mods/our-villager-discounts.pw.toml"
-hash = "d4468887af2c277449fecba6323f41f2a911258617df59b1d9f1ab12ead3d6d8"
+hash = "15ccd9359d09856994856a2b953dc986f93bcdb4938e36e2d3c675ffbebbd4e4"
 metafile = true
 
 [[files]]
@@ -1093,7 +1094,7 @@ metafile = true
 
 [[files]]
 file = "mods/rei.pw.toml"
-hash = "657ff0025d408f1021309ce5c759821d1f48e397811cc0da6f0b0400827896fa"
+hash = "2c5d9c47c2c16b1207f1335d10f99b1ba976bdc3363784674b8907ddd96e9c0a"
 metafile = true
 
 [[files]]
@@ -1113,7 +1114,7 @@ metafile = true
 
 [[files]]
 file = "mods/repurposed-structures-fabric.pw.toml"
-hash = "c071fd08f91018852edc7a504f8158726808ea23d61c599dfbddde51d67bb341"
+hash = "e56cf3eb96a7a5220b71fe584d946e7d7d8c8ad5db67195e62e70e357f626aec"
 metafile = true
 
 [[files]]
@@ -1153,17 +1154,17 @@ metafile = true
 
 [[files]]
 file = "mods/show-me-what-you-got.pw.toml"
-hash = "3f4ebc99e5cfdfebdcaab0eb420af0cfe8952e93566ede25cbea6463119ba0f9"
+hash = "7c6e7bc4bced624a331c136555d5c5df601345c5307fc704acad26eecd759a98"
 metafile = true
 
 [[files]]
 file = "mods/show-me-your-skin.pw.toml"
-hash = "d830988445f996067ab8a0d808a3515fbdb219313167824420d28ced2d062405"
+hash = "f29ba19cab72bdca9cbf01a557f5fb78513412094d4d4051295ab34ff1a86d9d"
 metafile = true
 
 [[files]]
 file = "mods/shulkerboxtooltip.pw.toml"
-hash = "539f2968d3ddc434abc40c12becaea92bea9f9373b27bd7ff75b67938a56a552"
+hash = "2e6fb1842744392bac79f92c25c04613af1b82a904a29f7afd0df4f61a4c757e"
 metafile = true
 
 [[files]]
@@ -1183,7 +1184,7 @@ metafile = true
 
 [[files]]
 file = "mods/snow-under-trees-remastered.pw.toml"
-hash = "6afbbf76fb86a35d9f0f44a1deabf59ea205668c601b04972801b3d916ba3eb2"
+hash = "a2642426fb89adca6ad2221f06e90dea26276855743a606c54a63e5692bac0f0"
 metafile = true
 
 [[files]]
@@ -1297,6 +1298,11 @@ hash = "b1a61e8c58ae66ee67efb1ecb6f4c48332346f82dbd91a60abf655461c993fa0"
 metafile = true
 
 [[files]]
+file = "mods/uwuifier-mc.pw.toml"
+hash = "a81859b59c949c86615328b7db57d558b2ce01a34288d9515c576c3cb31d92b0"
+metafile = true
+
+[[files]]
 file = "mods/vanilla-permissions.pw.toml"
 hash = "c503ae1b7776f27fb923cf558c70ab90c432b7990838c02a4563d145af6edc11"
 metafile = true
@@ -1318,7 +1324,7 @@ metafile = true
 
 [[files]]
 file = "mods/way2wayfabric.pw.toml"
-hash = "9630ec247ab11b0b5aa97de51e1fe7110bd9dd357ef9c597d0a88408866aae81"
+hash = "5db538e8a6a170ace3ef185e9e1f8a6d473103d7eaf8d724f904859fcf8959da"
 metafile = true
 
 [[files]]
@@ -1348,12 +1354,12 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-minimap.pw.toml"
-hash = "12262a6fc189ddd24d3231a59054e07c3cd12dcba364055244f41e8331f139fb"
+hash = "97685a20cb83c10d3550921ec86bf0c823ce7a9c1927d6830ac7f02af23495b9"
 metafile = true
 
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
-hash = "312852f091ce9b76fed7ec9d55dbff8b692cceac8a4d0c907cf12d9d7769487f"
+hash = "9dd3d11341e8bfeace519265aaef17dd8c992bab80d0432b2b77d42bbe9d4c74"
 metafile = true
 
 [[files]]
@@ -1368,57 +1374,57 @@ metafile = true
 
 [[files]]
 file = "mods/yungs-better-desert-temples.pw.toml"
-hash = "7dd536d000999274472fa6762bcd49deaeb301fd0889c32723c1129db2400561"
+hash = "056652d48ab3934e87ebcdef25306d3a7a564fab873c0c826ba8403f23ca99d7"
 metafile = true
 
 [[files]]
 file = "mods/yungs-better-dungeons.pw.toml"
-hash = "0958d9f10d0e8fb282b8e684b05b37b29aca826d48deeec3e44171857c99aca5"
+hash = "660ec443fe901efb46da60ef5f4578fe5d20f5aa7c6aa3baf2199593019514f0"
 metafile = true
 
 [[files]]
 file = "mods/yungs-better-end-island.pw.toml"
-hash = "c360a4aef0ce719d385529002ba157a731d572b73cefb573c763d71d54039078"
+hash = "af7ad6f2f43fe76205e3294024dedb4f4900abdb3390511f80f02aec9d2ced23"
 metafile = true
 
 [[files]]
 file = "mods/yungs-better-jungle-temples.pw.toml"
-hash = "a837a0028b1e1bbb6c4e5d31bf3cb04d6f6dccae90fc93df46f9a60a8b2c53c1"
+hash = "82657b4dea64f107e9e50e91324b17aa1e1ea2055f9ee5270ed2788d82f6646a"
 metafile = true
 
 [[files]]
 file = "mods/yungs-better-mineshafts.pw.toml"
-hash = "cf708ff146f867df2153b3f27482e80769c7032b10037e4a752d31fbb5668eaf"
+hash = "5add00a6b0f928d4a2ed9fd34f55fc533332f237d3d76c728c918b2c74e31d1a"
 metafile = true
 
 [[files]]
 file = "mods/yungs-better-nether-fortresses.pw.toml"
-hash = "8bc20a4cf22bdd4406a64126647cfe3c704e80a3197031c9154032905a276705"
+hash = "81856f95f3e0d336c755d5415580094924b53d3a86ed042e6dbf2deeec448f72"
 metafile = true
 
 [[files]]
 file = "mods/yungs-better-ocean-monuments.pw.toml"
-hash = "f23d28e95b21a9655e615390a560bc66f3cb87610ac38cd9d849129d0600a766"
+hash = "53c40612eaf08e752c90fafbacd0b573c1fbb9ec5826b66608019d7e84b74d43"
 metafile = true
 
 [[files]]
 file = "mods/yungs-better-strongholds.pw.toml"
-hash = "b2af03e504a1827f2f6fc09597e7d51f4ecd64ab1ebb329a9eb9ffb98372673a"
+hash = "4b26e9295dc5f977d68a6d4c4226ed0de542419e5a50a2cb742451230aadbe78"
 metafile = true
 
 [[files]]
 file = "mods/yungs-better-witch-huts.pw.toml"
-hash = "0b5eb310353cce6e94ffb0558cb713815b63328e6e96f804f147b5291c237a98"
+hash = "a55e6247a74bb3e5e13358f60918c06eeede47832602925c174b1a1511daec07"
 metafile = true
 
 [[files]]
 file = "mods/yungs-bridges.pw.toml"
-hash = "7e89ac9ea56f87a811a289d474b8ab4fe46d7a235b4c6ef4767e5099967d656e"
+hash = "a3f44136de67f6082858d7f21dd576d93874f0225b91bff2a4e13fe90877dde7"
 metafile = true
 
 [[files]]
 file = "mods/yungs-extras.pw.toml"
-hash = "d201155cab7c2a2cf940d91f240be769ac12046c2fc6a0774e225a8e51423ed0"
+hash = "d90ecf3f72efb4801c1dd35342e15ea293a41c6bb2e8d80377de0e0ad3cc127f"
 metafile = true
 
 [[files]]
