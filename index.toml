@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "README.md"
-hash = "d3582467b50fb2ae30be7ee6a09cb2c3d916dd9df90f1becb69cf942b10fcc9b"
+hash = "bc6d3cd78b6722a37c7f4532d43d12fabdb8b83b8c9ef90d6601f92ca094d3d9"
 
 [[files]]
 file = "mods/AnvilFix-development+20230626064221-1.20.1.jar"
@@ -675,7 +675,7 @@ metafile = true
 
 [[files]]
 file = "mods/fusion-connected-textures.pw.toml"
-hash = "8b7116df5d0e1e4af28ad8e3c2011840713efa3c235f9b058455b04830920a5b"
+hash = "975e787e08babdf42a46feb5d399c375e97e92d0461ddfdf61bfe0008893cd9e"
 metafile = true
 
 [[files]]

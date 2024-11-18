@@ -304,7 +304,7 @@ This is just stuff that looks nice
 #### CTM Mods
 - Athena
 - Continuity
-- Fusion
+- Fusion (both sides)
 
 ### Utilities
 - Armor Points ++
