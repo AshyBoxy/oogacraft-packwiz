@@ -1,0 +1,13 @@
+name = "On A Stick"
+filename = "onastick-4.0.0+1.20.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/4rDfP4Mj/versions/WdxVqRwk/onastick-4.0.0%2B1.20.jar"
+hash-format = "sha512"
+hash = "55047dda5e539c65012172617417b9a44a9d7e297994e9a412c41cd76d4528c28eb4422f95e777dd31832d4cb62f21ea3a9dd5d84e8725760f90360cfc77f57e"
+
+[update]
+[update.modrinth]
+mod-id = "4rDfP4Mj"
+version = "WdxVqRwk"

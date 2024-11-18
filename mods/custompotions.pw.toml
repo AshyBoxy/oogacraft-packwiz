@@ -1,0 +1,8 @@
+name = "CustomPotions"
+filename = "CustomPotions-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://github.com/AshyBoxy/CustomPotions/releases/download/v1.0.0-(old)/CustomPotions-1.0.0.jar"
+hash-format = "sha512"
+hash = "a5939ce98baf5d9d9610f93259278bccd8cf152facaee86403c6288ac633e67225c4c8f2aec9c0078a38fe35bf3a787d04fc870f104b7724d7266760bd819b71"

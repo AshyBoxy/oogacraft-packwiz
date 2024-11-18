@@ -1,0 +1,13 @@
+name = "Cooldown Coordinator"
+filename = "cooldown-coordinator-0.6.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/2lfPteTN/versions/Q38lLYOE/cooldown-coordinator-0.6.3.jar"
+hash-format = "sha512"
+hash = "82a231b59178fbfce47dead240a0b0d27d59aeba1111544b819f1fed9fbe4d86a3439c02e671bcf2a3dbfcc711a6c99ebcaef930a293478041c7b7a1e346c1fb"
+
+[update]
+[update.modrinth]
+mod-id = "2lfPteTN"
+version = "Q38lLYOE"

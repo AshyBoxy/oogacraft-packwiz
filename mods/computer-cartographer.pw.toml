@@ -1,0 +1,13 @@
+name = "Computer Cartographer"
+filename = "computer_cartographer-1.20.1-1.0-fabric.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/eu7WswDc/versions/SiQvdvSU/computer_cartographer-1.20.1-1.0-fabric.jar"
+hash-format = "sha512"
+hash = "a4f4adfd4c2fe25ecfb62c1a0f519e8813c009908646a1a4f2713d57b45c5b307bebe6e05e9aee9ac7c13075b1fa65f32c845f43fabc3aa828a40d8eb512f379"
+
+[update]
+[update.modrinth]
+mod-id = "eu7WswDc"
+version = "SiQvdvSU"

@@ -1,0 +1,13 @@
+name = "Liroth: Revamped (Fabric)"
+filename = "Liroth_R_1.3.6_1.20.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5f9be4f860bb3a535157b3762c7f9bb21565a92b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4778710
+project-id = 594828

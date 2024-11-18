@@ -1,0 +1,13 @@
+name = "Dragon Drops Elytra"
+filename = "dragondropselytra-1.20.1-3.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/DPkbo3dg/versions/een6nMQG/dragondropselytra-1.20.1-3.4.jar"
+hash-format = "sha512"
+hash = "8acffce8b44b5d39edf9c81011c412cc5b820971e326f0bdf6c593f3198f411c2c58bad76d163fa326d1135180646002ca77c02ea3d43c64dcd9b9713b38d2b7"
+
+[update]
+[update.modrinth]
+mod-id = "DPkbo3dg"
+version = "een6nMQG"

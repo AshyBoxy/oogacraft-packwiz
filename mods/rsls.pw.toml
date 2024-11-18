@@ -1,0 +1,13 @@
+name = "Raise Sound Limit Simplified"
+filename = "rsls-1.1.5.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/SKW62Pht/versions/QVfoIN1Q/rsls-1.1.5.jar"
+hash-format = "sha512"
+hash = "81d4c2dbc8d2643c42ed68a9384f2da2f2a5ae9d9ad9f65b5c8425f4a2284dd7ba75c13d48877061edebf2eb3d6ebdcbe54ef0dca5bdea4d7ebef408bda69478"
+
+[update]
+[update.modrinth]
+mod-id = "SKW62Pht"
+version = "QVfoIN1Q"

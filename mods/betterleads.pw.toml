@@ -1,0 +1,13 @@
+name = "BetterLeads"
+filename = "betterleads-1.1.0+1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/8XZCCV8b/versions/6HAAqECA/betterleads-1.1.0%2B1.20.1.jar"
+hash-format = "sha512"
+hash = "0c1af6ed4d9d13f9fc1cdf1a685f9e41ffdf545b1f51d840e4c67756ac70cf595f4b6a85ecbc29405dbf6b1310aa99f1c8defd29eb4a151a3b55fc3c788ca0b3"
+
+[update]
+[update.modrinth]
+mod-id = "8XZCCV8b"
+version = "6HAAqECA"

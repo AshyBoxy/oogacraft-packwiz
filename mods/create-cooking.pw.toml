@@ -1,0 +1,13 @@
+name = "Create: Cooking"
+filename = "Create_Cooking_0.7.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Obp9LPfV/versions/pwS7R462/Create_Cooking_0.7.jar"
+hash-format = "sha512"
+hash = "7d632af8f248346254a0ffbd24bbb930eed672225cd400e7bbd42ab6b0f15291b429d8e3f3c4f4017fbfee1a4bd261272fb43bec92b56138655b37a108458950"
+
+[update]
+[update.modrinth]
+mod-id = "Obp9LPfV"
+version = "pwS7R462"

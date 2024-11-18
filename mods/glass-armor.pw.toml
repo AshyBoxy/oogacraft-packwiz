@@ -1,0 +1,13 @@
+name = "Glass Armor"
+filename = "GlassArmor-1.0.0+1.20.x.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/vz0zoOM2/versions/dvalV4Fu/GlassArmor-1.0.0%2B1.20.x.jar"
+hash-format = "sha512"
+hash = "60722baccd9bfd7e752cdde5d4bfb9be47fd1bab7619aa9c3ca0c1811b147ee2a6a13d34c6935b6cfc71525df068baf4385c542558e4eb931312cb5ed9f41169"
+
+[update]
+[update.modrinth]
+mod-id = "vz0zoOM2"
+version = "dvalV4Fu"

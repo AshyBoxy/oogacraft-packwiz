@@ -1,0 +1,13 @@
+name = "Simple Pipes"
+filename = "simplepipes-all-0.11.0-pre.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ls90k6B8/versions/7wW4mkdb/simplepipes-all-0.11.0-pre.2.jar"
+hash-format = "sha512"
+hash = "f9c8b173f699bde6667ac8f578c6c4b5252381c206ba0fd82ce70fc6e2dd3074ff49f03c832a330e60909b637d0724db6b9bb08b6ab5f740ae638c5dd834f65e"
+
+[update]
+[update.modrinth]
+mod-id = "ls90k6B8"
+version = "7wW4mkdb"

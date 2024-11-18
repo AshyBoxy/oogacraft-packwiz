@@ -1,0 +1,8 @@
+name = "squaremarker"
+filename = "squaremarker-fabric-mc1.20.2-1.0.5.jar"
+side = "server"
+
+[download]
+url = "https://github.com/SentixDev/squaremarker/releases/download/1.20.2-v1.0.5/squaremarker-fabric-mc1.20.2-1.0.5.jar"
+hash-format = "sha512"
+hash = "7479b7b03cff747e30f6792760f3240d9a38229021f1569a9e8975eb1f08d71d2d009e1c49f85b9edd6c35795f2d73e8cc79b1281df5951a7effc97f230060cf"
