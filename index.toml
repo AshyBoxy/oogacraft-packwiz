@@ -275,7 +275,7 @@ metafile = true
 
 [[files]]
 file = "mods/commandaliases.pw.toml"
-hash = "f6fe70249fa322b5edb02e46fb1a3c84c5e26ca60ae97f6260e5a1b071e4b190"
+hash = "4f4db124ac534ca430db725ec6e3c3eaffac074bd6c4715031214fb4494a7f8b"
 metafile = true
 
 [[files]]
