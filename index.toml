@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "README.md"
-hash = "58f35c388f43b8bb5eac86d08f23e6cfd3bffa2ba2d6742fe81719a1df07d186"
+hash = "32cd3d60ef77adba2ca1f101f8a69612aac90d1013aa4b236b005d26a34d4b08"
 
 [[files]]
 file = "config/paxi/datapacks/repurposed-structures-friends-and-foes-compat.pw.toml"

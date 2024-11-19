@@ -385,10 +385,9 @@ Should still be kept at a minimum, singleplayer should be totally functional
 - CreateFabricREIBugFix-0.1.0-create0.5.1-mc1.20.x.jar.disabled
 - Create Origins
 - Sodium Extra
+- https://modrinth.com/mod/expandingtechnologies
 
 ### Broken
-All of these were broken when they were first added<br>
-They might not be now, I don't think it's worth checking
 - overworld_mirror-fabric-1.20.1-1.7.0.23.jar.disabled
 - create_bitterballen-0.0.65+1.20.1.jar.disabled
 - gravestones-v1.15
@@ -412,7 +411,7 @@ They might not be now, I don't think it's worth checking
 - Almost Unified
 - Jade
 - EMI integrations for resources and such
-- Hephaestus (Tinkers' Construct)
+- [Hephaestus (Tinkers' Construct)](https://modrinth.com/mod/hephaestus)
 - https://modrinth.com/mod/spectrum-jetpacks
 - https://modrinth.com/mod/music-maker-mod
 - https://modrinth.com/mod/xercamod
@@ -420,6 +419,11 @@ They might not be now, I don't think it's worth checking
 - things with more rail variants, think the copper rail
     - will need to create 3d rail models for these
 - more reborn energy based tech
+- https://modrinth.com/mod/toms-storage
+- https://modrinth.com/mod/simple-copper-pipes
+- https://modrinth.com/mod/chalk
+- https://modrinth.com/mod/chest-cavity
+    - plus creating a datapack for extra mod support
 
 # Packs
 Datapacks, resourcepacks, whatever<br>
@@ -434,6 +438,7 @@ Datapacks should be available on both sides
 - add stuff to item obliterator
 - set up almost unified
 - set up duplicate blocks being replaced (unified)
+    - https://modrinth.com/mod/block-swap ?
 - download mods to more uniform filenames?
 - figure out how to add vanilla tweaks packs to packwiz
     - am i allowed to redistribute?
