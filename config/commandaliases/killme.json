@@ -1,0 +1,11 @@
+{
+    "schemaVersion": 1,
+    "commandMode": "COMMAND_CUSTOM",
+    "command": "killme",
+    "actions": [
+        {
+            "command": "damage @s 1000 estrogen:girlpower",
+            "commandType": "SERVER"
+        }
+    ]
+}

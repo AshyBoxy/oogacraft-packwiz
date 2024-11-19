@@ -2,7 +2,43 @@ hash-format = "sha256"
 
 [[files]]
 file = "README.md"
-hash = "32cd3d60ef77adba2ca1f101f8a69612aac90d1013aa4b236b005d26a34d4b08"
+hash = "c71d87f4c68810cf7f00f1e83dee1c2bb8bf0bcc512a9e303e4137964974d1aa"
+
+[[files]]
+file = "config/artifacts/common.json5"
+hash = "a0a2f68053ec560a9b2234e57d7016325bbe40552d3843347f1752331e8e8434"
+
+[[files]]
+file = "config/bclib/main.json"
+hash = "a789431672f97a259a57adec93c0567c8514193d92c268a78276e4981cf21b9a"
+
+[[files]]
+file = "config/capes.json5"
+hash = "698424ceb9095cf697014c5ca27bf4361561e1973989c90e1e73cd53a9ddf797"
+
+[[files]]
+file = "config/carpet/default_carpet.conf"
+hash = "57ec3e1d167c4ca1d433f165430a93a6e779b5addd903271f8ae8e74061479f3"
+
+[[files]]
+file = "config/commandaliases/killme.json"
+hash = "a59022f0fd1b45d19fbe6dc4cb40770e8711db096ac0c52d1fac995f79c7cb6f"
+
+[[files]]
+file = "config/commandaliases/spawn.json"
+hash = "e6a2abe53d4d1579782af0c8d911d9f52b2209a4e64ac247d3cb5aa99083c6f4"
+
+[[files]]
+file = "config/fallingtree.json"
+hash = "8857ddc12f3e79af1a39b0d82ec76fb9703bcb911758e46e0003460502e7f102"
+
+[[files]]
+file = "config/itemalchemy/emc_config.json"
+hash = "102f37af3f8195f031f608f5eb589dce1289561272ea2541e4bad027e7bb4573"
+
+[[files]]
+file = "config/modelfix-client.json"
+hash = "d7435276b71f9ed4a49da3c06ec54004ba8b1ed46f3c32ea3a000737507d3e7b"
 
 [[files]]
 file = "config/paxi/datapacks/repurposed-structures-friends-and-foes-compat.pw.toml"
@@ -13,6 +49,10 @@ metafile = true
 file = "config/paxi/resourcepacks/rays-3d-rails.pw.toml"
 hash = "93f70dd650cdec259ca9150a84cb17605d9702f65f467bcf61d3d0f896b7be3b"
 metafile = true
+
+[[files]]
+file = "config/simplehats/common.toml"
+hash = "c81511de55a399321bb6f8123dad15ac6451d2f68c60f9b3aa33928f41292876"
 
 [[files]]
 file = "mods/AnvilFix-development+20230626064221-1.20.1.jar"

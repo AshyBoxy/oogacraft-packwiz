@@ -402,6 +402,9 @@ Should still be kept at a minimum, singleplayer should be totally functional
 - Quality Sounds - doesn't Repurposed Footsteps offer the same?
 - Simple Discord Link - replace with BOC-Discord
 - WTHIT - replace with Jade
+- Entity Model Features
+- Entity Texture Features
+- Enhanced Block Entities
 
 ### Addition
 - Proximity Voice Chat
@@ -435,7 +438,33 @@ Datapacks should be available on both sides
 
 # Other todo
 - add configs
+    - client side things like mod menu should only have default config provided by the modpack
+    - the following need extra thought:
+    - wthit/jade
+    - emi
+    - amendments inverse potions
+    - item alchemy emc
+    - default keybinds
+    - fabric seasons
+        - season length
+        - biome denylist
+        - basically everything
+    - shulkerbox tooltip colors for modded supported items
+        - reinforced shulker boxes
+        - ender backpack
+        - i probably forgot some
+    - simplehats drop chance
+    - artifacts rarities
+        - possibly some renewable way to get them
+        - mimics are disabled
+        - perhaps with the tech and magic mods?
+    - enabling other modded crafting tables in visual workbench
+    - xaeros' settings
+    - zoomify
+        - probably just default it to the ok zoomer preset?
 - add stuff to item obliterator
+    - mostly just broken things or overpowered things
+    - e.g. one of the create addons has some broken items
 - set up almost unified
 - set up duplicate blocks being replaced (unified)
     - https://modrinth.com/mod/block-swap ?
@@ -444,7 +473,54 @@ Datapacks should be available on both sides
     - am i allowed to redistribute?
 - how do i ensure certain mod provided resource packs are enabled on new installs?
     - traditional approach was to have them enabled in the distributed options.txt...
+- a lot of mods could do with compat datapacks
+- a lot of mods could also do with compat mods
+    - e.g. space dimensions with reborn energy
+- create a custom log config to reduce log spam
+- come up with a better recipe for the orb of origins
 
 ## Current Issues
+errors, broken mods, etc
 - i do still want fsit
 - identity crashes when trying to open its menu
+- something seems to be breaking mipmaps for the block atlas?
+- estrogen moth elytra item model is missing
+- "Game took 144.804 seconds to start"
+- broken patchouli books:
+    - betternether
+    - extra alchemy
+- "Config file had missing entry item_quads_expansion"
+- tons of mixin refmap errors
+- "Unknown block '...' in 'matchBlocks' element '...' at index 4 in file 'minecraft:optifine/ctm/_overlays/....properties' in pack 'fabric'"
+
+
+- missing sounds:
+    - qualitysounds
+    - supplementaries
+    - unimportant but why does vanilla still log about the goat horn and goat horn breaking sound events not having sounds?
+- missing textures:
+    - create goggles
+- bad textures:
+    - create cooking (breaking mipmaps)
+        - sausage2 500x500
+        - sandwich 362x362
+        - hamburger 707x767
+- bad blockstates:
+    - missing variants:
+        - dimdoors:limbo_air
+        - itemalchemy:emc_cable
+- missing models:
+    - a lot of elytra trims
+        - i feel like this is a logic error in one of the mods
+
+- bad paths in resourcepacks:
+    - item alchemy references some .java files
+    - simplehats has a space in one of its filenames
+
+- various mods making all the trims warn about them not having layer0 textures
+    - dynamic trim also seems mad about these
+    - this could be harmless and just a result of them using 3d item models
+    - if so just disable these log messages
+- something is trying to use additional entity attributes
+- a lot of model loaders are apparently not registered?
+- invalid descriptors on some fastanim mixins?
