@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "README.md"
-hash = "21c33bcc91275e8cd0ff37e8af1ab1028b57c8a4d16ddad293d68f949d99d715"
+hash = "483dfd574ebc7f24e376bf8e6cbac5e088370dbf0a0dde33577c387f419c0ecb"
 
 [[files]]
 file = "mods/AnvilFix-development+20230626064221-1.20.1.jar"
@@ -635,7 +635,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-seasons-croptopia-compat.pw.toml"
-hash = "f7092c666c91e265ff40e79a37ed3d8401c2740e1c9a06f75e34f97b81b3b8a9"
+hash = "e04ef1f97a275db86c6cf36a4527e02aaf6715bfddefac8ef1521292aae83938"
 metafile = true
 
 [[files]]

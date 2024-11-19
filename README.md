@@ -417,6 +417,8 @@ They might not be now, I don't think it's worth checking
 - https://modrinth.com/mod/music-maker-mod
 - https://modrinth.com/mod/xercamod
 - tpcommands
+- things with more rail variants, think the copper rail
+- more reborn energy based tech
 
 # Other todo
 - add configs
@@ -426,5 +428,5 @@ They might not be now, I don't think it's worth checking
 - download mods to more uniform filenames?
 
 ## Current Issues
-- fabric seasons said to install the croptopia compat mod?
 - i do still want fsit
+- identity crashes when trying to open its menu
