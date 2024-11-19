@@ -418,7 +418,16 @@ They might not be now, I don't think it's worth checking
 - https://modrinth.com/mod/xercamod
 - tpcommands
 - things with more rail variants, think the copper rail
+    - will need to create 3d rail models for these
 - more reborn energy based tech
+
+# Packs
+Datapacks, resourcepacks, whatever<br>
+Datapacks should be available on both sides
+## Datapacks
+- Repurposed Structures - Friends and Foes Compat
+## Resourcepacks
+- RAY's 3D Rails
 
 # Other todo
 - add configs
@@ -426,6 +435,10 @@ They might not be now, I don't think it's worth checking
 - set up almost unified
 - set up duplicate blocks being replaced (unified)
 - download mods to more uniform filenames?
+- figure out how to add vanilla tweaks packs to packwiz
+    - am i allowed to redistribute?
+- how do i ensure certain mod provided resource packs are enabled on new installs?
+    - traditional approach was to have them enabled in the distributed options.txt...
 
 ## Current Issues
 - i do still want fsit

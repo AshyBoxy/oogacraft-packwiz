@@ -2,7 +2,17 @@ hash-format = "sha256"
 
 [[files]]
 file = "README.md"
-hash = "483dfd574ebc7f24e376bf8e6cbac5e088370dbf0a0dde33577c387f419c0ecb"
+hash = "58f35c388f43b8bb5eac86d08f23e6cfd3bffa2ba2d6742fe81719a1df07d186"
+
+[[files]]
+file = "config/paxi/datapacks/repurposed-structures-friends-and-foes-compat.pw.toml"
+hash = "4062b56e7e43679c61575eb1f09930f2987bbfc150fbd910d30c1633e5f5e157"
+metafile = true
+
+[[files]]
+file = "config/paxi/resourcepacks/rays-3d-rails.pw.toml"
+hash = "93f70dd650cdec259ca9150a84cb17605d9702f65f467bcf61d3d0f896b7be3b"
+metafile = true
 
 [[files]]
 file = "mods/AnvilFix-development+20230626064221-1.20.1.jar"
