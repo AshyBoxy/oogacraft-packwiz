@@ -197,6 +197,7 @@ Tools are more things that use physical items and blocks, utilities are more thi
 - Item Obliterator
 - Mixin Conflict Helper
 - Paxi
+- Default Options
 #### Server Utils
 - No Chat Reports
 
@@ -442,6 +443,8 @@ Datapacks should be available on both sides
     - the following need extra thought:
     - wthit/jade
     - emi
+        - does emi not support grouping items?
+        - pipe facades should be hidden
     - amendments inverse potions
     - item alchemy emc
     - default keybinds
@@ -462,6 +465,23 @@ Datapacks should be available on both sides
     - xaeros' settings
     - zoomify
         - probably just default it to the ok zoomer preset?
+    - yung's better*
+        - maybe add modded items to the loot and gear pools?
+    - inventorysorter
+        - watch out for inventories that need to be blacklisted
+    - revelationary
+        - should HideCloakedEntriesFromRecipeViewers be enabled?
+    - spectrum
+        - should the new defaults be used? (just some gemstone armor stats)
+        - stuff like storm stones should be disabled, they get annoying
+            - not sure how to work this into progression yet
+    - advancement plaques
+        - should wthit/jade popups be hidden?
+    - dimensional doors has a lot of interesting options
+    - fallingleaves
+        - windless dimensions
+- keybindings
+    - inventorysorter stores a keybind in its config file
 - add stuff to item obliterator
     - mostly just broken things or overpowered things
     - e.g. one of the create addons has some broken items
@@ -478,6 +498,9 @@ Datapacks should be available on both sides
     - e.g. space dimensions with reborn energy
 - create a custom log config to reduce log spam
 - come up with a better recipe for the orb of origins
+- does every enchantment have a description translation?
+- adding estrogen models for all armor (very low priority)
+- custom splashes could be cool?
 
 ## Current Issues
 errors, broken mods, etc

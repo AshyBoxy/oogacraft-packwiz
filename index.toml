@@ -2,15 +2,31 @@ hash-format = "sha256"
 
 [[files]]
 file = "README.md"
-hash = "c71d87f4c68810cf7f00f1e83dee1c2bb8bf0bcc512a9e303e4137964974d1aa"
+hash = "fd7060e5a759699af2f90e4723e9704602bae99e5735e1ae2d92decc597d0e53"
+
+[[files]]
+file = "config/NoChatReports/NCR-Client.json"
+hash = "bf497b8ec2ae145c43216328d4c8e207cc1a9c56e809cd76cb1ac3583027e821"
+
+[[files]]
+file = "config/anvil_fix.json5"
+hash = "25283f34381fb8106ec5f9064a210b645b82cbe58e592b8aff492c1f3c799b80"
 
 [[files]]
 file = "config/artifacts/common.json5"
 hash = "a0a2f68053ec560a9b2234e57d7016325bbe40552d3843347f1752331e8e8434"
 
 [[files]]
+file = "config/bclib/client.json"
+hash = "696a0ace6aeb8ce05a11a5383cab037b59b60d55932e2c8e5e53fe5e94ea2351"
+
+[[files]]
 file = "config/bclib/main.json"
 hash = "a789431672f97a259a57adec93c0567c8514193d92c268a78276e4981cf21b9a"
+
+[[files]]
+file = "config/betterleads.toml"
+hash = "9129a797bd663ee1b6a0e9048804628c11c3d09ef96bb8b4abb1ee07842f4416"
 
 [[files]]
 file = "config/capes.json5"
@@ -21,6 +37,10 @@ file = "config/carpet/default_carpet.conf"
 hash = "57ec3e1d167c4ca1d433f165430a93a6e779b5addd903271f8ae8e74061479f3"
 
 [[files]]
+file = "config/collective.json5"
+hash = "e6799dec9814fbcf568cebe44f875b87a8e8f9fbf3636073eba78a047e0455fd"
+
+[[files]]
 file = "config/commandaliases/killme.json"
 hash = "a59022f0fd1b45d19fbe6dc4cb40770e8711db096ac0c52d1fac995f79c7cb6f"
 
@@ -29,16 +49,100 @@ file = "config/commandaliases/spawn.json"
 hash = "e6a2abe53d4d1579782af0c8d911d9f52b2209a4e64ac247d3cb5aa99083c6f4"
 
 [[files]]
+file = "config/connectivity.json"
+hash = "aa12efc61c68a1032b480b840e417d67c29af34ea696d418a92809bf10f08503"
+
+[[files]]
+file = "config/createaddition-common.toml"
+hash = "b4d6d217d86b4c1ba41f8894d95ca5cb858c2130e6c9262f777f8fd14a6f3595"
+
+[[files]]
+file = "config/creategoggles-common.toml"
+hash = "e4f2ccf988c134c9bc62013417fb732897837be3bbd05643739866175065c4f5"
+
+[[files]]
+file = "config/creeperoverhaul.jsonc"
+hash = "92d711d3dcd68e93d829a084b7527dc8d90a67d7350e7696a54e3c8c322fee7c"
+
+[[files]]
+file = "config/defaultoptions/extra/config/deathlog.json5"
+hash = "4237c79a83d0d5ffc8f4eae6bc580e12cff8deb4cc3c8d8c5d5fddecd05cc186"
+
+[[files]]
+file = "config/defaultoptions/extra/config/do_a_barrel_roll-client.json"
+hash = "65113ba53fca553668bb54342a244cf83cab70bce8240900c62a77c7e9e36e83"
+
+[[files]]
+file = "config/defaultoptions/extra/config/enhanced_bes.properties"
+hash = "60b10d48302b50bf3e28cb5cdcba0cb2998043ad73c74d082f8353982a28e49c"
+
+[[files]]
+file = "config/defaultoptions/extra/config/estrogen-client.toml"
+hash = "f5bdbe15140599e989e455eac7ef2fe35b6d4a7a755be82d566ff273f78ec9bc"
+
+[[files]]
+file = "config/defaultoptions/extra/config/genshinstrument-client.toml"
+hash = "0ddbf7e9804f59658776dd8c3b181e211230d377d59b4d7c1796ed0568a54e03"
+
+[[files]]
+file = "config/defaultoptions/extra/config/inventorysorter/config.json5"
+hash = "cd28d343ff523c63068766d12d0d3f9430c84035745d58f618c1a88fc6ff667a"
+
+[[files]]
+file = "config/defaultoptions/extra/config/iris.properties"
+hash = "f3dcd50bafe02f964c359c0c20220f80a3ca521210cd33b5f69eb7bccca593b8"
+
+[[files]]
+file = "config/defaultoptions/extra/config/lambdabettergrass.toml"
+hash = "530bec62fb75cee3edff10ea45502f7fd2d3293525ca600e9b20294cdd639c7e"
+
+[[files]]
+file = "config/defaultoptions/extra/config/lambdynlights.toml"
+hash = "22207efe2e630f99ad3b7897b0a8641f31fb9a3a8a019483fd3b7fe1755023be"
+
+[[files]]
+file = "config/defaultoptions/extra/config/xaerominimap.txt"
+hash = "f5bba53b7422e2b5b6b1c6a6e3aacb0285e0a9182abe0e7fd0cac17888a2a5ee"
+
+[[files]]
+file = "config/defaultoptions/extra/config/xaerominimap_entities.json"
+hash = "50b7f24881400d3f192242a1ce207aedddf8db3a478b6c42491b19d637e14316"
+
+[[files]]
 file = "config/fallingtree.json"
 hash = "8857ddc12f3e79af1a39b0d82ec76fb9703bcb911758e46e0003460502e7f102"
+
+[[files]]
+file = "config/item_obliterator.json5"
+hash = "022ecb134d53ec1ea5ca1f9a05fc28eb4dce4cd3b73574caef765bb5fd277b73"
 
 [[files]]
 file = "config/itemalchemy/emc_config.json"
 hash = "102f37af3f8195f031f608f5eb589dce1289561272ea2541e4bad027e7bb4573"
 
 [[files]]
+file = "config/liroth/liroth.json5"
+hash = "d7c8625f8e3a620180bc324fbbba44119e1aab5dd583686136532d03e595994a"
+
+[[files]]
 file = "config/modelfix-client.json"
 hash = "d7435276b71f9ed4a49da3c06ec54004ba8b1ed46f3c32ea3a000737507d3e7b"
+
+[[files]]
+file = "config/mooshroomtweaks.json5"
+hash = "27a04ac9951c43b746aa0f08c94a967072bdbbcd5fccfa69bbf35f8418d00c65"
+
+[[files]]
+file = "config/noindium.json"
+hash = "74f1edb47d09bcb6e70b96d806bb0116f0649b6ac230451e17a627fd9c2799c2"
+
+[[files]]
+file = "config/numeralping.json"
+hash = "585ce9c35f5a43b15f6b9afb70882439101c090fd30df49a7a2294912d179ae6"
+
+[[files]]
+file = "config/pal.properties"
+hash = "32f191f780f058b42800dd55fd6f492017ebc282b0ed9b7a330adcf084d13d5c"
 
 [[files]]
 file = "config/paxi/datapacks/repurposed-structures-friends-and-foes-compat.pw.toml"
@@ -51,8 +155,16 @@ hash = "93f70dd650cdec259ca9150a84cb17605d9702f65f467bcf61d3d0f896b7be3b"
 metafile = true
 
 [[files]]
+file = "config/presencefootsteps/updater.json"
+hash = "1e7c61df09c105e1eeca8cf3dcbdfeb976700e9904bcb3983fc7791adb7fad2e"
+
+[[files]]
 file = "config/simplehats/common.toml"
 hash = "c81511de55a399321bb6f8123dad15ac6451d2f68c60f9b3aa33928f41292876"
+
+[[files]]
+file = "config/visualworkbench-client.toml"
+hash = "77beec969ff3ab0405265c520af716364115a595074af6fee27d7248845f77e2"
 
 [[files]]
 file = "mods/AnvilFix-development+20230626064221-1.20.1.jar"
@@ -511,6 +623,11 @@ metafile = true
 [[files]]
 file = "mods/deathlog.pw.toml"
 hash = "62fefdf6c40874fea0304161568f86cfcaa3efb8b6b5788010151f3778c22e77"
+metafile = true
+
+[[files]]
+file = "mods/default-options.pw.toml"
+hash = "907f03677673a5196780b33d0503a15387b181bcf6587b99cd47772e7096b067"
 metafile = true
 
 [[files]]
