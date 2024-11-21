@@ -441,9 +441,8 @@ Datapacks should be available on both sides
 
 # Other todo
 - add configs
-    - client side things like mod menu should only have default config provided by the modpack
     - the following need extra thought:
-    - wthit/jade
+    - wthit/jade defaults
     - emi
         - does emi not support grouping items?
         - pipe/cable facades should be hidden
@@ -451,44 +450,47 @@ Datapacks should be available on both sides
             - none of these have recipes apparently
             - so probably would be best to hide them
             - there's no tag so it's a manual problem
-        - watch out for functions that should be disabled in emi loot
-    - amendments inverse potions
-    - item alchemy emc
+        - default client settings
     - default keybinds
-    - fabric seasons
-        - season length
-        - biome denylist
-        - basically everything
     - shulkerbox tooltip colors for modded supported items
         - reinforced shulker boxes
         - ender backpack
         - i probably forgot some
-    - simplehats drop chance
-    - artifacts rarities
-        - possibly some renewable way to get them
-        - mimics are disabled
-        - perhaps with the tech and magic mods?
-    - enabling other modded crafting tables in visual workbench
-    - xaeros' settings
-    - zoomify
-        - probably just default it to the ok zoomer preset?
-    - yung's better*
-        - maybe add modded items to the loot and gear pools?
-    - inventorysorter
-        - watch out for inventories that need to be blacklisted
-    - revelationary
-        - should HideCloakedEntriesFromRecipeViewers be enabled?
+    - xaeros' default settings
     - spectrum
-        - should the new defaults be used? (just some gemstone armor stats)
         - stuff like storm stones should be disabled, they get annoying
             - not sure how to work this into progression yet
     - advancement plaques
         - should wthit/jade popups be hidden?
     - dimensional doors has a lot of interesting options
+    - space dimensions
+        - mobs immune to space damage
+    - modernfix
+        - should dynamic resources be enabled?
+- longer term configs (stuff that either needs constantly updating, or i'm too lazy to do now)
+    - item alchemy emc
+    - enabling other modded crafting tables in visual workbench if any are added
+    - inventorysorter
+        - watch out for inventories that need to be blacklisted
     - fallingleaves
         - windless dimensions
-- keybindings
-    - inventorysorter stores a keybind in its config file
+    - snow under trees supported biomes
+    - yung's better*
+        - maybe add modded items to the loot and gear pools?
+    - simplehats drop chance
+    - fabric seasons
+        - season length
+        - biome denylist
+        - basically everything
+    - amendments inverse potions
+    - emi
+        - watch out for functions that should be disabled in emi loot
+    - artifacts rarities
+        - possibly some renewable way to get them
+        - mimics are disabled
+        - perhaps with the tech and magic mods?
+
+- default keybindings
 - add stuff to item obliterator
     - mostly just broken things or overpowered things
     - e.g. one of the create addons has some broken items

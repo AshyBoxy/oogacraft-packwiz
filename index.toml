@@ -2,11 +2,27 @@ hash-format = "sha256"
 
 [[files]]
 file = "README.md"
-hash = "0b731712987609808a4c73a204d49ec78d192fabca093b6964edf5b8f65e7b76"
+hash = "a5e2d38f1f738e9849697372e256d16b20b1b15981b97b6da430efa0511fac21"
+
+[[files]]
+file = "config/Adorn.json5"
+hash = "ab89755aabb2ef001091a49616eb5b4bd1ee44c6f736ae2cfdd86e6d1ff75c41"
 
 [[files]]
 file = "config/NoChatReports/NCR-Client.json"
 hash = "bf497b8ec2ae145c43216328d4c8e207cc1a9c56e809cd76cb1ac3583027e821"
+
+[[files]]
+file = "config/Spectrum.json5"
+hash = "e522843aca54d651ba6aca68897f23d485bf646c9452989d1243494d4052d621"
+
+[[files]]
+file = "config/ae2-emi-crafting.json"
+hash = "7d20bcad0824d4b3c568fd7af8fc770b71de484da8575e1e0bdda1ac1bb3c2a3"
+
+[[files]]
+file = "config/ae2/common.json"
+hash = "509a865329d92890241221d9b12c252e82a6a11164dfbf4e85b45c55533195a7"
 
 [[files]]
 file = "config/anvil_fix.json5"
@@ -18,19 +34,23 @@ hash = "a0a2f68053ec560a9b2234e57d7016325bbe40552d3843347f1752331e8e8434"
 
 [[files]]
 file = "config/bclib/client.json"
-hash = "696a0ace6aeb8ce05a11a5383cab037b59b60d55932e2c8e5e53fe5e94ea2351"
+hash = "c255c956d37bdf7ddf466493cd2ff1227982a996f827dade84bfe64e6673df2b"
 
 [[files]]
 file = "config/bclib/main.json"
 hash = "a789431672f97a259a57adec93c0567c8514193d92c268a78276e4981cf21b9a"
 
 [[files]]
-file = "config/betterleads.toml"
-hash = "9129a797bd663ee1b6a0e9048804628c11c3d09ef96bb8b4abb1ee07842f4416"
+file = "config/bclib/server.json"
+hash = "8f1e50ca92cb89ef5aa06f35bcf89c5ff67b20b14bee08bdf7a59282b9ec22dd"
 
 [[files]]
-file = "config/capes.json5"
-hash = "698424ceb9095cf697014c5ca27bf4361561e1973989c90e1e73cd53a9ddf797"
+file = "config/betterendisland-fabric-1_20.toml"
+hash = "24b38c3caa93e98ffaab6d3f7380e9d7469fa3a3576bdb8ff146b78bce636f71"
+
+[[files]]
+file = "config/betterleads.toml"
+hash = "9129a797bd663ee1b6a0e9048804628c11c3d09ef96bb8b4abb1ee07842f4416"
 
 [[files]]
 file = "config/carpet/default_carpet.conf"
@@ -71,6 +91,18 @@ hash = "e4f2ccf988c134c9bc62013417fb732897837be3bbd05643739866175065c4f5"
 [[files]]
 file = "config/creeperoverhaul.jsonc"
 hash = "92d711d3dcd68e93d829a084b7527dc8d90a67d7350e7696a54e3c8c322fee7c"
+
+[[files]]
+file = "config/defaultoptions/extra/config/ae2/client.json"
+hash = "a41a0728e9f272912a57d0337a723218437f411b290c2a1fd0291f611e3b25a0"
+
+[[files]]
+file = "config/defaultoptions/extra/config/artifacts/client.json5"
+hash = "467dc7f60302c4a5b0be92d23e1daa0724601185a1acabc727b6becc341c1bc7"
+
+[[files]]
+file = "config/defaultoptions/extra/config/capes.json5"
+hash = "954fcdf93acad81a8cf73db063806d6829677b4c028858adb138f8201323c7a1"
 
 [[files]]
 file = "config/defaultoptions/extra/config/deathlog.json5"
@@ -125,8 +157,32 @@ file = "config/defaultoptions/extra/config/xaerominimap_entities.json"
 hash = "50b7f24881400d3f192242a1ce207aedddf8db3a478b6c42491b19d637e14316"
 
 [[files]]
+file = "config/defaultoptions/extra/config/zoomify.json"
+hash = "55a93314139715580f52b66f7d14664537862c5e8313599c6dc656268ce37e2b"
+
+[[files]]
+file = "config/dimdoors-config.json5"
+hash = "27ce44b21e38133a1cdca77d0f192a7b202aa957bf45719ec5b8c8b2616445d0"
+
+[[files]]
+file = "config/elytra-trims.json"
+hash = "cd729c4b4424128b6b3c36c00e9e593a678c1fd07a16ada134c0c868b0feddd1"
+
+[[files]]
+file = "config/extendedgears-common.toml"
+hash = "a013d05b0711152e62ea97169c992e628b4fd47f7815abf78eec53ff2ef46c52"
+
+[[files]]
 file = "config/fallingtree.json"
 hash = "8857ddc12f3e79af1a39b0d82ec76fb9703bcb911758e46e0003460502e7f102"
+
+[[files]]
+file = "config/fishofthieves.json"
+hash = "ed962ff7bb6939dd2a7490e27794c382e075c510cc745784dd12c22d6056f343"
+
+[[files]]
+file = "config/fwaystones/config.json5"
+hash = "706c2bcb48e63d7ffe81aa1d88cd7043462abb57e4c9fbf0d87fb1ca8d60c5c1"
 
 [[files]]
 file = "config/identity.json5"
@@ -141,12 +197,20 @@ file = "config/itemalchemy/emc_config.json"
 hash = "102f37af3f8195f031f608f5eb589dce1289561272ea2541e4bad027e7bb4573"
 
 [[files]]
+file = "config/kiwi-client.yaml"
+hash = "d341410037970de3771f55a69df8ea4f12b9b527d51183551192de4d3a0ff16d"
+
+[[files]]
 file = "config/liroth/liroth.json5"
 hash = "d7c8625f8e3a620180bc324fbbba44119e1aab5dd583686136532d03e595994a"
 
 [[files]]
 file = "config/modelfix-client.json"
 hash = "d7435276b71f9ed4a49da3c06ec54004ba8b1ed46f3c32ea3a000737507d3e7b"
+
+[[files]]
+file = "config/modmenu.json"
+hash = "fd675fadf79fd2133be14fef7b27f72c0510039affae78647ccd27b9f822d598"
 
 [[files]]
 file = "config/mooshroomtweaks.json5"
@@ -179,6 +243,10 @@ file = "config/presencefootsteps/updater.json"
 hash = "1e7c61df09c105e1eeca8cf3dcbdfeb976700e9904bcb3983fc7791adb7fad2e"
 
 [[files]]
+file = "config/railways-common.toml"
+hash = "940a1bc8a6c8832d5782ecf9634459e78cdb5622dd1327106f2a2838dd0a4264"
+
+[[files]]
 file = "config/simplehats.json"
 hash = "ac3257c9c077165803cc1aaaf71560a89aa805a6a2b47a6e1039120d37fe28c4"
 
@@ -193,6 +261,10 @@ hash = "bd4825439f0c3591ac84002dfe18cf2bb9ffaf4703b191b57e945487aa179786"
 [[files]]
 file = "config/visualworkbench-client.toml"
 hash = "77beec969ff3ab0405265c520af716364115a595074af6fee27d7248845f77e2"
+
+[[files]]
+file = "defaultconfigs/computercraft-server.toml"
+hash = "98c4d97aa14966d2c9c70a6168dde2673c346398360acf3cfdede5b4e2bd01aa"
 
 [[files]]
 file = "mods/AnvilFix-development+20230626064221-1.20.1.jar"
