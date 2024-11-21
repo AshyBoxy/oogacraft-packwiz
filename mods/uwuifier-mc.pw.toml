@@ -1,8 +1,13 @@
 name = "uwuifier-mc"
 filename = "uwuifier-mc-1.1.1.jar"
-side = "server"
+side = "both"
 
 [download]
-url = "https://github.com/AshyBoxy/uwuifier-mc/releases/download/v1.1.1/uwuifier-mc-1.1.1.jar"
+url = "https://cdn.modrinth.com/data/px7I0IlH/versions/HhsAQFRg/uwuifier-mc-1.1.1.jar"
 hash-format = "sha512"
 hash = "117b720ea3a83a8e46d3e2b10048ca48a945a4bc999ac29b6d3432a66be166c3675d8ddddda9b52088e8093a10506f42c58cf57f54bcc6100b4b1db375ac9ad4"
+
+[update]
+[update.modrinth]
+mod-id = "px7I0IlH"
+version = "HhsAQFRg"

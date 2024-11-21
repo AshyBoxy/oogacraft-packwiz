@@ -501,6 +501,7 @@ Datapacks should be available on both sides
 - does every enchantment have a description translation?
 - adding estrogen models for all armor (very low priority)
 - custom splashes could be cool?
+- command blocks need to be enabled for create structures to work
 
 ## Current Issues
 errors, broken mods, etc
@@ -536,6 +537,9 @@ errors, broken mods, etc
     - a lot of elytra trims
         - i feel like this is a logic error in one of the mods
 
+- missing recipes
+    - spectrum has a few missing titration barrel recipes
+
 - bad paths in resourcepacks:
     - item alchemy references some .java files
     - simplehats has a space in one of its filenames
@@ -544,6 +548,9 @@ errors, broken mods, etc
     - dynamic trim also seems mad about these
     - this could be harmless and just a result of them using 3d item models
     - if so just disable these log messages
+    - might also need to disable trimming these armors?
 - something is trying to use additional entity attributes
 - a lot of model loaders are apparently not registered?
 - invalid descriptors on some fastanim mixins?
+- origins doesn't open its picker on new joins?
+    - this leaves players invulnerable until they manually choose both an origin and a class
