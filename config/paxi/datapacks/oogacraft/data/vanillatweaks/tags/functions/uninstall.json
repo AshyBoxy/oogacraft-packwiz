@@ -1,8 +1,8 @@
 {
-	"values": [
-		"confetti_creepers:uninstall",
+    "values": [
+        "confetti_creepers:uninstall",
         "armor_statues:uninstall",
         "spawn:uninstall",
         "unlock_all_recipes:uninstall"
-	]
+    ]
 }
