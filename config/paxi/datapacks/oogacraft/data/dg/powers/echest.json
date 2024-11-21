@@ -1,0 +1,20 @@
+{
+    "type": "origins:multiple",
+    "selfchest": {
+        "type": "origins:active_self",
+"entity_action": {
+    "type": "origins:ender_chest"
+}
+    },
+    "otherschest": {
+"type": "origins:action_on_being_used",
+"bientity_action": {
+    "type": "origins:actor_action",
+    "action": {
+        "type": "origins:ender_chest"
+    }
+}
+    },
+    "name": "Ender Chest",
+    "description": "You are a walking ender chest. Others can access their ender chests by interacting with you, while you access your own with the ability key."
+}

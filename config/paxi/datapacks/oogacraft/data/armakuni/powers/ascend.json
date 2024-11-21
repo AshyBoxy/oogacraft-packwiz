@@ -1,0 +1,761 @@
+{
+	"name": "Ascend",
+	"description": "Ascend upward through matter and emerge on top of it.",
+	"badges": [
+        {
+            "type": "origins:keybind",
+            "sprite": "origins:textures/gui/badge/active.png",
+            "text": "Activate with %s.\nWhen prompted with green particles on the ceiling above you, press again to ascend."
+        },
+        {
+            "type": "origins:tooltip",
+            "sprite": "origins:textures/gui/badge/info.png",
+            "text": "Only usable on the ground.\nJumping will cancel the ability.\nBy sneaking and pressing the ability key again you can cancel the ability at any time."
+        }
+    ],
+	"type": "origins:multiple",
+	"state": {
+		"type": "origins:resource",
+		"min": 0,
+		"max": 2,
+		"start_value": 0,
+		"hud_render": {
+			"should_render": false
+		}
+	},
+	"activate": {
+		"type": "origins:active_self",
+		"entity_action": {
+			"type": "origins:and",
+			"actions": [
+				{
+					"type": "origins:change_resource",
+					"resource": "*:*_state",
+					"change": 1,
+					"operation": "set"
+				},
+				{
+					"type": "origins:play_sound",
+					"sound": "minecraft:block.note_block.iron_xylophone",
+					"volume": 0.6,
+					"pitch": 0.6
+				}
+			]
+		},
+		"cooldown": 20,
+		"key": {
+			"key": "key.origins.primary_active"
+		},
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:sneaking",
+					"inverted": true
+				},
+				{
+					"type": "origins:on_block"
+				},
+				{
+					"type": "origins:command",
+					"command": "execute if block ~ ~1 ~ minecraft:air",
+					"comparison": "==",
+					"compare_to": 1
+				},
+				{
+					"type": "origins:fluid_height",
+					"fluid": "minecraft:water",
+					"comparison": "<=",
+					"compare_to": 1
+				},
+				{
+					"type": "origins:fluid_height",
+					"fluid": "minecraft:lava",
+					"comparison": "<=",
+					"compare_to": 1
+				},
+				{
+					"type": "origins:resource",
+					"resource": "*:*_state",
+					"comparison": "==",
+					"compare_to": 0
+				}
+			]
+		}
+	},
+	"cancel": {
+		"type": "origins:active_self",
+		"entity_action": {
+			"type": "origins:and",
+			"actions": [
+				{
+					"type": "origins:change_resource",
+					"resource": "*:*_state",
+					"change": 0,
+					"operation": "set"
+				},
+				{
+					"type": "origins:change_resource",
+					"resource": "*:*_rise_check",
+					"change": 0,
+					"operation": "set"
+				},
+				{
+					"type": "origins:play_sound",
+					"sound": "minecraft:block.note_block.iron_xylophone",
+					"volume": 0.6,
+					"pitch": 0.1
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "title @s actionbar {\"text\":\"Ascend Deactivated\",\"color\":\"#62806e\"}"
+				}
+			]
+		},
+		"cooldown": 1,
+		"key": {
+			"key": "key.origins.primary_active"
+		},
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:sneaking"
+				},
+				{
+					"type": "origins:resource",
+					"resource": "*:*_state",
+					"comparison": ">=",
+					"compare_to": 1
+				}
+			]
+		}
+	},
+	"cancel_jump": {
+		"type": "origins:active_self",
+		"entity_action": {
+			"type": "origins:and",
+			"actions": [
+				{
+					"type": "origins:change_resource",
+					"resource": "*:*_state",
+					"change": 0,
+					"operation": "set"
+				},
+				{
+					"type": "origins:play_sound",
+					"sound": "minecraft:block.note_block.iron_xylophone",
+					"volume": 0.6,
+					"pitch": 0.1
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "title @s actionbar {\"text\":\"Ascend Deactivated\",\"color\":\"#62806e\"}"
+				}
+			]
+		},
+		"cooldown": 1,
+		"key": {
+			"key": "key.jump"
+		},
+		"condition": {
+			"type": "origins:resource",
+			"resource": "*:*_state",
+			"comparison": "==",
+			"compare_to": 1
+		}
+	},
+	"cancel_fluid": {
+		"type": "origins:action_over_time",
+		"interval": 1,
+		"entity_action": {
+			"type": "origins:and",
+			"actions": [
+				{
+					"type": "origins:change_resource",
+					"resource": "*:*_state",
+					"change": 0,
+					"operation": "set"
+				},
+				{
+					"type": "origins:play_sound",
+					"sound": "minecraft:block.note_block.iron_xylophone",
+					"volume": 0.6,
+					"pitch": 0.1
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "title @s actionbar {\"text\":\"Ascend Deactivated\",\"color\":\"#62806e\"}"
+				}
+			]
+		},
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:resource",
+					"resource": "*:*_state",
+					"comparison": "==",
+					"compare_to": 1
+				},
+				{
+					"type": "origins:or",
+					"conditions": [
+						{
+							"type": "origins:and",
+							"conditions": [
+								{
+									"type": "origins:command",
+									"command": "execute if block ~ ~ ~ minecraft:water",
+									"comparison": "==",
+									"compare_to": 1
+								},
+								{
+									"type": "origins:command",
+									"command": "execute if block ~ ~1 ~ minecraft:water",
+									"comparison": "==",
+									"compare_to": 1
+								}
+							]
+						},
+						{
+							"type": "origins:and",
+							"conditions": [
+								{
+									"type": "origins:command",
+									"command": "execute if block ~ ~ ~ minecraft:lava",
+									"comparison": "==",
+									"compare_to": 1
+								},
+								{
+									"type": "origins:command",
+									"command": "execute if block ~ ~1 ~ minecraft:lava",
+									"comparison": "==",
+									"compare_to": 1
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	},
+	"active_rise": {
+		"type": "origins:active_self",
+		"entity_action": {
+			"type": "origins:and",
+			"actions": [
+				{
+					"type": "origins:change_resource",
+					"resource": "*:*_state",
+					"change": 2,
+					"operation": "set"
+				},
+				{
+					"type": "origins:play_sound",
+					"sound": "minecraft:entity.player.swim"
+				},
+				{
+					"type": "origins:play_sound",
+					"sound": "minecraft:block.beacon.activate",
+					"volume": 1,
+					"pitch": 2
+				}
+			]
+		},
+		"cooldown": 20,
+		"key": {
+			"key": "key.origins.primary_active"
+		},
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:or",
+					"conditions": [
+						{
+							"type": "origins:command",
+							"command": "execute unless block ~ ~2 ~ minecraft:air",
+							"comparison": "==",
+							"compare_to": 1
+						},
+						{
+							"type": "origins:command",
+							"command": "execute unless block ~ ~3 ~ minecraft:air",
+							"comparison": "==",
+							"compare_to": 1
+						},
+						{
+							"type": "origins:command",
+							"command": "execute unless block ~ ~4 ~ minecraft:air",
+							"comparison": "==",
+							"compare_to": 1
+						},
+						{
+							"type": "origins:command",
+							"command": "execute unless block ~ ~5 ~ minecraft:air",
+							"comparison": "==",
+							"compare_to": 1
+						},
+						{
+							"type": "origins:command",
+							"command": "execute unless block ~ ~6 ~ minecraft:air",
+							"comparison": "==",
+							"compare_to": 1
+						}
+					]
+				},
+				{
+					"type": "origins:sneaking",
+					"inverted": true
+				},
+				{
+					"type": "origins:on_block"
+				},
+				{
+					"type": "origins:command",
+					"command": "execute if block ~ ~1 ~ minecraft:air",
+					"comparison": "==",
+					"compare_to": 1
+				},
+				{
+					"type": "origins:fluid_height",
+					"fluid": "minecraft:water",
+					"comparison": "<=",
+					"compare_to": 1
+				},
+				{
+					"type": "origins:fluid_height",
+					"fluid": "minecraft:lava",
+					"comparison": "<=",
+					"compare_to": 1
+				},
+				{
+					"type": "origins:resource",
+					"resource": "*:*_state",
+					"comparison": "==",
+					"compare_to": 1
+				}
+			]
+		}
+	},
+	"rise_check": {
+		"type": "origins:resource",
+		"min": 0,
+		"max": 3,
+		"start_value": 0,
+		"hud_render": {
+			"should_render": false
+		}
+	},
+	"rise_air": {
+		"type": "origins:action_over_time",
+		"interval": 1,
+		"entity_action": {
+			"type": "origins:change_resource",
+			"resource": "*:*_rise_check",
+			"change": 1,
+			"operation": "set"
+		},
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:resource",
+					"resource": "*:*_state",
+					"comparison": "==",
+					"compare_to": 2
+				},
+				{
+					"type": "origins:resource",
+					"resource": "*:*_rise_check",
+					"comparison": "==",
+					"compare_to": 0
+				},
+				{
+					"type": "origins:command",
+					"command": "execute if block ~ ~ ~ minecraft:air",
+					"comparison": "==",
+					"compare_to": 1
+				}
+			]
+		}
+	},
+	"rise_block": {
+		"type": "origins:action_over_time",
+		"interval": 1,
+		"entity_action": {
+			"type": "origins:and",
+			"actions": [
+				{
+					"type": "origins:change_resource",
+					"resource": "*:*_rise_check",
+					"change": 2,
+					"operation": "set"
+				},
+				{
+					"type": "origins:play_sound",
+					"sound": "minecraft:entity.player.splash"
+				}
+			]
+		},
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:resource",
+					"resource": "*:*_state",
+					"comparison": "==",
+					"compare_to": 2
+				},
+				{
+					"type": "origins:resource",
+					"resource": "*:*_rise_check",
+					"comparison": "==",
+					"compare_to": 1
+				},
+				{
+					"type": "origins:command",
+					"command": "execute unless block ~ ~ ~ minecraft:air",
+					"comparison": "==",
+					"compare_to": 1
+				}
+			]
+		}
+	},
+	"rise_end": {
+		"type": "origins:action_over_time",
+		"interval": 1,
+		"entity_action": {
+			"type": "origins:change_resource",
+			"resource": "*:*_rise_check",
+			"change": 3,
+			"operation": "set"
+		},
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:resource",
+					"resource": "*:*_state",
+					"comparison": "==",
+					"compare_to": 2
+				},
+				{
+					"type": "origins:resource",
+					"resource": "*:*_rise_check",
+					"comparison": "==",
+					"compare_to": 2
+				},
+				{
+					"type": "origins:command",
+					"command": "execute if block ~ ~ ~ minecraft:air",
+					"comparison": "==",
+					"compare_to": 1
+				},
+				{
+					"type": "origins:command",
+					"command": "execute if block ~ ~1 ~ minecraft:air",
+					"comparison": "==",
+					"compare_to": 1
+				}
+			]
+		}
+	},
+	"rise": {
+		"type": "origins:action_over_time",
+		"interval": 1,
+		"entity_action": {
+			"type": "origins:and",
+			"actions": [
+				{
+					"type": "origins:add_velocity",
+					"y": 0.7,
+					"space": "world",
+					"set": true
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "particle minecraft:dust 0.133 1 0.612 2 ~ ~1 ~ 0.5 1 0.5 0 1"
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "particle ambient_entity_effect ~ ~1 ~ 0.02 0.95 0.6 1 0"
+				}
+			]
+		},
+		"condition": {
+			"type": "origins:resource",
+			"resource": "*:*_state",
+			"comparison": "==",
+			"compare_to": 2
+		}
+	},
+	"rise_phase": {
+		"type": "origins:phasing",
+		"render_type": "blindness",
+		"view_distance": 2,
+		"condition": {
+			"type": "origins:resource",
+			"resource": "*:*_state",
+			"comparison": "==",
+			"compare_to": 2
+		}
+	},
+	"rise_stop_xz": {
+		"type": "origins:modify_velocity",
+		"modifier": {
+		  "value": -1,
+		  "operation": "multiply_total"
+		},
+		"axes": [
+		  "x",
+		  "z"
+		],
+		"condition": {
+			"type": "origins:resource",
+			"resource": "*:*_state",
+			"comparison": "==",
+			"compare_to": 2
+		}
+	},
+	"ascend_end": {
+		"type": "origins:action_over_time",
+		"interval": 1,
+		"entity_action": {
+			"type": "origins:and",
+			"actions": [
+				{
+					"type": "origins:change_resource",
+					"resource": "*:*_state",
+					"change": 0,
+					"operation": "set"
+				},
+				{
+					"type": "origins:change_resource",
+					"resource": "*:*_rise_check",
+					"change": 0,
+					"operation": "set"
+				},
+				{
+					"type": "origins:add_velocity",
+					"y": 0.3,
+					"space": "world",
+					"set": true
+				},
+				{
+					"type": "origins:play_sound",
+					"sound": "minecraft:block.beacon.deactivate",
+					"volume": 1,
+					"pitch": 2
+				},
+				{
+					"type": "origins:play_sound",
+					"sound": "minecraft:entity.player.splash.high_speed"
+				}
+			]
+		},
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:resource",
+					"resource": "*:*_state",
+					"comparison": "==",
+					"compare_to": 2
+				},
+				{
+					"type": "origins:resource",
+					"resource": "*:*_rise_check",
+					"comparison": "==",
+					"compare_to": 3
+				},
+				{
+					"type": "origins:command",
+					"command": "execute if block ~ ~ ~ minecraft:air",
+					"comparison": "==",
+					"compare_to": 1
+				}
+			]
+		}
+	},
+	"vfx_select": {
+		"type": "origins:action_over_time",
+		"interval": 1,
+		"entity_action": {
+			"type": "origins:and",
+			"actions": [
+				{
+					"type": "origins:execute_command",
+					"command": "title @s actionbar {\"text\":\"Ascend Active\",\"color\":\"#00ff64\"}"
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "execute unless block ~ ~2 ~ minecraft:air if block ~ ~1 ~ minecraft:air run function armakuni:ascend/particle"
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "execute unless block ~ ~3 ~ minecraft:air if block ~ ~2 ~ minecraft:air run execute positioned ~ ~1 ~ run function armakuni:ascend/particle"
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "execute unless block ~ ~4 ~ minecraft:air if block ~ ~2 ~ minecraft:air if block ~ ~3 ~ minecraft:air run execute positioned ~ ~2 ~ run function armakuni:ascend/particle"
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "execute unless block ~ ~5 ~ minecraft:air if block ~ ~2 ~ minecraft:air if block ~ ~3 ~ minecraft:air if block ~ ~4 ~ minecraft:air run execute positioned ~ ~3 ~ run function armakuni:ascend/particle"
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "execute unless block ~ ~6 ~ minecraft:air if block ~ ~2 ~ minecraft:air if block ~ ~3 ~ minecraft:air if block ~ ~4 ~ minecraft:air if block ~ ~5 ~ minecraft:air run execute positioned ~ ~4 ~ run function armakuni:ascend/particle"
+				}
+			]
+		},
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:resource",
+					"resource": "*:*_state",
+					"comparison": "==",
+					"compare_to": 1
+				},
+				{
+					"type": "origins:on_block"
+				}
+			]
+		}
+	},
+	"sfx_able": {
+		"type": "origins:action_over_time",
+		"interval": 1,
+		"rising_action": {
+			"type": "origins:play_sound",
+			"sound": "minecraft:block.beacon.power_select",
+			"volume": 0.4,
+			"pitch": 2
+		},
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:or",
+					"conditions": [
+						{
+							"type": "origins:command",
+							"command": "execute unless block ~ ~2 ~ minecraft:air",
+							"comparison": "==",
+							"compare_to": 1
+						},
+						{
+							"type": "origins:command",
+							"command": "execute unless block ~ ~3 ~ minecraft:air",
+							"comparison": "==",
+							"compare_to": 1
+						},
+						{
+							"type": "origins:command",
+							"command": "execute unless block ~ ~4 ~ minecraft:air",
+							"comparison": "==",
+							"compare_to": 1
+						},
+						{
+							"type": "origins:command",
+							"command": "execute unless block ~ ~5 ~ minecraft:air",
+							"comparison": "==",
+							"compare_to": 1
+						},
+						{
+							"type": "origins:command",
+							"command": "execute unless block ~ ~6 ~ minecraft:air",
+							"comparison": "==",
+							"compare_to": 1
+						}
+					]
+				},
+				{
+					"type": "origins:command",
+					"command": "execute if block ~ ~1 ~ minecraft:air",
+					"comparison": "==",
+					"compare_to": 1
+				},
+				{
+					"type": "origins:on_block"
+				},
+				{
+					"type": "origins:resource",
+					"resource": "*:*_state",
+					"comparison": "==",
+					"compare_to": 1
+				}
+			]
+		}
+	},
+	"disable_dmg": {
+        "type": "origins:modify_damage_dealt",
+        "modifier": {
+            "operation": "multiply_total",
+            "value": -1
+        },
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_state",
+            "comparison": "==",
+            "compare_to": 2
+        }
+    },
+    "disable_item": {
+        "type": "origins:prevent_item_use",
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_state",
+            "comparison": "==",
+            "compare_to": 2
+        }
+    },
+    "disable_block": {
+        "type": "origins:prevent_block_use",
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_state",
+            "comparison": "==",
+            "compare_to": 2
+        }
+    },
+	"disable_block_select": {
+        "type": "origins:prevent_block_selection",
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_state",
+            "comparison": "==",
+            "compare_to": 2
+        }
+    },
+    "disable_elytra": {
+        "type": "origins:prevent_elytra_flight",
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_state",
+            "comparison": "==",
+            "compare_to": 2
+        }
+    },
+    "disable_entity_use": {
+        "type": "origins:prevent_entity_use",
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_state",
+            "comparison": "==",
+            "compare_to": 2
+        }
+    },
+    "disable_sleep": {
+        "type": "origins:prevent_sleep",
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_state",
+            "comparison": "==",
+            "compare_to": 2
+        }
+    }
+}

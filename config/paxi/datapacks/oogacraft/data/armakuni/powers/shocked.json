@@ -1,0 +1,93 @@
+{
+    "type": "origins:multiple",
+    "name": "Shocked",
+    "description": "You are shocked!",
+    "particle": {
+        "type": "origins:particle",
+        "particle": "minecraft:electric_spark",
+        "frequency": 1
+    },
+    "effects": {
+        "type": "origins:action_on_callback",
+        "entity_action_gained": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:damage",
+                    "amount": 2,
+                    "source": {
+                        "name": "sting",
+                        "bypasses_armor": true,
+                        "unblockable": true
+                    }
+                },
+                {
+                    "type": "origins:if_else",
+                    "condition": {
+                        "type": "origins:entity_type",
+                        "entity_type": "minecraft:player",
+                        "inverted": true
+                    },
+                    "if_action": {
+                        "type": "origins:drop_inventory",
+                        "slots": [
+                            "weapon.mainhand",
+                            "weapon.offhand"
+                        ]
+                    }
+                },
+                {
+                    "type": "origins:if_else",
+                    "condition": {
+                        "type": "origins:entity_type",
+                        "entity_type": "minecraft:player"
+                    },
+                    "if_action": {
+                        "type": "origins:feed",
+                        "food": -4,
+                        "saturation": 0
+                    }
+                },
+                {
+                    "type": "origins:dismount"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "data merge entity @s {powered:1b}"
+                }
+            ]
+        }
+    },
+    "disablebar": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 1,
+        "start_value": 1,
+        "hud_render": {
+            "should_render": false
+        }
+    },
+    "disabletimer": {
+        "type": "origins:action_over_time",
+        "interval": 20,
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "*:*_disablebar",
+            "change": -1
+        }
+    },
+    "revokepower": {
+        "type": "origins:action_over_time",
+        "interval": 1,
+        "entity_action": {
+            "type": "origins:execute_command",
+            "command": "power remove @s armakuni:shocked"
+        },
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_disablebar",
+            "comparison": "==",
+            "compare_to": 0
+        }
+    }
+}

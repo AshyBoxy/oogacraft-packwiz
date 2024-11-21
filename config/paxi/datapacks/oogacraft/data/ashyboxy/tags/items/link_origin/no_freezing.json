@@ -1,0 +1,10 @@
+{
+	"replace": false,
+	"values": [
+		"#ashyboxy:link_origin/no_freezing_helmets",
+		"#ashyboxy:link_origin/no_freezing_chestplates",
+		"#ashyboxy:link_origin/no_freezing_leggings",
+		"#ashyboxy:link_origin/no_freezing_boots",
+		"#advancednetherite:tiers/armor"
+	]
+}

@@ -1,0 +1,64 @@
+{
+    "type": "origins:multiple",
+    "hit": {
+        "type": "origins:target_action_on_hit",
+        "entity_action": {
+            "type": "origins:execute_command",
+            "command": "function armakuni:ancient"
+        },
+        "cooldown": 1,
+        "damage_condition": {
+            "type": "origins:projectile",
+            "projectile": "minecraft:arrow"
+        },
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:quiver_res",
+            "comparison": "==",
+            "compare_to": 5
+        }
+    },
+    "draw_particles": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:execute_command",
+            "command": "function armakuni:drawing_particles/ancient"
+        },
+        "interval": 1,
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "resource": "*:quiver_res",
+                    "comparison": "==",
+                    "compare_to": 5
+                },
+                {
+                    "type": "origins:using_item",
+                    "item_condition": {
+                        "type": "origins:ingredient",
+                        "ingredient": {
+                            "tag": "armakuni:bows"
+                        }
+                    }
+                }
+            ]
+        }
+    },
+    "tick": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:execute_command",
+            "command": "execute as @a[scores={arrows_shot_link=1..},tag=link,limit=1] at @s[nbt={SelectedItem:{id:\"minecraft:bow\"}}] run function armakuni:tag/ancient"
+        },
+        "interval": 1,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:quiver_res",
+            "comparison": "==",
+            "compare_to": 5
+        }
+    },
+    "hidden": true
+}

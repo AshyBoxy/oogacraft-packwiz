@@ -1,0 +1,14 @@
+{
+    "name": "Potion Resilience",
+    "description": "You were the test subject for many potions, you have become immune to many of them.",
+    "type": "origins:effect_immunity",
+    "effects": [
+        "minecraft:poison",
+        "minecraft:regeneration",
+        "minecraft:instant_health",
+        "minecraft:instant_damage",
+        "minecraft:haste",
+        "minecraft:mining_fatigue",
+        "minecraft:resistance"
+    ]
+}

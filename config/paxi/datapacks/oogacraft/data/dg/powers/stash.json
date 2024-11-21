@@ -1,0 +1,11 @@
+{
+    "name": "Fox's pouch",
+    "description": "You have access to a small stash that doesn't drop on death. You can also craft bundles.",
+    "type": "origins:inventory",
+    "title": "Fox Pouch",
+    "container_type": "dispenser",
+    "key": {
+        "key": "secondary"
+    },
+    "recoverable": true
+}

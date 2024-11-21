@@ -2,11 +2,11 @@ hash-format = "sha256"
 
 [[files]]
 file = "README.md"
-hash = "a5e2d38f1f738e9849697372e256d16b20b1b15981b97b6da430efa0511fac21"
+hash = "f9c307c2aabb1a69333ebd3626998c515a97eb2d1a622d0203c20242f1cbe226"
 
 [[files]]
 file = "config/Adorn.json5"
-hash = "ab89755aabb2ef001091a49616eb5b4bd1ee44c6f736ae2cfdd86e6d1ff75c41"
+hash = "924613dadd5545de75542e7ab40a1da1e23837aac20c74456e9094f6d7df4c2b"
 
 [[files]]
 file = "config/NoChatReports/NCR-Client.json"
@@ -14,7 +14,7 @@ hash = "bf497b8ec2ae145c43216328d4c8e207cc1a9c56e809cd76cb1ac3583027e821"
 
 [[files]]
 file = "config/Spectrum.json5"
-hash = "e522843aca54d651ba6aca68897f23d485bf646c9452989d1243494d4052d621"
+hash = "0fce86822a8f4f6f370d193048dc4ae9bd039e9a7a4dc22c931236b7ee78ac88"
 
 [[files]]
 file = "config/ae2-emi-crafting.json"
@@ -94,7 +94,7 @@ hash = "92d711d3dcd68e93d829a084b7527dc8d90a67d7350e7696a54e3c8c322fee7c"
 
 [[files]]
 file = "config/defaultoptions/extra/config/ae2/client.json"
-hash = "a41a0728e9f272912a57d0337a723218437f411b290c2a1fd0291f611e3b25a0"
+hash = "47be002b54462677e99477a6d8c4dc42ceba1cd74fbc182a9339d5b45c84ba5c"
 
 [[files]]
 file = "config/defaultoptions/extra/config/artifacts/client.json5"
@@ -190,7 +190,7 @@ hash = "1b276effabb48ff524d9ab29a0f8e931881a0cdeee27ce690b2a6865d68b6d97"
 
 [[files]]
 file = "config/item_obliterator.json5"
-hash = "022ecb134d53ec1ea5ca1f9a05fc28eb4dce4cd3b73574caef765bb5fd277b73"
+hash = "1e44d6a22d02976a604585b1b3a56c387f5305ff55e55b70ab568b0b56ebf82c"
 
 [[files]]
 file = "config/itemalchemy/emc_config.json"
@@ -227,6 +227,2558 @@ hash = "585ce9c35f5a43b15f6b9afb70882439101c090fd30df49a7a2294912d179ae6"
 [[files]]
 file = "config/pal.properties"
 hash = "32f191f780f058b42800dd55fd6f492017ebc282b0ed9b7a330adcf084d13d5c"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/credits.txt"
+hash = "484dd33e7c4f87bdf35e1f897111794c12dc1e669a8ecfba836c2dc9e7874cfa"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/ales/origins/blackcat.json"
+hash = "f53bd02f7c0a8d1da9c9059cf6bfe36fe22e9a10a810a0791c99ac96dba07a60"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/ales/powers/agile.json"
+hash = "afd2accb24b39d54387378e6bb9fad78651cb2a588524934d77e82c3709a201b"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/ales/powers/attack.json"
+hash = "15a6d15019cbb80f5d7962437a13e973fa4f67606e6fa53c15c2cf201b01f07e"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/ales/powers/claws.json"
+hash = "86a124e272d75f5753ec564a6cd3e39e9c9bc917c5d9627dbc9afa737b22f47f"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/ales/powers/darkvision.json"
+hash = "c752c33a18855fd3513a80ea0e1e2085cd95fca7b17c95816deedb982ac6db7d"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/ales/powers/effects.json"
+hash = "1cb5183cf01974b5548e180d8c2a8aade12e8bf4acf26f03b587c902777faaa7"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/ales/powers/hydro.json"
+hash = "950787f0cda8514dcc2782e4fb45ad47f0f78b66f4ac80176153f08123d345e9"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/ales/powers/hydrorain.json"
+hash = "39ac59e4c9e7ae88f6394e08862da5713a61a0c86aea00d656a4f1e8d8cd1f61"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/ales/powers/nyoom.json"
+hash = "2bb0e3f33e5bab931556f51dc99a9d804f73050d95bdfa78cbcd5704efdaf7ca"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/alescat/powers/small.json"
+hash = "78400093fff83480cf06a93123b9e21972bb9077c0785ed4048e0b67676acc46"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armakuni/functions/ancient.mcfunction"
+hash = "96eb31972539df6d0ac031795172ccbb7d06571e52bb45acef449ee555495c39"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armakuni/functions/ascend/particle.mcfunction"
+hash = "edb782d1827b345b13c39ff26d44b3957767dbaa193e0d72501b9a7ae730c8fd"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armakuni/functions/bomb.mcfunction"
+hash = "628a9af380b8f697aa060e90c090e31cbcb12e279624cddbc021c7534844289d"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armakuni/functions/drawing_particles/ancient.mcfunction"
+hash = "9788ffaf9e8ce0100a5b9b42727e955ec0409edb53f3076fe9306d6a5f7df454"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armakuni/functions/drawing_particles/bomb.mcfunction"
+hash = "d1fc151f485c092c4ef3b78c94e6ea6d7e0160d6382ee2c5cd1670ccfc88514e"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armakuni/functions/drawing_particles/fire.mcfunction"
+hash = "69c73bfa8e79aaad7cf851fa3ff28d9996c6e4acb9f800c4cc79fb905a704e2b"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armakuni/functions/drawing_particles/ice.mcfunction"
+hash = "2a85c7b9f1c9e8ae5bb2edfe438186d33c2d552c474e3818193d46c036566d23"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armakuni/functions/drawing_particles/shock.mcfunction"
+hash = "d03d7dee14740769dbedac05d4647a70adc08d37c519640b41d422147169e817"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armakuni/functions/fire.mcfunction"
+hash = "45cfc7661dcd590e64a4bedc192226d8bac64f769e33a238943985a252d7f068"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armakuni/functions/flaming/bomb.mcfunction"
+hash = "6ef0e39359cdbec3801e8f234b661f926b977ec3afe358cf4cf69b153a37cd12"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armakuni/functions/flaming/elemental.mcfunction"
+hash = "803231224af25c1e14bba54bd1c0c9ab9eb6d0aa250fc5c5b6cbe8e2468c87e0"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armakuni/functions/flaming/ice.mcfunction"
+hash = "90f8625f5ee7acd8a936f3777351ab6ea1a08694483cf3fac2e4a5fc9160e189"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armakuni/functions/give_ancient_arrows.mcfunction"
+hash = "5750f26f79fbb94b4449faa3a0e28cf109b777a5716930ee25c5e2a1bcf715c8"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armakuni/functions/ice.mcfunction"
+hash = "56bc220477a72f67096809a8a2ff9bab304b34c28fea90cbf72c0aaa4013e34e"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armakuni/functions/in_ground/ancient.mcfunction"
+hash = "4e97417571f93e8d557742c168879e9f3393718603b02fff170972c8778f2fa8"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armakuni/functions/in_ground/bomb.mcfunction"
+hash = "81bb2e4ac57a9a87daf1d3fc1d564dd8492f4e10d1893a9e1512fb6cbe8abc4f"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armakuni/functions/in_ground/elemental.mcfunction"
+hash = "735dde1d2cc69298fb2d15f2bfd37ca81308e6edd7304b54ed6d7709df7978e3"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armakuni/functions/in_ground/fire.mcfunction"
+hash = "1d14056bd456de61bde676a5b13c3affddce8558ec8e36258ffff24320045b6f"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armakuni/functions/in_ground/ice.mcfunction"
+hash = "cefdafe67119daa5baedce23756cf37896fed7b154bda07e3c7dbc704b42baa2"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armakuni/functions/in_ground/shock.mcfunction"
+hash = "26b07264f1018d2e5ee5c8f57ae4c9d78d89ae3700837608ed879bb48bf72a74"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armakuni/functions/in_ground/tick.mcfunction"
+hash = "e2a02812add7998a6187b6ca2635096220ac87c6f4ea62861d3d9b37a63a5c11"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armakuni/functions/load.mcfunction"
+hash = "709b1c223bf2ee989b84df4b8d467651289d343c58496dec89aab263314e924a"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armakuni/functions/remove_ancient_arrows.mcfunction"
+hash = "2c8871dc3e62143f808913a64c3062f00ac3b294e05d818e46fb9c02b749b749"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armakuni/functions/shock.mcfunction"
+hash = "afe13a142788485c040bb596921d1e2d999b81218ddf7194c32bd5f45bcc0f33"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armakuni/functions/special/elemental.mcfunction"
+hash = "9f26a0ccd342c35bebcff95c05914679d956b9f98e82b27bd6423be4beb5efa5"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armakuni/functions/special/explode_particles.mcfunction"
+hash = "5b21031e9bd4563d42fc02968060a3435800db684bed3d3b8103ea0e89e9d0b9"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armakuni/functions/special/shock.mcfunction"
+hash = "15cb0f3ab8b0155f399d509fcd879ddeb743dcf3d15b14238f648c441bba4141"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armakuni/functions/special/vaporise.mcfunction"
+hash = "3638c2c89a96d1e72e935023f47840bfd3d6be8272fb736133210614135c2030"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armakuni/functions/special/vaporise_item.mcfunction"
+hash = "f185c353b082bd89d93100ef288638af7fc735307bfbbb4b8286405d197a0de1"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armakuni/functions/tag/ancient.mcfunction"
+hash = "e75646b48e2a7989c5e81b40a31e4b80d406f364179dd6d82d0a3551a12435d2"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armakuni/functions/tag/bomb.mcfunction"
+hash = "3412b9603ea1f44fe5d35c00ccef32c1597a58335f2914db50a98a33c0976499"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armakuni/functions/tag/fire.mcfunction"
+hash = "8fcb99653552fe25cda37ecc37837fd338d90f21e16148a0b56cf0746e63f9fb"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armakuni/functions/tag/ice.mcfunction"
+hash = "67b96e2038ea0435ca21cb0bde7541154bb2db1d3c3607f01b85efffbb77dbc2"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armakuni/functions/tag/shock.mcfunction"
+hash = "ee16d4bad407f172ce3263337ddb0bfe2b85309714473bd513ca5c4433f27cb0"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armakuni/functions/tick.mcfunction"
+hash = "d2131b4411a22c28bf6f121b18146c683c99b4d4b9123ecd7af6c1fe55dafa75"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armakuni/functions/tick/ancient.mcfunction"
+hash = "d7beb363f4b1d581931e4c655d7695da7c1bdf839e68fcf5a0750dfd6fcf790f"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armakuni/functions/tick/bomb.mcfunction"
+hash = "f2394c8c758a48dc7c505beae22829a55284fd7e5cf986dd5cebf4cf332803fb"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armakuni/functions/tick/elemental.mcfunction"
+hash = "310a13dde88740201e33a800e91ae7f3a318581a96af17767d7c3afdfc0d375c"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armakuni/functions/tick/fire.mcfunction"
+hash = "56aa5d95d2d461b26441fe78518ee88d5d3046c160dba40ce1382a4c54a5fec8"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armakuni/functions/tick/ice.mcfunction"
+hash = "97666a230902b4c3bcf59cfbf8e323bc0f078ba27278e0400cfdeccac257ec8e"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armakuni/functions/tick/shock.mcfunction"
+hash = "94ce4f293e33df85fed84422c654e1741f929a5fb00e0946088e937002490c6e"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armakuni/origins/link.json"
+hash = "bb5681fbcc30efcdff8dc005087f755ff3f0aa4a763bcecdb9e4b725081c7784"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armakuni/powers/ancient_arrow.json"
+hash = "602aafd5635294dff9398020c1d6eef1c12a98f2df038cfe8f94e055a5a381ad"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armakuni/powers/ascend.json"
+hash = "ab44b628097e39402049a5d610a2edc17f9d40a220bcc08de3d007c05ac4db63"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armakuni/powers/bomb_arrow.json"
+hash = "cc99920f55c1826a0cdcc380c21a8c2491511bc0ccecc6a01fd680b31d24029f"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armakuni/powers/bullet_time.json"
+hash = "ab0ae0bfd2993e7cc603aee7c26671e0b3bb6ffeca4355fd32c71dbfb58f17dd"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armakuni/powers/emotionally_unstable.json"
+hash = "95577684af3b3115fd836cc97b8643e7e6881680c781eebceac9c4b8b9dc9b03"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armakuni/powers/explode.json"
+hash = "5db992345903be23b6c3999ab3ea2a0f4c3212faa5b42efcd05fd299615b0b80"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armakuni/powers/fire_arrow.json"
+hash = "326a83b8f8cfedad25d4c7ccc4a09ab59a2b5e99b1a44d2fe4bcaed590e0d982"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armakuni/powers/frozen.json"
+hash = "9f2d0f7a313ed409fc80929333edad2ffc2e03397e382b159e78da66f61dd70d"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armakuni/powers/health.json"
+hash = "af1538c461a282fc8ad2c32684be4842329f174ce4683aae705c0fd4b0eb82f5"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armakuni/powers/ice_arrow.json"
+hash = "896fb222182d9bc533a7918afa4f1cbfb2a0b6c8c6e1f2dc3cb26b5b5199ceae"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armakuni/powers/paraglider.json"
+hash = "1e9e2d0380c14ffe5e6f0dc3fd71c18908a7d14b9b10e437dfd71be2a915481c"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armakuni/powers/quiver.json"
+hash = "c4f45c1e02ed113d7ec59e5e39d865273f4490d1426e1fe2fe782f18f6bef1c6"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armakuni/powers/regenamp.json"
+hash = "ba0df48c9ceec2a0e1dcf001b1f0b076ac931151dbf45a87b3baab36aa652899"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armakuni/powers/shock_arrow.json"
+hash = "ca888fa86ceb7504e1288fb534e12e68409271458d819cb9e7ca3f3b903edb4a"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armakuni/powers/shocked.json"
+hash = "31cbc0b70bcb344792b78ab410ff9bd7c64e44bf1a8d8e9705f266c7c1d648a4"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armakuni/powers/stamina.json"
+hash = "b9a88e31d832986dd42237618955deb27fc17e07797aee443d06afa97dff4772"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armakuni/powers/tag_link.json"
+hash = "d9da160e54272e7e5abd550946a236968d2a28c97f5ceaa7994e876663a40304"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armakuni/powers/temperature.json"
+hash = "6fb072029ed61b31da9e8a116bab4581e3cbe41a9283f2f96a310f5779dfc618"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armakuni/powers/vaporise.json"
+hash = "4a3672dd328c7cb9ea393cfda2e886527636b0d7ea774659f43f0e0a88dbc228"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armakuni/predicates/in_ground.json"
+hash = "658186a4ab502d37e5461fb44383e38b7c371d9f2efe44e6a5cd69cda0922a22"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armakuni/predicates/not_flaming.json"
+hash = "53c2b101ae3bdcd284a2a436486e2f1b7aa148b0fdbdb08e850727bfb7886a64"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armakuni/predicates/not_flaming_watercheck.json"
+hash = "01200632a1db2463aa90322e6f496f5269ede236f502c57408338a429f6743ee"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armakuni/tags/blocks/soft.json"
+hash = "39f1a7d83b6a8c3a591d9a08172d47394e6e83c2fd7c023fc41fd7d39694d5cc"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armakuni/tags/entity_types/ancient_blacklist.json"
+hash = "9c58c1fb452db54a6405c4377c205f2bc080e2e03a3ae1ae8010caaff896cf35"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armakuni/tags/entity_types/bosses.json"
+hash = "b44bd8c1ffc4d9d345a4c5db41aa3ae3be379f2a2a5b8e5c1773eb92a2455468"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armakuni/tags/entity_types/minibosses.json"
+hash = "46ffc719fcec56ac48e80e461753fbb0eecdf15b8db94addd265518d02c32464"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armakuni/tags/items/bows.json"
+hash = "67d93dce35b47825be3891d86cda933672a022cbb4a92e8a5015449177fca1da"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armakuni/tags/items/tridents.json"
+hash = "d0ff6fd30bb12a70e003409fa0c47681fb7c6e0c6b5cce349b87ef2751cad33d"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/ashyboxy/recipes/crushing/crying_obsidian.json"
+hash = "e9eac252483a4cfabb6f06d2d147a782d9c5d0d4cadbad74a7d33eb1e8b2b881"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/ashyboxy/recipes/mixing/orb_of_origin.json"
+hash = "df419a9dee60c57cf75ab27e5aae20fb1156e39db6adb2923923fd6f0a93d101"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/ashyboxy/recipes/orb_of_origin.json"
+hash = "b94b36f620619f778ff5bfa41c1c0ccbcd7719846058dcbe28ac7b277455c2f1"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/ashyboxy/recipes/sandpaper_polishing/cinderscapes_rose_quartz.json"
+hash = "5b8129b95e0f066ab06aa6f1becf9340f7db1c77689093dd496746f7e72ed96e"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/ashyboxy/tags/items/link_origin/has_effect.json"
+hash = "0f9da1927dc3c893e0753e3869148b2f8d6db2c9f70fe739a8ed674335c93744"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/ashyboxy/tags/items/link_origin/no_burning.json"
+hash = "ff6f818558a7f5f2cc9bc24fb27d1f83a3b003163494e74c9e8e43974c225809"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/ashyboxy/tags/items/link_origin/no_burning_boots.json"
+hash = "9d646fa6595bded4cd309cc189a2b99cdd242986a19f7b9ec3f5ce96bd0eae73"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/ashyboxy/tags/items/link_origin/no_burning_chestplates.json"
+hash = "0047241bda87b276be3e384c37df6b9485195f59d328686ebbdb12eab0e7489b"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/ashyboxy/tags/items/link_origin/no_burning_helmets.json"
+hash = "d8a6b5e9655e7c210146057583572f645d643db138fa99d880bdddefa5469d11"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/ashyboxy/tags/items/link_origin/no_burning_leggings.json"
+hash = "97b003399369fb523d8f7e013c24cd77294aeba80421d6798ab6b6dd06841423"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/ashyboxy/tags/items/link_origin/no_drowsiness.json"
+hash = "1c08a9705b00ebc98b8c56ffe6c7957df44f7a788322d58f88e3792fbe3f22bc"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/ashyboxy/tags/items/link_origin/no_drowsiness_boots.json"
+hash = "e5ca20f283cf487629f6aaa06073b27b925ffdc835c11d6a1a5ad618e3bd2249"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/ashyboxy/tags/items/link_origin/no_drowsiness_chestplates.json"
+hash = "52d6ede6ffa7f279b9d10ccc52aa2317fa48a3c1792511748af95ba604313fa2"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/ashyboxy/tags/items/link_origin/no_drowsiness_helmets.json"
+hash = "dd72d2ef7b08f4345bb2a9bbbf22b918fdbb23c75a92348753e9928b4f7654b5"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/ashyboxy/tags/items/link_origin/no_drowsiness_leggings.json"
+hash = "1382a93c9a2484e8adee5716311861903ccbfa621ea02a4f19df64640e7347c5"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/ashyboxy/tags/items/link_origin/no_freezing.json"
+hash = "f790881529793db8f307c9f0a69372a082d5b63f07955ed374941de026c79fb3"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/ashyboxy/tags/items/link_origin/no_freezing_boots.json"
+hash = "b99d157f0b787ae5e6743430f8499a2d525766fd7d266f0445cf85fd2dbe7a3d"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/ashyboxy/tags/items/link_origin/no_freezing_chestplates.json"
+hash = "c4a61ce599724bece26eb60890b9e1ac0472747cb73d1fc6ee702eab5d0e6815"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/ashyboxy/tags/items/link_origin/no_freezing_helmets.json"
+hash = "c9f1ce486ff6e2e6fa253cf4b4e1f38675a60d057d5599f3ebdb5050c7c336ca"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/ashyboxy/tags/items/link_origin/no_freezing_leggings.json"
+hash = "465950a5209d14e94a9104614af02adb67838a7bf2d30225e7431330557caeb6"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/ashyboxy/tags/items/orbs.json"
+hash = "457118ad508fe1d2c89cf89c5b7a1ff909b3bd27f14fbf9811ff66e16d969947"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/c/tags/items/chains.json"
+hash = "ab04fba28deed17de011cd59d27dfa613e890eee4ad4563548985810ed34f27a"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/c/tags/items/cheeses.json"
+hash = "9a37d3989c4fbeb25e5816d462ec929548f84f83ab769b676c9d71be3d20d74b"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/c/tags/items/diamond_dusts.json"
+hash = "4ef93f781b9879a6e87a4214f3be41ec78950fe55edc63c7e302431fcaa3554a"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/c/tags/items/dough.json"
+hash = "d456326aa00f122d2c4e5bac5544c472210caa1b5c74f25995912176a16cd3db"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/c/tags/items/doughs.json"
+hash = "70c37192bf51736bd85094df737e93ecbbfd3884bc92048362c7ef92c66b17a9"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/c/tags/items/gold_wires.json"
+hash = "69561c9ceea2168b7ccd161c4b55863345ff4446c873fa38a59301640901c2f1"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/c/tags/items/iron_ingots.json"
+hash = "55711d20f4f699ac397818dd75469393ce62aced2447e555ab6113373bce41a5"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/c/tags/items/wheat_dough.json"
+hash = "d456326aa00f122d2c4e5bac5544c472210caa1b5c74f25995912176a16cd3db"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/c/tags/items/wires/gold.json"
+hash = "77e622d74daae54357d16b867c9666ebab31dd12b17b95f555fcb5f18a137968"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/confetti_creepers/functions/check_effect_cloud.mcfunction"
+hash = "d55d76749b0bea1f946f23b65d9c02ded79b0ab1a0726599e5f1391083e48112"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/confetti_creepers/functions/check_trigger.mcfunction"
+hash = "ac8dbd29e52a72e0c6a063f55b165ff9714dc3b322a00cfb0aa4bb50080de467"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/confetti_creepers/functions/config.mcfunction"
+hash = "43bff9d9740ac5694142310baa91d8720fef571c4e4685923ec8958bada4c6b6"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/confetti_creepers/functions/create_confetti.mcfunction"
+hash = "0a692b64a0569ad382d35fa9a162c5895d5872a5e6032b9ef83141908afd21de"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/confetti_creepers/functions/give_effects.mcfunction"
+hash = "ce34a7fc6f885b821a51888be885ed203d7fba6115131b82fb909c7e9e1d033d"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/confetti_creepers/functions/hide_command_feedback.mcfunction"
+hash = "4e5a4ae82ef038a74bf80eb28bf5a5bdfc43f5316619253989eafa0bdb3a728c"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/confetti_creepers/functions/initiate_creeper.mcfunction"
+hash = "02c7f8ee5e122e6cb5e6ad2bbf9bf687d114eafbc40cc8950e9fbfce41141dac"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/confetti_creepers/functions/load.mcfunction"
+hash = "c5e3dbb6a59e471ccb0304985447f69f624a9cfe1e14bceec7186920916189d0"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/confetti_creepers/functions/restore_command_feedback.mcfunction"
+hash = "900a876633ee1bc19621dac1d8b5532eb0d19e4c23633920e12bf9c821e4928f"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/confetti_creepers/functions/set_confetti.mcfunction"
+hash = "7ada9ae51621b631a10c3340cfe74f2ce330da362532fea09396af9e44df3e5a"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/confetti_creepers/functions/tick.mcfunction"
+hash = "1a6f6609e09fa11870126be07644e5630eece251510a587b0561a43382e9889e"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/confetti_creepers/functions/trigger.mcfunction"
+hash = "ad800520eac1de2441e360a61a5bfaebe56f2428d12374dfb5da17fdc17760f5"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/confetti_creepers/functions/uninstall.mcfunction"
+hash = "83038bd2850ca0b3b3cf571ef13e67f4d33c4a8d8ef2f6826a0c4e1a1d5c3c64"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/craftable_bundles_leather/advancements/recipes/bundle_leather.json"
+hash = "0200f33c84d5a6c6ae3306156724abe3e63d38079c02e630c45b3b19dfbdc179"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/craftable_bundles_leather/recipes/bundle_leather.json"
+hash = "2409bfe97d21d779aa8e0d2af1976727c12026a5a246184446b4cebde148c948"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/craftable_name_tags/advancements/recipes/building_blocks/craftable_name_tags/name_tag.json"
+hash = "e022ce789c8e7d1a20eacd7ef489e023f6796b16f24a1b0abef3b55d3fae2780"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/craftable_name_tags/recipes/name_tag.json"
+hash = "9faca19fb152dccae37870190db43b7c527ec0f43d1442346bfc5a880bf87f21"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/crafting/recipes/blackstone_brewing_stand.json"
+hash = "0ae77b932a19871d48cac010a0c1005d7df3ff33dc797a19cb4236f2a7f14561"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/crafting/recipes/blackstone_dispenser.json"
+hash = "0392eaad42708d986321d267ab454f39bbfb2213eb6b6916f3ab34dc4c69d612"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/crafting/recipes/blackstone_dropper.json"
+hash = "c5154c6bc9ea778c09be75123ee85b21517c0657b1e254a6bccc32dbd54b0020"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/crafting/recipes/blackstone_lever.json"
+hash = "2eeb2d957b214a76302e2c4fc20d2d77d6d583e9b5ce11069c0ebe2d94179a63"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/crafting/recipes/blackstone_observer.json"
+hash = "2a56fcb477405b49c59c3a0404be9f6802f3dae6d5592565ee2884c27f1f135b"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/crafting/recipes/blackstone_piston.json"
+hash = "0bb97b09072cd10289fd45f103e4d02383f70666d10aae4b2bac3ffd35ce8bf9"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/crafting_ashyboxy/recipes/cobbled_deepslate_brewing_stand.json"
+hash = "1d77edeb4880e7254e7d9a48f079d796b74cdfad8be70b80e438d9bd1010ed70"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/crafting_ashyboxy/recipes/cobbled_deepslate_dispenser.json"
+hash = "89eb02a4e59d2eaf988729aab38393a662185ed8dc504a5d46e3b7e21c2e8680"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/crafting_ashyboxy/recipes/cobbled_deepslate_dropper.json"
+hash = "c30ce4bb8d5700c22389193783ba7f1899d23ce6a31c8c47ae48e351b0d61222"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/crafting_ashyboxy/recipes/cobbled_deepslate_lever.json"
+hash = "9cbc17106a4c1e2dbaa282faafa8328ddd75f5ab8d7330d1e7a8067c4981b113"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/crafting_ashyboxy/recipes/cobbled_deepslate_observer.json"
+hash = "9fd59c761404fed45381af44eac9219e94ad640b99e97583d42644aedb6e71b0"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/crafting_ashyboxy/recipes/cobbled_deepslate_piston.json"
+hash = "cd3d5f65b2339355e1b7b72815f2993981b94141b7de261cedfb4bdb33f63946"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/dg/origins/endfox.json"
+hash = "964d833a350f89edb8f24e145cd3a0712a28f813a93cc08e73d0638b129b5839"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/dg/origins/fox.json"
+hash = "7e5db4a1e817fab8005d094a0dbd4817c37aa38252c021fcd05fcd7890d9e1ff"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/dg/origins/vfox.json"
+hash = "6b861b06284e2a923fd75699341b93d1e0b138188f2e5acdf80ba7ace23d1202"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/dg/powers/bun.json"
+hash = "036a5f466a984ddf580f650f5e3ff7e3e6e3b9428d4fecae69a67b647918af27"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/dg/powers/echest.json"
+hash = "c74450bc8222ce5f3d79b0ec886dcc6fbfbaa629a959222e9840fc2f4feec80d"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/dg/powers/endstash.json"
+hash = "96f4cdb0d2c7a39796a28ff2f5c122759c5cae2aa8b3786853342a2e60a522dc"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/dg/powers/faster.json"
+hash = "56accb7d7959d6c59a9df1c25cbb7daa4dfafd23753794d9469e4cbe8df6e36e"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/dg/powers/flamebody.json"
+hash = "a31b03e86597ee589338aa3502a534811aec4d9711d04c6365120ebb2f9364fa"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/dg/powers/fresh_kill.json"
+hash = "bde14cf56f14b63e8553e4bc15aa77d09eff84bb7fe508f12045fe407a3d9a8b"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/dg/powers/fresh_kill_two.json"
+hash = "4d7fecd161a4d3f50c7bb053cf2ef7b6d5fe79fbe93f85e8a5a468da65019b7c"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/dg/powers/givesword.json"
+hash = "5123a898fe4b059c8630354ce12fcde2e90c30a6bf879df79a0acd4b466d770d"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/dg/powers/hp.json"
+hash = "ce26e7e4079b737faa2f4261bd6dd224cd155630c7874aa3115fc863f6ab69b9"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/dg/powers/lunge.json"
+hash = "affc8ea3b6e731c985bbfb84b1a6544d43120bcbbaa81eb1c6834a56604248e9"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/dg/powers/pet.json"
+hash = "d8e88f1f5b8a7d4a7d10b6486641596fa575aa9b97c26f76a0dcb56aeaa19947"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/dg/powers/player_riding.json"
+hash = "355d4d279ce352c9baeba5de33f5da6ce9d53170b19d7732412d39c16805d9d4"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/dg/powers/raven.json"
+hash = "91cef8fd9d4024efec0ffb7d39490df96d249ca72e8ee6a906410f169d983e42"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/dg/powers/small.json"
+hash = "ee7aa66156066dc7d08e1b1fdf267da02771ebe1da94de9ecfe75693ec4e20b6"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/dg/powers/stash.json"
+hash = "f760224ee6fb9d22df3f2a94129f6ebb5d82e9f1d1d4cde2d0b9dc3aae96b4eb"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/dg/powers/suit.json"
+hash = "b3e260446a69be537363d714489536380078b68db4bbfec17973ef5f09140203"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/dg/powers/undead.json"
+hash = "ce5365f5e81465b2d5fc9ced0f7ee93b01fe20f59cba7217f53da278edc41abe"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/flint_to_gravel/advancements/recipes/building_blocks/gravel.json"
+hash = "49ab69a819a8205afd9f3d16d1adcb6577e91c264e64045459202382b76997c7"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/flint_to_gravel/recipes/gravel.json"
+hash = "cf9ab9f390332d889ac6b71b84b03d8fc1959017c050ff7ab89b64d9dd74ca02"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/inkdink/.vs/VSWorkspaceState.json"
+hash = "bc8d6f12324b625752a4ab9986f51e207291497a0500ab9b03ec4c045664e8c2"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/inkdink/.vs/inkdink/FileContentIndex/167eb710-830b-4811-ada6-b37a8d2734cd.vsidx"
+hash = "6086690b27ef217b334f086920cb13e7c957d437f3412a1e1dd0c70880a352f3"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/inkdink/.vs/inkdink/FileContentIndex/6a013723-2d4e-4aaf-b8e4-0287b1c6c8e3.vsidx"
+hash = "d9e988c688234ce71cc068b080eabfc361694979d129112967a119b3857d8a8d"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/inkdink/.vs/inkdink/FileContentIndex/6e8366d5-82a7-4589-952a-a610e7099099.vsidx"
+hash = "023e7768b39f7a80e83cb24e344d630990e8304ae494c4acf4daeb04f9aeb21d"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/inkdink/.vs/inkdink/FileContentIndex/a99698c0-a952-4c82-aba5-4535c9b52409.vsidx"
+hash = "64bcb750c094177909ca89492b71e8c4388e70ead6745df5f8b63efa05a7a517"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/inkdink/.vs/inkdink/FileContentIndex/read.lock"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/inkdink/.vs/inkdink/v17/.suo"
+hash = "03882d66d85c19b4dec142ac10e4d7def12ffb6be6e11d5c2781aa96d599c877"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/inkdink/.vs/slnx.sqlite"
+hash = "16b915071c285ed1df12b0c5ede56b02f12a0d5af43792e12ff9c53a6679a7cc"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/inkdink/origins/inkling.json"
+hash = "1cd28f2118abc9a6d8a28c993fdf37c17954b7db994ceb042595327d71cc3a7b"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/inkdink/powers/blue.json"
+hash = "241dca7169d57ab8cf21d9af092173c01171f73db4ab4eb31523ea5f9057f12d"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/inkdink/powers/change_timer.json"
+hash = "c3e931e540129bc186e8978ee990301b98659daf17a150ca41384ce4f3c645b7"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/inkdink/powers/color_change.json"
+hash = "e655d6858b74bd22844533b695a0f54c6eb42cb0df1fe021e486b4638500153c"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/inkdink/powers/color_change_timer.json"
+hash = "a2802f82edab26ac33631c4d2a9bef636870a6f82bfc20715931100e9662f9df"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/inkdink/powers/colors.json"
+hash = "380fbbfdd5a9a0554e25103e46c2d9a19256dfa51d84e77548458be2df44a7b2"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/inkdink/powers/cyan.json"
+hash = "8d496171bab03d817ad09e5d3db76344d0da19f4ef35b4becde1eed74a525164"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/inkdink/powers/fragile.json"
+hash = "56efd8dd8f3aae8a97c7587a4335eb4353de2bbc7f71ee03031e9627e6906fdc"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/inkdink/powers/green.json"
+hash = "6e7ded207c93913b234fbe0627c7a54956dc234cc08120c61b2187381a25a4c3"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/inkdink/powers/hydrophobia.json"
+hash = "935637175af3b792e2f37b54324c85de2909cf2ad814b12574db46f440c8ea91"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/inkdink/powers/jump_timer.json"
+hash = "32db35a381c5b4fcfeef0395f0ed5f0a8e847e0b445f5506ebae2dfedddc4d9e"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/inkdink/powers/kid.json"
+hash = "137952294871052a2db6ae2111bf27fd40f9ea0ddcb63ccfaac241d9efbd2f6b"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/inkdink/powers/lightblue.json"
+hash = "a627aec1592254b6ec5cf96b45f7ee709572829602fc61820a73b29e501e7ecc"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/inkdink/powers/lime.json"
+hash = "100989008aadc475fbbc226e93720432bf0f284d0f5f455252ae1eaeeaeac273"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/inkdink/powers/magenta.json"
+hash = "b2aa40aee3dc2fe43297307402576053371981d6b464acfb4f6fb2a52d9a58fa"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/inkdink/powers/orange.json"
+hash = "4d0a30df14de5a341c06ff1d0d30fe3de39078c6b792a5cca18a1f76ccea475f"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/inkdink/powers/pink.json"
+hash = "5242d0058fe1b33df3e53b8bc7ce7710c92d15b8aaca43e1208126d869923a2b"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/inkdink/powers/purple.json"
+hash = "62af2ce1cbc492c6e67f31f2260cc5b6e975a93fd6ed7a108b18393ec0090b19"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/inkdink/powers/red.json"
+hash = "a8a0cbc64e698105baa445cf7866c0b3d906f048b90d1109fde58bb542aceb32"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/inkdink/powers/squid.json"
+hash = "a69f10a01483fb7c8c5b840181a10a43b583b04b12ca34d3753d61d7ddc9e2f2"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/inkdink/powers/squidswim.json"
+hash = "08c70f98df9506346519b771b45dc4ac8dfc68f1cf50b87dc1b2454a89bbe064"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/inkdink/powers/super_jump.json"
+hash = "787216a2995255a07454abb51f08db7978a8c83c77c56246ed3c0c25eff917d4"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/inkdink/powers/swapjump.json"
+hash = "94274575dacabb0d12c20e42c53b87ff0c56a0bf92f5d51073d3605aa88ae732"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/inkdink/powers/tflipflop.json"
+hash = "61087c3efb5eca265af325d5a6df4bd7c71badb38f3be61bf57a186ee4d08b45"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/inkdink/powers/yellow.json"
+hash = "9d1a6206674ce52615feb5517811c9c225b64c7e8225bd40a903748eaa219deb"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/inkdink/tags/blocks/concrete.json"
+hash = "5bd7cf05d944e00e7b024e3bb8b8ca633f43709bb408648c9c284e2953132d67"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/inkdink/tags/blocks/concretepowder.json"
+hash = "44b770c34dda7eb2ac79fc2ab1b09717ec7cab6c86854649439174e9b5341e17"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/inkdink/tags/blocks/phasableall.json"
+hash = "2dc121a85ae8acfaa0ace518e029bf85ed4caa8112167fa9693ebc1a201462c4"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/inkdink/tags/blocks/phasableblue.json"
+hash = "a0a16863d88bbe442ad1bd108f6881132b2c500bbe768bcda1f215e0a0ebd94a"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/inkdink/tags/blocks/phasablecyan.json"
+hash = "3c255fcfab61e44fff2a0add354b60227ba4923a3834582e27ecb5dd1d1b22d9"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/inkdink/tags/blocks/phasablegrates.json"
+hash = "20067796dc3930298d7ad86525d85a9053402bf175f9f10116fdecb8d7719ce5"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/inkdink/tags/blocks/phasablegreen.json"
+hash = "5521326201cfc95398fef20229dc1caf48e8f8ab0fb4cf22a6959615990ec311"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/inkdink/tags/blocks/phasablelightblue.json"
+hash = "d77e0e2bde2167898671e143a4941802aa389acc813fd01e7933b785cbfa6b8f"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/inkdink/tags/blocks/phasablelime.json"
+hash = "96f4fc17f53abc4e542bc0d9360dd6bd86053b8b557dfca855035a4d2cdaae38"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/inkdink/tags/blocks/phasablemagenta.json"
+hash = "8bf80aec3ba9d31772dfeed21f9a2b0c8574cae79d6676964c0f3bf227f3c517"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/inkdink/tags/blocks/phasableorange.json"
+hash = "829bfc7c7ac77f466b2fc913d7b84ca14db8e1ac50ed0deadda7cbb687a59d70"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/inkdink/tags/blocks/phasablepink.json"
+hash = "6f48b3574c90989846fc37d4c09c76c76187b7c191d97b9f0c602b126d00768b"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/inkdink/tags/blocks/phasablepurple.json"
+hash = "e07a385f847a16f27cb70b89937fd78a85c635cefba155006cc596af9c4c8e96"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/inkdink/tags/blocks/phasablered.json"
+hash = "7ff35a3a0c83c606fb371cb6168dee556d2af765510c1451a54c38caa1545005"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/inkdink/tags/blocks/phasableyellow.json"
+hash = "71ee2f63121c9cfe995350fb92d41918449239af2c42c8816252435bc497b23c"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/inkdink/tags/blocks/terracotta.json"
+hash = "f7bc37163083af1ad6f592ade890bb14c1c0f9d75a035031fcf9e99306d51acf"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/inkdink/tags/blocks/wool.json"
+hash = "c5056d40180b351f0337049e7a8346fe1b28deef88d03968db258c2935706a7a"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/linkart/tags/items/linkers.json"
+hash = "0c23126edbc6ee7c02ff14cd440ea949b8603af7cc2bc0cbb46e55fe958ecad0"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/advancements/recipes/building_blocks/slabs/bread.json"
+hash = "782dc5c0995780d999ecfcdb28da923fadf6c037958608c5dfaf1082daa49906"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/advancements/recipes/building_blocks/slabs/paper.json"
+hash = "5c48d4d53c63d8be9e9d255076c62333050b5b67c5d239cca5ddfc9763a92987"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/advancements/recipes/building_blocks/slabs/shulker_box.json"
+hash = "49909a6f4405c300a58524298302e9de0f602283a8b1ac7ebf939cdbcb4c6498"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/loot_tables/entities/allay.json"
+hash = "783be9f94b45f9921a701757a369165b5fcc722678643c3d8de4633ce2e9b2a5"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/loot_tables/entities/axolotl.json"
+hash = "282cca159616d68188a6c4514a794a3b507f25ad8e27c71c6d68ecd475659120"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/loot_tables/entities/bat.json"
+hash = "35af16953c6eb43ed820a95466b5a22bbaa298dfff059051f642d24d361a3d50"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/loot_tables/entities/bee.json"
+hash = "2150299eac9676038c1d74a196b68b880fde84c5a905b02a6cbb87487968b40f"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/loot_tables/entities/blaze.json"
+hash = "f86e12004738189891027f7c3066027fd092e1e9a0f7edeed85884ede63171c4"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/loot_tables/entities/camel.json"
+hash = "8aae826ef41325b3b7dc3973c30cba702cc15525362a04bb00af655f537fdaf0"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/loot_tables/entities/cat.json"
+hash = "7ee93b831930fe4bc3542c42e7f89009035d4c405adb97fdf1713b3a8b02942d"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/loot_tables/entities/cave_spider.json"
+hash = "969b49c677f05b2bc109c9f9b81c8ef2db5efdb5b778adaa27041e30f86e15ad"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/loot_tables/entities/chicken.json"
+hash = "1f281c8b068c4c371d6f9275efa4308e4d6d31155f505e122204c8bd31c8b731"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/loot_tables/entities/cod.json"
+hash = "4f38e0c22fdf389ff393b280cab0d18c1c76dee9cdbb27cce4f9048b7f1b909a"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/loot_tables/entities/cow.json"
+hash = "d80a7575116304169bba1d4a20cf28c512b42d5b896c6c59e190a9da97330d28"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/loot_tables/entities/creeper.json"
+hash = "3b8f2e507204e98d5cbd8562e23f9f562ee621c457d5e51b7f18a4f46624744c"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/loot_tables/entities/dolphin.json"
+hash = "be4e5080dd7040fca84fbf25dfc75d66ef5101164d9466f26acbae38359bd209"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/loot_tables/entities/donkey.json"
+hash = "29a9c42b38b5413831fd6724a11227385755b3cf9b37ea8588376250030031eb"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/loot_tables/entities/drowned.json"
+hash = "2fed5ed542dc373babee7cd03a2ec20d0cdeb313af16acef75e544b9899bae9a"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/loot_tables/entities/elder_guardian.json"
+hash = "eeecf9442823d0c6bb4d6e07eebc14fa39c59abbeda65043c045cff71ec6ae50"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/loot_tables/entities/ender_dragon.json"
+hash = "a716d95125b7eadbb46d69912003b317f81b5f701d82743fec9fe1bdb74413a4"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/loot_tables/entities/enderman.json"
+hash = "9e63d178941817dbca07bcb91b0bba52d90adefdcba260ec605341793c6e4d93"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/loot_tables/entities/endermite.json"
+hash = "86e5331aa5072377c548f92b4f03d520874ac6ff04dd791c236ae826826db480"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/loot_tables/entities/evoker.json"
+hash = "bed2287fac472817c4213050b29295802b73128d2864cc8bd0697a0673d89b5c"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/loot_tables/entities/fox.json"
+hash = "52ce86bd059076aa2176c0b6764a1f1a36d7a3d6d3d90d6f4aa530546f8a1ee6"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/loot_tables/entities/frog.json"
+hash = "fe37b1aa8294490ed72c6ae40c59eb60ecbfd3f0cbecdb8dfee1c10d9a071298"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/loot_tables/entities/ghast.json"
+hash = "800675283988fd8d4bcc24721103362748c38a264c34c4da57c0f1a477872eb4"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/loot_tables/entities/glow_squid.json"
+hash = "5dd531c1a2ae82a033baf8742d1bbdc7ef52d2ca5b0b9ceb9570f79873be94a7"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/loot_tables/entities/goat.json"
+hash = "9871a6e1751c1a832960c1cd9ca1605eec63ae527c4bc7260f429342a6cd7a4c"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/loot_tables/entities/guardian.json"
+hash = "c525a515665b25f5760008a5c40c53b55e13070dc48122efb695ee3e6e3a6c0f"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/loot_tables/entities/hoglin.json"
+hash = "1a5de37ba3dc6afd49a388e0d571af716d13bd4be9ac5c26440a869911615321"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/loot_tables/entities/horse.json"
+hash = "f59ee7553e4eefc7ee4df24897e735fc984912ebf298ddb8d5e3a24f50beb4b8"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/loot_tables/entities/husk.json"
+hash = "2e729c754cc5bf42f1de843af07a89e9907fec1cbfd4508f2f9e8b3cd2a8a72d"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/loot_tables/entities/illusioner.json"
+hash = "848600f63278947b35bc4d030769bc182cbf088bbb231301de57391449c0bb59"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/loot_tables/entities/iron_golem.json"
+hash = "74e83caf8fe46a6bf03e529cc79dcb16388bd67b801d646516809c5a6666c4de"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/loot_tables/entities/llama.json"
+hash = "25c84fe5d85ecb6e571e2281fd1f7d8677d4f404613165f39200c0849dda441c"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/loot_tables/entities/magma_cube.json"
+hash = "11aee8a4306de25f2a43f62fd19b2d72e2e68b38b75a147ae3c5c5785ef1bb89"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/loot_tables/entities/mooshroom.json"
+hash = "89ac4829421e53337d46eb022733783649e637f941414fbb7b221d84720e56ca"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/loot_tables/entities/mule.json"
+hash = "efb5171c5ee7d382c7a9a51ba0c60f2529f545c0b7ed0e69e4dec6a4de6d2d81"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/loot_tables/entities/ocelot.json"
+hash = "f59876a68c3c8bdbbcb9bb5a9dcd9d058cd260a37c4fb1bc2d7262fce1aa92af"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/loot_tables/entities/panda.json"
+hash = "b9b96408252232e17a0b75c1aa6da507b624ce2e5af38392ef1626e70e352322"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/loot_tables/entities/parrot.json"
+hash = "7835672a7431f5455a5305e78f8bcb30799e4b4bff9dec1804a555b2f0707eb7"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/loot_tables/entities/phantom.json"
+hash = "fd8b375331e512364f2140f30d2d3d968046ac13e152c787916706ef80f62242"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/loot_tables/entities/pig.json"
+hash = "9c782ed1ad6ad294068bbb106c5ec994ac6aa8dd3addf0021ba960d094e16b31"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/loot_tables/entities/piglin_brute.json"
+hash = "04bdb6bceb40a34413832eebcd86314ce1cf7712da6ea12f0bded46d0eed4604"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/loot_tables/entities/pillager.json"
+hash = "1f8769ddcdcf90877229076c0eeba812f5a12ba4326b89f7d6338ddd26f58467"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/loot_tables/entities/player.json"
+hash = "b341a3be0ad8d67f68fc45f0c042d741b4d9b2a1907bc605885e91154ea09319"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/loot_tables/entities/polar_bear.json"
+hash = "0207c91d31826d4d0528428ca5af17de882b6ccf06f868c2092d132d9927580c"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/loot_tables/entities/pufferfish.json"
+hash = "d70fa448351505aea4077309b57cf27daa89661129fa5de42b0005997dee1035"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/loot_tables/entities/rabbit.json"
+hash = "f56298d1b09cfa496398b43524d668a229c1930bf6b410c1c7e5f8aae9690466"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/loot_tables/entities/ravager.json"
+hash = "9c23726bf44a9c2a7776d8e07ed6f748fdbd4a8870ca3a14d6b6df8160b65bdc"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/loot_tables/entities/reference/mmh/bat.json"
+hash = "0b11e7d30000867289bb90c36d537d91e1048a9e1d6a4f03c58c9a96e03f88e4"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/loot_tables/entities/reference/mmh/ender_dragon.json"
+hash = "bdc541ada87fc24f9570026f52405428216694c15ca2dd43e5bbc28037600a17"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/loot_tables/entities/reference/mmh/shulker.json"
+hash = "f0cc16fb08f5a5e3a9178c126c9aa60bf81f9606304e93b82c7c4c25cbcac313"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/loot_tables/entities/salmon.json"
+hash = "8a7afd185cbdafda72cc444ba6ba6e8881d5af8e087cdadf6f4759cd00dce2ec"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/loot_tables/entities/sheep/black.json"
+hash = "f51387b9686f1b9c3c045ea1e1a73cfa8218527faf57564b52389ad03294b339"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/loot_tables/entities/sheep/blue.json"
+hash = "196b3429f0170961d0c3217aad067a85507c19fb8a28ff07b00e75a0958d81e7"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/loot_tables/entities/sheep/brown.json"
+hash = "7fe6c1f6208512d56ad6006e7c57fb3207cdb05e2940e591ab6d82b4dac5e409"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/loot_tables/entities/sheep/cyan.json"
+hash = "863e23b8619033f3e1b02ead5a0cbb46cde5e7ecfa05153646815b971e0b4e2f"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/loot_tables/entities/sheep/gray.json"
+hash = "d41311aefd244c0b497ccc4200b28545358d71ef9c9f18d77c80ccc13c61a9c4"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/loot_tables/entities/sheep/green.json"
+hash = "a81c3aff15a780a971bb7b51d251045e93144ca188f0327e4a55ebe9c020ebcb"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/loot_tables/entities/sheep/jeb_sheep.json"
+hash = "38d94e51ae1c4e60bec687ce35371537bc5b58eb26cb611bf32e3237ffc541e5"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/loot_tables/entities/sheep/light_blue.json"
+hash = "b1bdc2495dd6a89964d80bd30900dde16080a0121cb973025a0e1afdd20174fe"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/loot_tables/entities/sheep/light_gray.json"
+hash = "a58c9d0c9cfb907ab31f7f8010521b9c3eb750bdfdd7708c476d60a18b055f6b"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/loot_tables/entities/sheep/lime.json"
+hash = "cef374db5763d350e532962196e6aeee22d6fd81ddeb3e9a538e8c430bc70076"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/loot_tables/entities/sheep/magenta.json"
+hash = "af8d34fe4dcf7c16f7f5b19aed3306e0ad639f14f6984b12ab4294e2695cd047"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/loot_tables/entities/sheep/orange.json"
+hash = "b9a3133f3297e11e63818b9fac02a003f98d55baeafbc7850b5d8c1a6a771045"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/loot_tables/entities/sheep/pink.json"
+hash = "c2372574c90bf7297c6fd9b85678c1ddf0fd4cb802860b9b92b5c1555615db2f"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/loot_tables/entities/sheep/purple.json"
+hash = "d6ad551bd7c88e67df97c4b86d03bd7096f8e036e753c530f5334b5dcee93e71"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/loot_tables/entities/sheep/red.json"
+hash = "51fa1258d6ec84ff4fc0be7786f4dd6676f5a8cb8ff82d3da0a0ddb7fdd2720e"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/loot_tables/entities/sheep/white.json"
+hash = "a372faf106c5e7715a73a35150167e3119312ad1173304f82e2f88770e62c9fa"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/loot_tables/entities/sheep/yellow.json"
+hash = "2b2fc9c3b67071fb84ee3972753300f9e7d7e360dcaab7fafb95e9e544fc24de"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/loot_tables/entities/shulker.json"
+hash = "edd754da9a22c07ffb54b93deabda1bbcebd4fc0f41fb908ce26917f96bf161b"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/loot_tables/entities/silverfish.json"
+hash = "46aba6c0a9debc5ab245e1b75e50b1a830a15f6d25c2390a5ba93cd7b7c3a160"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/loot_tables/entities/skeleton_horse.json"
+hash = "8efbcd7047e630db472ede39d1c29e55616e5b666d08e5979f053d86274fea66"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/loot_tables/entities/slime.json"
+hash = "c41c59c4f098902fdfe789214d873cc2d325f5c257e0034b21dfdf2cd35c7cdb"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/loot_tables/entities/sniffer.json"
+hash = "61768430039436de1ca9c9cd6ed0074d2c791d3b67ce491595b010fdee57bb8b"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/loot_tables/entities/snow_golem.json"
+hash = "3bfa6fa101865f2c875adfacb116924ff86c99ce4d10c8ff58f4275fe44f3039"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/loot_tables/entities/spider.json"
+hash = "692038fa67d8649a2fe4a1d4d0df552f05577936f3debb37d9fee663ba85d0d6"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/loot_tables/entities/squid.json"
+hash = "70a84544e01b2c8cfadaf64f74278e8ad670b22ba15bf8638c1b37ad2bab0692"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/loot_tables/entities/stray.json"
+hash = "f7558e01a0fe53ac55776feee594c1feb3f0333953812d84f3daa24238aaf505"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/loot_tables/entities/strider.json"
+hash = "c72d735ad3dc13cbf772f4a9050d9ee0502d1125657da771cee67c88eacb4d9d"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/loot_tables/entities/tadpole.json"
+hash = "84e2882fa389d0c61bfe917d49eb5925072a638c1ef16efa877155b7ad85b7c5"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/loot_tables/entities/trader_llama.json"
+hash = "de4886b7736659cb639b6856a24582f8f227994709e042d1285f79ce9562174e"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/loot_tables/entities/tropical_fish.json"
+hash = "8fe5481b4098c6bad27b6c74ea85e187951cd692134001e5d995f28e297babc4"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/loot_tables/entities/turtle.json"
+hash = "45b81f10fc82c73be60b24ddcb45356ed6249612c5e771fa2cde5ea546ee7de6"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/loot_tables/entities/vex.json"
+hash = "30372a9b254e7e35e90c6978cd4fa8f401eb0bf7f675b56ab7330e2578254cf8"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/loot_tables/entities/villager.json"
+hash = "0532d4f5a1f830b74369209de64c52ef0bc3493c38fa5d1026c0583d368bd68f"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/loot_tables/entities/vindicator.json"
+hash = "d0b0fc2af54c2cfff629afd62734931aea19d3be80d2330031bed4995952fe1a"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/loot_tables/entities/wandering_trader.json"
+hash = "46c0776039b55e726edfb619279167fe0ddb90e0e290cdf410d633fc283eb4a4"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/loot_tables/entities/warden.json"
+hash = "37c6ceb42ecd5cc1e26c6e8321b28328a66c0deceb3ee8d8dbc245bb140394ff"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/loot_tables/entities/witch.json"
+hash = "1ec9c4a92aee54f6429c13813304551e468d43467c28eea2378d1a0c5f786877"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/loot_tables/entities/wither.json"
+hash = "e226ab77d8fa444be6eac43020319d78289f5e73085a7011323c0da055b66e0a"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/loot_tables/entities/wolf.json"
+hash = "7a873ca728907892874f1491a22adacbecc07840cc111fc4b62454a44a632891"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/loot_tables/entities/zoglin.json"
+hash = "2c1a4786c130d2512e459b455bb50be762de88c9a37f8c9cddb23cd492a03d64"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/loot_tables/entities/zombie_horse.json"
+hash = "7da8da64bbd8e87f38fd6a99ec1a2277f76587861cefeef82d6f48d650eb9908"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/loot_tables/entities/zombie_villager.json"
+hash = "9aed96c681ae08ab3660c1e89a8c314054c6d54e39763a8926279d61706ac292"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/loot_tables/entities/zombified_piglin.json"
+hash = "25081bb10b09859faa7680bc52e9decb309279680a680a3d56b007af2128abdb"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/recipes/charcoal_to_dye.json"
+hash = "a4713917b64ab8860727cde8640020441495caad97f220ee821fb848dabeb4e8"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/recipes/coal_to_dye.json"
+hash = "13b93eabb62ad07c59fa7a1194cc40f7ffa79827caa7a5b59aa8a570c3b705a6"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/recipes/packed_ice.json"
+hash = "b10298c8a174275092cfa6bcbb4279c9bff2978cef9b0d3e89374d80add6f301"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/recipes/straight_to_shapeless/bread.json"
+hash = "d04e92199fdd457230074bad6b350c551b630e5c585c3db097ebc197998cb49a"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/recipes/straight_to_shapeless/paper.json"
+hash = "7755f33e42b7eeb2badeebc80efff6f274f1e28f3891960927f3dd9f878f5f3f"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/recipes/straight_to_shapeless/shulker_box.json"
+hash = "1d39742aebb044373b5db14356abf611232af85b8c5b8d26d48ea56eb3200533"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/tags/functions/load.json"
+hash = "b646a837d8516ca1a38f52b931b479890e2a82c1bcb1316766e179f2f8f9d55c"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/minecraft/tags/functions/tick.json"
+hash = "f52addd72f5bf09aaa4b9c1971301d49a02ec098b7c98800feb5161d17e308af"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/origins/origin_layers/origin.json"
+hash = "9c410665f21ab94ce1345dfbae739b968f61fa0cf2394332a4e19c0087f1958e"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/powder_to_glass/advancements/recipes/misc/black_stained_glass.json"
+hash = "b0b81e7ca8334003d80b2b8e51939064ec83a1f56a6ec70b29f47665f9f2640e"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/powder_to_glass/advancements/recipes/misc/blue_stained_glass.json"
+hash = "329abfa3f62a5e74201a1fc4bb255cfc1e273c0d67c0ef94a2112cba97aeb47f"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/powder_to_glass/advancements/recipes/misc/brown_stained_glass.json"
+hash = "35b5371d09c08687c53d12d0aadc08f5537225f0f43196ecfe746f75cda95703"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/powder_to_glass/advancements/recipes/misc/cyan_stained_glass.json"
+hash = "30eb2e6505892ae04fab35dddbfa245d8e721b759ddb09c26510a0785fd5634a"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/powder_to_glass/advancements/recipes/misc/gray_stained_glass.json"
+hash = "18714213eb9dbbf74ee99948bc15eb1640a1fd60e91b311f38d0de4d4b54ef80"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/powder_to_glass/advancements/recipes/misc/green_stained_glass.json"
+hash = "4855b96e3502ab3236135387387d4df16dc7b2766dd6dffb4aba8936e4890a26"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/powder_to_glass/advancements/recipes/misc/light_blue_stained_glass.json"
+hash = "e9b33d1ac5ccadcd0fcd4216f57c8bace55bf03317f0c05f209b2b65f70601ee"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/powder_to_glass/advancements/recipes/misc/light_gray_stained_glass.json"
+hash = "6ef5750e865b918eae5a9e9520230068ef3e62ff4b6504600b081534b57f1f3a"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/powder_to_glass/advancements/recipes/misc/lime_stained_glass.json"
+hash = "92d45c7bff250e481134ca440d47af33be70e40ed2e440b3c6953c6152c045c3"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/powder_to_glass/advancements/recipes/misc/magenta_stained_glass.json"
+hash = "f517769f2470dcb6eb469d828a98c88bba8702d218274f7c085cd8442f870fe2"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/powder_to_glass/advancements/recipes/misc/orange_stained_glass.json"
+hash = "1f9428e8615666cfe21e4e93af0efb1387885393dd900bf32e06dd4045826a87"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/powder_to_glass/advancements/recipes/misc/pink_stained_glass.json"
+hash = "4557bad953547609894e85dd21875075f44cc6bec804367c3818222dee7d59e8"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/powder_to_glass/advancements/recipes/misc/purple_stained_glass.json"
+hash = "f9b15628d6f4c9cbbb45714b0250e27a4725d15a016ff6bf003bc33c076fb552"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/powder_to_glass/advancements/recipes/misc/red_stained_glass.json"
+hash = "5bc9d057c4a66eeeb24e84847597b3e4993e68ed4621b6cc013f3e5b49109f09"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/powder_to_glass/advancements/recipes/misc/white_stained_glass.json"
+hash = "49560f5a904e36c5873ea10e2575725d5ecb277a6cc1af277516cf0b6be13e90"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/powder_to_glass/advancements/recipes/misc/yellow_stained_glass.json"
+hash = "caa287c4c9de2c627347a66f2fc554f3386633980ba18a7c89aee0d7afd9f719"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/powder_to_glass/recipes/black_stained_glass.json"
+hash = "16b568bc0375e125a0ce81f735a3ea568ca3fdaa8a37498f4a0e2c1c7be21932"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/powder_to_glass/recipes/blue_stained_glass.json"
+hash = "71ee4c8fc2b9e5447412669b1cd2ec560b71f284bcc87f2c9f24542910082152"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/powder_to_glass/recipes/brown_stained_glass.json"
+hash = "a1d9e8c6644f193c192f01110c8dff41a567a656a9a7b6274a724e1555c4bfee"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/powder_to_glass/recipes/cyan_stained_glass.json"
+hash = "b81abec9c801efa2490d7be5e267ffed8db0085db536db400bec8748542a3e9b"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/powder_to_glass/recipes/gray_stained_glass.json"
+hash = "7346be84917a47f89e7a06ec23809b1b5a5aeb24fb4f3c1d96576cf94bbaa569"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/powder_to_glass/recipes/green_stained_glass.json"
+hash = "5547c1a94676d6ea488a203a2a3cee209172281a33e81eeb4157af66893d9153"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/powder_to_glass/recipes/light_blue_stained_glass.json"
+hash = "d069508dd98a8f55a635baba2f5ebccf9a7e0588d3f70756d4f8b09300959c4e"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/powder_to_glass/recipes/light_gray_stained_glass.json"
+hash = "5c44c94061df2ffae6584a06b3c1660f1c7dc94b548bb10667cb2a723ce320c9"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/powder_to_glass/recipes/lime_stained_glass.json"
+hash = "9097f14443987bce8b896e21d2899fd382b11743bf2b5bf473d9bba44afd2216"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/powder_to_glass/recipes/magenta_stained_glass.json"
+hash = "82beaa743390985211728c13629171bea39af9e214647741fc3cc55076bc5dcb"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/powder_to_glass/recipes/orange_stained_glass.json"
+hash = "a10ee64447c0dbc80043ea6cab9e41562565b040f859e19e2765b9cc279d4519"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/powder_to_glass/recipes/pink_stained_glass.json"
+hash = "4a6c49497c20e12e7a875c2cacbbc9367425eeef3af2f3cc8e3eb4913582d8e6"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/powder_to_glass/recipes/purple_stained_glass.json"
+hash = "2f59dd23cc9a3ec20e571912cd0991c7e6e0a709c4a120f7604b403b4d32bb9e"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/powder_to_glass/recipes/red_stained_glass.json"
+hash = "336ce68c3dcd088b5afde27eb87fb5075b72879f55b5ed97ffd0f40bc93de028"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/powder_to_glass/recipes/white_stained_glass.json"
+hash = "e7a7e76aef69c371d3e4974b0f50c05bbf57d249072b032fb76d5d71f21e4171"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/powder_to_glass/recipes/yellow_stained_glass.json"
+hash = "019150d6c4d8f6157ae8033a5196af9d7258d8999e03632bd5c4cc8b86098bc8"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/redye_concrete/advancements/recipes/building_blocks/redye_concrete/concrete.json"
+hash = "4046de8eea5bc46408b12f9755ef6da116443ce559c2315872010960ecbdf9b8"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/redye_concrete/recipes/black_concrete.json"
+hash = "2b8232282e9744ef7cc52e33c3510cd00e85e12a0bc189e6679aa72640e2151a"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/redye_concrete/recipes/blue_concrete.json"
+hash = "2633eb0d527c8b4d0a2b3b64755f5e8e7ca5af1b3256a119947d6f74d0a9b41b"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/redye_concrete/recipes/brown_concrete.json"
+hash = "1fd951723a769832cc52dc04625b641a5b03040f624c9fbafeb5e93f3c70a3f0"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/redye_concrete/recipes/cyan_concrete.json"
+hash = "503caf8ef99898dc46956f3449e3c9a2cda5c848381eee8a740118c073245346"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/redye_concrete/recipes/gray_concrete.json"
+hash = "7600fc0c40dcfe5bbd2a20a5e555ecca46918d6171e87fa155ac055ea22fcc5d"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/redye_concrete/recipes/green_concrete.json"
+hash = "f7d918d6e3820cd809f1e644b15a00667ed912019545a3bf385c9873a36782b4"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/redye_concrete/recipes/light_blue_concrete.json"
+hash = "6d9d6e9c6993f37f1548954da1bd6067fb108a27110a0747f8f1b9367198fdf6"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/redye_concrete/recipes/light_gray_concrete.json"
+hash = "31beecca745bfb7ec9b3a6386cf04eee0f0bb22a107661c6e288097d3c7538d9"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/redye_concrete/recipes/lime_concrete.json"
+hash = "5c7469a9a21bd3f5f94400ad38fdffa92f0ff48a70bda1311829b868a938b388"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/redye_concrete/recipes/magenta_concrete.json"
+hash = "bbc7103dc877f9760ff5549e41f32c6d620c07d99fe90e98218efb56a871b908"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/redye_concrete/recipes/orange_concrete.json"
+hash = "a659f88a0aa844f5f606a56d82c10ba3683e7d458f26ed78787d124233f8b2a6"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/redye_concrete/recipes/pink_concrete.json"
+hash = "0df4eaa5ed6f31c3f6511bdbe047be2962f4509e9ce5168b7aaf7c3dbdfb396d"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/redye_concrete/recipes/purple_concrete.json"
+hash = "fbff2fef0385a0b4928ca31421cecc6e40aa6cfaddc9c83c489f76d8e2372169"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/redye_concrete/recipes/red_concrete.json"
+hash = "3a8fe3173adb41f3643e6200a4e815b1d6c71a2b7808be649c4fa95bdc8afb4b"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/redye_concrete/recipes/white_concrete.json"
+hash = "fd95cb0a903f5837ee079e9a42a86fdfecb1844a90833d76dfb8590df362b23f"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/redye_concrete/recipes/yellow_concrete.json"
+hash = "e9b9c6aa514ad90d63ce1088fde36ebb99789207712a9b464c8916cbacfc88b4"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/redye_concrete/tags/items/concrete.json"
+hash = "f3b3ffb7159f17da2601dff3d4b50bf27db46fbdc60c86255cd6b48b1bef6c4d"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/sandstone_dyeing/advancements/recipes/building_blocks/red_sand.json"
+hash = "d28e2c01013aafca80da351f9101968da9abbbba87dc40b68ad83c7633b71803"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/sandstone_dyeing/advancements/recipes/building_blocks/red_sandstone.json"
+hash = "677a2df5c26e4d7a10891240417a2b9cff08dcf9ee066950f3cab4904f997eca"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/sandstone_dyeing/advancements/recipes/building_blocks/smooth_red_sandstone.json"
+hash = "7d39ba21b8672fa1f9ee7ec8be8d2783a96018f47b63a0f6c868123dafca6552"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/sandstone_dyeing/recipes/red_sand.json"
+hash = "96f1533686a14de11b4dc815fc5be28b6cfd598fe527d9668066e945f48c6c52"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/sandstone_dyeing/recipes/red_sandstone.json"
+hash = "3fb0b49aea04627ee7bb399d8c6a2d6cc3faddd1f23c5f94c12859cacd415c71"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/sandstone_dyeing/recipes/smooth_red_sandstone.json"
+hash = "79b7a09d2ac4f920d0bf634e8817b40e1104624921b98e71a249c4480a12761e"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/spawn/functions/check_x.mcfunction"
+hash = "84d22b032988cc31fa96f647fd2150d1812af3c121f5b2df52aa9f86ffca706e"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/spawn/functions/check_z.mcfunction"
+hash = "da4977398caf6b7c74fccc71f25434c5ab7ea9f7c6e23e6b41587130b173de55"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/spawn/functions/config.mcfunction"
+hash = "5582e7a6990c4a631de1105cc53f055d55d7bca84f14f4a2ca5f433e0714868a"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/spawn/functions/decrement_cooldown.mcfunction"
+hash = "f52835bf2660890ea1de73fd7b1d5434fa5e3d409a9efe69d7c3281b8190ece6"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/spawn/functions/decrement_cooldowns.mcfunction"
+hash = "fcc2ed8a84b8738f1b5a5dc8a0a01c25883e264ca9093dadc2045b120bc28a21"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/spawn/functions/go_to_spawn.mcfunction"
+hash = "79108141162f17c90b885a1c5016abf0b5e04b83857c15898327db1762928a48"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/spawn/functions/hide_command_feedback.mcfunction"
+hash = "16dc4ffb650a0a846bb48b7a7d1b74c3283b35b132477c3d155e048210ca46a1"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/spawn/functions/load.mcfunction"
+hash = "845c1f30c3ba473dd399a3b74ad3177c96d1f6be749844b687facefddcd72be6"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/spawn/functions/offset_down.mcfunction"
+hash = "c29d46c763cb3fbab1327d5b6918c163a86b3403aeb46f1585d11358187c8383"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/spawn/functions/offset_up.mcfunction"
+hash = "0d82e87f01f05570ba650a24337b5e998db4ca63cb69c6a45e36b1f502092c65"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/spawn/functions/restore_command_feedback.mcfunction"
+hash = "900a876633ee1bc19621dac1d8b5532eb0d19e4c23633920e12bf9c821e4928f"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/spawn/functions/start_to_go_to_spawn.mcfunction"
+hash = "d453c1a16eda2c1a0a84e5385148ec6f232ca74c8df25eb1b64b21037e32e73a"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/spawn/functions/tick.mcfunction"
+hash = "a432a0956de63c4c35677b6453804cffa7f38ed8818194101f6eae85a87018b9"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/spawn/functions/trigger_spawn.mcfunction"
+hash = "f4732cbf885dd8aa59125d7d012deb7ace6ae5e24b27652f21acbd4b3660568c"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/spawn/functions/try_to_go_to_spawn.mcfunction"
+hash = "c3f4cb2f0b5d846d627aa24e236017135a5bbdebbf3da388f8c0c07ba2a4d068"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/spawn/functions/try_to_try_to_go_to_spawn.mcfunction"
+hash = "5db64f752bc77a5309e197dec4b1a69df2eac04c4c1f95682ec3d74536d48fd8"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/spawn/functions/uninstall.mcfunction"
+hash = "16893b1c5e5ce12816391ab86dc7768fc014006e34fa3cfa7524ecbb6a4bae92"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/spawn/predicates/loaded.json"
+hash = "5cc6f9e213ee146b0f1e8dee16073f9ee866951ba619d2fcf9d7a9f9f6ea0856"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/spawn/tags/blocks/valid_spawn_location.json"
+hash = "0987d7b903f479bea2ad683afc23e77a682d8e4edca26807ac7bb20f6eb5ff07"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/spectrum/recipes/potion_workshop_brewing/absorption.json"
+hash = "b7c89d881a7d0ac7375b7e51207026a90132781f04ef4f724b65545e871ce59f"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/supplementaries/tags/items/chains.json"
+hash = "0c23126edbc6ee7c02ff14cd440ea949b8603af7cc2bc0cbb46e55fe958ecad0"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/trinkets/slots/chest/necklace.json"
+hash = "819b10f1354dfac03a4a6987e3a46c5d7396f89697944566d41fb338dd6dc575"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/trinkets/slots/feet/shoes.json"
+hash = "dff545f46fedbdbd1ef49e40a3a587e4e0b1db85b92c2ecde77c4dc86e2fea71"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/trinkets/slots/hand/ring.json"
+hash = "dff545f46fedbdbd1ef49e40a3a587e4e0b1db85b92c2ecde77c4dc86e2fea71"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/trinkets/slots/head/crown.json"
+hash = "dff545f46fedbdbd1ef49e40a3a587e4e0b1db85b92c2ecde77c4dc86e2fea71"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/trinkets/slots/head/hat.json"
+hash = "98e2c89e3ac182b17c4b6e0758234d2f2375a7bd2affefa7cdcfc85dcdb97afe"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/trinkets/slots/legs/belt.json"
+hash = "dff545f46fedbdbd1ef49e40a3a587e4e0b1db85b92c2ecde77c4dc86e2fea71"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/trinkets/slots/offhand/ring.json"
+hash = "dff545f46fedbdbd1ef49e40a3a587e4e0b1db85b92c2ecde77c4dc86e2fea71"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/uncraftable_ice/advancements/recipes/building_blocks/ice.json"
+hash = "739f7118766fa4813fbf7e5e69ac1bd6f8a7a2a38c8636036d75e5d04227a074"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/uncraftable_ice/advancements/recipes/building_blocks/packed_ice.json"
+hash = "f47666a30fbbb17a5093e40303b36d2bf8ff7159adc4e3f8b5ecc8d16888699b"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/uncraftable_ice/recipes/ice.json"
+hash = "168f14a0f33d0f86c10bbbab77ab6b5c4b1fa91e8d50c5e058c2a1f38308447d"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/uncraftable_ice/recipes/packed_ice.json"
+hash = "c1b8828a1f4d03aed2cbafa15c919722424d0cc9837430e489adef9a84419fe1"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/uncraftable_nether_wart_block/advancements/recipes/building_blocks/nether_wart.json"
+hash = "928972e978f39ef296e213668ac5006ac9bd1186a3771c757d36e2903f9e7293"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/uncraftable_nether_wart_block/recipes/nether_wart.json"
+hash = "aa4f32b4f64ad9124eeb9ae73c6abaa0d316e715af48e9da52c4107c7f5dcc9e"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/advancements/recipes/building_blocks/universal_dyeing/candle.json"
+hash = "2e16f6a2a0dfb918671c48e9d7e0da3ccad787a918917405a6a5e17102e0c5a6"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/advancements/recipes/building_blocks/universal_dyeing/concrete_powder.json"
+hash = "46cdd097cc85fe3787fa772e5593d5ca62e97e264b32b90d66e247a390f84ccc"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/advancements/recipes/building_blocks/universal_dyeing/glazed_terracotta.json"
+hash = "de4c74747feff4511c8abf5e1df6625441f79dfae7d3c1584101c3df84854ffa"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/advancements/recipes/building_blocks/universal_dyeing/stained_glass.json"
+hash = "58831d59dd17dde6b8c68af3bea19d470b4fdf5f82d47228885e7e0b673ae26d"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/advancements/recipes/building_blocks/universal_dyeing/stained_glass_pane.json"
+hash = "8b2d4e42dce327bf8ddb80c11782337869a02a0a774edbd54697c52d6f4c113d"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/advancements/recipes/building_blocks/universal_dyeing/terracotta.json"
+hash = "5b211d9d24d3f1e3a3e4a52cd458d1fd42b2a8c9e3c8a6aead9f99f49ceb1028"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/black_candle.json"
+hash = "d38574cacf4d9467bf064845916a4108faf0db8f127e5b35de1759a498785931"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/black_concrete_powder.json"
+hash = "ffec2f1062d12553e9948bde872f11c8226e0439c3ea56cdaa8be64cc12bc94e"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/black_glazed_terracotta.json"
+hash = "56068e75bcd0e73b0ccc026f084ef98dfd4a8ac42fd34e69d181cf91acdd3723"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/black_stained_glass.json"
+hash = "ef02c0e149639596fedb46263148ae04b00241321e0e8c5f43eb9b338f584dfa"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/black_stained_glass_pane.json"
+hash = "95de384cb451fecfd9c5766735c9d96b0568da122ab0f4d2f91b75d8607371b5"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/black_terracotta.json"
+hash = "495c9f9af9c2532ed83da8b02e35e909a58e2d9276d17b0136489f1c9676ef4c"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/blue_candle.json"
+hash = "5ddf41fab54310d67139b977e69fb68e5a0202e98fd4cc598ef5dea5b6ef29b4"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/blue_concrete_powder.json"
+hash = "9031fea077945d14c7e20319f53d1dc1a673fd241660339ba221f01b4895156e"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/blue_glazed_terracotta.json"
+hash = "2c7a5f9452954c17c4b7d0d4300d27efd19d8b20ddc061b959f64dad1516c813"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/blue_stained_glass.json"
+hash = "1679a0ae60879774fd39546f77503d3e5e46f7f4f00c38b126bca6ec3f600b05"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/blue_stained_glass_pane.json"
+hash = "d9ec0e26b86038ecfc75ff14ef835f1343fec7e90441c2e55d38cb1e4b8aa710"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/blue_terracotta.json"
+hash = "3e05ba26b0fcbdb7184cdba23c90ea43d8e9f9835b07b8a74c8b348c5205ade4"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/brown_candle.json"
+hash = "d325859ec11db8c99066dbca7b34e7a4e4e1ab31b169f94c5d083b8e7ed0a945"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/brown_concrete_powder.json"
+hash = "0b4890f1d9e89ba3e402529d68401b5bb842f36178d9ab4f399a1e621dfdd749"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/brown_glazed_terracotta.json"
+hash = "5f1a557dede5162bd270eeecaf339ff90026fb4dc8546ebaf022c13b472d2265"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/brown_stained_glass.json"
+hash = "e34fee7de594e17edc7ce12c8197806434f96d6bf6bee96e5a9c2ebd1c015515"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/brown_stained_glass_pane.json"
+hash = "5b2de905e82972649ad9caa00c8d7a614e546225fc3565d9b25f99e41ee4347a"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/brown_terracotta.json"
+hash = "8f36f902af23c2adfc839e81370795860d4bcb5cc0ada236ead52da1250811c1"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/candle.json"
+hash = "9c54f7e54950a221976a45e21e0b5dc3ecb6d0192c3f1c84da0201f4c414cef6"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/cyan_candle.json"
+hash = "102b7be9bb0c81ec160ec317eac5dae010fc4b2c74a7627a6c5d2fe7569bd563"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/cyan_concrete_powder.json"
+hash = "ec8507b0cad660fbe599a8656e93d3195bc4ab74e86b5328f02ab14108edaad8"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/cyan_glazed_terracotta.json"
+hash = "93fe8549f388048add08aa450cb85d3514377ae5edc9e6e6cbacbddd19158a54"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/cyan_stained_glass.json"
+hash = "a14409d6c9927ebcace6d16d019399f02c7d7c4404be7b58c97e283eddbe1c74"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/cyan_stained_glass_pane.json"
+hash = "4296625ad758252633bf0fee592287a297f305c702d381b4672b5184f347bbd1"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/cyan_terracotta.json"
+hash = "770b0a8d888080f3dd41eeb3a5c7dc68f4a8527dc0d6d2966e3d4ab4e119e14d"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/glass.json"
+hash = "53fcf45d6aa8125c10f2fc02ecb86df349a0fbf5de832c5bb423fd8728838927"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/glass_pane.json"
+hash = "697f263b73bbd65563b6887b97e122fc595f4ae54504944441c9cec12ab3934a"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/gray_candle.json"
+hash = "8f0c1e52e3219414f4100ab361aebe64668f0024b1365a6472468d1e0d99fca2"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/gray_concrete_powder.json"
+hash = "a1aab13f9079d67edbcb6d64476c4714d671b83d8ecbee71cc47146a0aee9851"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/gray_glazed_terracotta.json"
+hash = "d5be90d2597ca26d2a60c3e7c5a66cd264db2ba35f5a8739c45492630efcf5b3"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/gray_stained_glass.json"
+hash = "9c6ac64e3488c93ad9c640bb723da00f17ef7981760ab221c27ad2d9218be4b5"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/gray_stained_glass_pane.json"
+hash = "22889f81fc55a3254032e569a14cc283553efa14c164bdd891e07beb78c24b79"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/gray_terracotta.json"
+hash = "16d2b398c3aadc93d7708d3f5d8fc127ebc4fa0c3f7e48deedb74c775e830199"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/green_candle.json"
+hash = "8b8ef60b0359967ae3cd46b86cb92385249973895f4364865e2632dfc3d4c2a7"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/green_concrete_powder.json"
+hash = "19a22e0f485f5bfcf97e89752063a7f4673b3a56bbc6760ae513de4854b03d21"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/green_glazed_terracotta.json"
+hash = "e19a19d0013bd8baf914d39efc579cc0e36fd28539aee7aaef1e223255e1d74f"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/green_stained_glass.json"
+hash = "d6c20381a485beb3c3a4a519e0ce4e1c6217edfb1c22150521a440fd285b865a"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/green_stained_glass_pane.json"
+hash = "44d1739afcee7a7fdf5d3d08e1e553c8745d79279ec1073279f971d9b5c2abe2"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/green_terracotta.json"
+hash = "0090c7891a656ea977c350fb4bf2ef0f2a767fd7dec16ed667c979f5f02fe94e"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/light_blue_candle.json"
+hash = "ddf727f3bae2a4d56483a6c5e66618153132578d2ddb82cd1fabd38cd13adb27"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/light_blue_concrete_powder.json"
+hash = "4796b227f17f35e85709d335ced84162a3110884ea871c85e8c44c1390fa0a89"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/light_blue_glazed_terracotta.json"
+hash = "504a033f648ff06a0911f0e376cc4d426e42554f972d4ef68eb50e7e9f3d7da6"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/light_blue_stained_glass.json"
+hash = "d67e930fd52f3740f4cb7fc18966496e9e6fcea0bc3d80adb35adb9fa6559e7c"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/light_blue_stained_glass_pane.json"
+hash = "53a022823cbdd5b5e94c52bc9aed44c7121296a17be6d671212bf82f2f84ecaa"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/light_blue_terracotta.json"
+hash = "df99307818f097308c066461b1e912b9cfee69852779643bef68f407875b97af"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/light_gray_candle.json"
+hash = "9c86215a971c8e0cd48d8883a80b132cdda15cf2a8cef551e001c17fcf748d0c"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/light_gray_concrete_powder.json"
+hash = "d11a2ee8e412a3be10212dc7259fb532f7a5d6c0e1a9f8fbb808715d33702102"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/light_gray_glazed_terracotta.json"
+hash = "df4b590f568a34f7247ecc783c2239baa943da32d111f29ceff27ce8bb1d727a"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/light_gray_stained_glass.json"
+hash = "b2922a897bdd226f1560970bdb5d11ff927420d7e88c96fefa4d1672de0cd844"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/light_gray_stained_glass_pane.json"
+hash = "77169698c642dd5b6a19d8e0f1019aae59a1817e9513f8ae4efcd44f9b983f70"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/light_gray_terracotta.json"
+hash = "37c0f88f83b362dc1e28f8306de8616599be74d8742be7327723893ffc5028e7"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/lime_candle.json"
+hash = "667407fdd4e02dabe92b49711ec910c04afe78a9693c3d044859b9fc2bc6a375"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/lime_concrete_powder.json"
+hash = "945228cc3f86e4a46ba971f56d1daf1e2fe98f45b5baf00ce1cecb4ac614f679"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/lime_glazed_terracotta.json"
+hash = "5593525de71f3b454383c89be84d619f8a93ad4091cc7faa96bba5b0098e6ebe"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/lime_stained_glass.json"
+hash = "0d0d4afd5f1af813c16e6254f0e96a97dd93c9ddf614d9816fe45489334c658e"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/lime_stained_glass_pane.json"
+hash = "d3c992a08be6e2292f12b288e2a1252cd243cd543772d9da6597cf5ac38709d5"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/lime_terracotta.json"
+hash = "e3dd14cc0c2f1271a31aa32612e99bf3f33c43160a1e23c13ca9a8d3a7fca5fd"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/magenta_candle.json"
+hash = "8c462539db536bbb3d99a299923a5c423832f58f1a6178e21dd96e1a507b5ee9"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/magenta_concrete_powder.json"
+hash = "4c364b6089c7093372816a98c8106518ce9e9e48df7ed7d213ba7a2d9e329334"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/magenta_glazed_terracotta.json"
+hash = "069f93c2ab1d853d71d98946aca162dbe9ade00d876456a2b2a3ed19358875f4"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/magenta_stained_glass.json"
+hash = "00b136daef30942de194cb66c3f5162d5da1f16a2b1bcba2dc5629ccb7277a37"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/magenta_stained_glass_pane.json"
+hash = "6f4774f24be888a92e3ba7203728729df1f48142437325adbfb99698622d185c"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/magenta_terracotta.json"
+hash = "42b628322ef747eef8ea3da26bf2ba1e5d693983e1d3f7ab7497f1fc0df413fc"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/orange_candle.json"
+hash = "2087e394c5a0b6e0054976f4291f7df9ba0a59ad81daf829a9198b60361d8887"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/orange_concrete_powder.json"
+hash = "23f5e028ff0b1f0dce7d91e13a1df65553d3a0654ada205109bffbfb8f5b42ed"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/orange_glazed_terracotta.json"
+hash = "26e3c7fd53738f2c9eee7b2f652716b6bbe34e4e43c5ed5905e96ba670dcda23"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/orange_stained_glass.json"
+hash = "d61ead40f402f4364b72db7fbddac3b185dbfd8402c28b37b73c2f6d60e2dadc"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/orange_stained_glass_pane.json"
+hash = "ef48a77620906eea7c84511573cc4e904b87a3d31775667153aa4f9201caa0fb"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/orange_terracotta.json"
+hash = "5edfeead8deb33a596962986feb5eacd8297100f954140c5bfda8edfb1d02ee4"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/pink_candle.json"
+hash = "53b30ec0424556320c6e5c1593b6cb4b058400586f5745ffe267735eeacf56f9"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/pink_concrete_powder.json"
+hash = "b9ddf84fc4f7110eb98af15aee3c7345dec3a6fe6c5a8fffbccaabbf82c91e0f"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/pink_glazed_terracotta.json"
+hash = "b11c7cc88b6878b3816f4d85b72a39b159a5dbbbcbb9fb35a4e1f2a6245bc526"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/pink_stained_glass.json"
+hash = "bd31489b538a9ef96d1a09f2e4dfe683697809f6c92c95b693358e364abeed59"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/pink_stained_glass_pane.json"
+hash = "49799f60165f5d043b06cb73d7c79c9100bf93b66c25d1c54a221aeb1538a16f"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/pink_terracotta.json"
+hash = "871323137a4b98e479ed018d7ca6fcfa4b50443105adc5ce01d75b8f9c7f34a9"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/purple_candle.json"
+hash = "5be2531fc3657499c96378d74a3d0413f2f8bca6fbe1e08c3f01f434b7195168"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/purple_concrete_powder.json"
+hash = "850a84b71b07a495702e87e78a26cb86b19cf2a6798c0db136a0bd4f952d49d7"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/purple_glazed_terracotta.json"
+hash = "0e1422152048bc8bbcd472a2dd6de4883b5004fed46c7655df0b0c00b8628bcc"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/purple_stained_glass.json"
+hash = "e016fb749eb5f37aba9673120023d12824e28fdb7eca43c17e5b27b392e45cd5"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/purple_stained_glass_pane.json"
+hash = "5bb7d9f6b8e5dbff4ecfb19556df040c004976fe15757f09b83eea92d1550620"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/purple_terracotta.json"
+hash = "164deaa5398a5576bb7bd7bb4e5bbecf445829789dafe989b1c6efef40ef5b9a"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/red_candle.json"
+hash = "9a13a9d169a39a1f106d3a92c61d0c4b55ca6709927e287b6198e1e06c8408f8"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/red_concrete_powder.json"
+hash = "708c429a4769c68305831f2ff2202f9c3d902ca78d157a5302a0e3a73ead9f69"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/red_glazed_terracotta.json"
+hash = "1f4d45a09c2d7dd0ff02cf1ae9d19bbac0fb499b1ad3b7699698aa7f8b9ed52f"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/red_stained_glass.json"
+hash = "c74e97a4eb331415ac609b36bd47ae7cba6cd68b5aed207dc095168e06696a97"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/red_stained_glass_pane.json"
+hash = "9bd52e2e3f565a787dbd018a287d47e61e5ae03c2102b6491ce5dedfca7514b3"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/red_terracotta.json"
+hash = "50d4a271a2e2633cb1a06f6718b6dc1400cecc6a195ea33f36b4eec79319d536"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/terracotta.json"
+hash = "a2a04eef16b2424e77f20212f839ed875d59c5502f4cad74ef0c3b25493fa3a1"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/white_candle.json"
+hash = "04540fd6a0b2fe51d48398ede2d6382b9c870cf84f93a12d5c50dcd474fe60ad"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/white_concrete_powder.json"
+hash = "5844091620669c6c5c451f62cb774c5fdd29a4efb4a02d8e8de61279141f2f5b"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/white_glazed_terracotta.json"
+hash = "a7345da3f3a1d801bc889b7d9d2fd48005d7410f8d166d5d223712236a458dbb"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/white_stained_glass.json"
+hash = "ff9ffb554e6b3332ef1170ce20517cd719b71a21d3c4947037614c95e2d2939d"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/white_stained_glass_pane.json"
+hash = "5c24a5df92b8369b0e3bc291c5625f31bb2389289a5f1f100dbcf7041e334bd4"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/white_terracotta.json"
+hash = "ba61a60ade0d58039c9eab37412312ab07b3c698db8155bd60918435c93a0644"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/yellow_candle.json"
+hash = "7de1fc034f062104c1ac61a37f82f9754c1bf18b0dd984d26f31b9f893c169a7"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/yellow_concrete_powder.json"
+hash = "4a88b86c731d0c64ba819f4305f302754a00f67c00dfe2d7e5b60e7346cf9358"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/yellow_glazed_terracotta.json"
+hash = "2eabe6287f05c62dacef793e38615c8d6ad523f5a7fa949c72e51eb89869f1dc"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/yellow_stained_glass.json"
+hash = "da9e77c12dfe2e331715e56fa1b4c414284ea28e41b0c1280d758cdc35cb7d36"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/yellow_stained_glass_pane.json"
+hash = "a6afa084fb19b0adf9ac0094ac66f6ee34eea1802dc032d6c44c1ea318798b8d"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/recipes/yellow_terracotta.json"
+hash = "1b6d71626d481629dce579b906c426aa435cae7d4ed197939804b41c812499d3"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/tags/items/bed.json"
+hash = "28793a8ea070df989f7a7e7ca16225b9083a3604c595054dd7179fdd3c19ad7d"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/tags/items/candle.json"
+hash = "a2c59880746ab65a1dacbd45088e1f7d8f23530b8c72d9b4a7e7b7cd1a82bcc4"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/tags/items/concrete_powder.json"
+hash = "6e69194f4688e658267ad157e9de0289a5a88c59f2416e625b94daeda46142c5"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/tags/items/dyes.json"
+hash = "46f8a11ea28b8bb67d043f63b8528febb45be55f10a11f893596b07a7d960b95"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/tags/items/dyes/black_dye.json"
+hash = "02d5a21097ba5ea906785dd0f27cfce13a7d7e5e5293820b92fc1f82f815ffa7"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/tags/items/dyes/blue_dye.json"
+hash = "1959b8b31fbed61856df4703f7c0bd4663a41289a6371a9b750922b76d64c55e"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/tags/items/dyes/brown_dye.json"
+hash = "8d69bad118aa731be3ebef6f23afbc4e5ea8615c5f9552adf4606ce3bdfe23d7"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/tags/items/dyes/white_dye.json"
+hash = "f5a33a047cd9068dd327b905289f59e72fa7e3a857b8f512df337cd8891f6dca"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/tags/items/glazed_terracotta.json"
+hash = "0e2277ee68e9a8e8d46ac87b90f805675328198c3f7830beeb28c768410b7477"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/tags/items/stained_glass.json"
+hash = "3ab00bc168c4f9048706d70900dfbf7c0f398a5aa793faf940644c344eab9661"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/tags/items/stained_glass_pane.json"
+hash = "84838d3a1d0757e8e6bdd0eebb285cccff1ffab7138af24e7c3396a892ea49a5"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/universal_dyeing/tags/items/terracotta.json"
+hash = "8a33231d202390b7adbdf6292b7f1ab21684aaac6ceb14d9e80c9253b7f69a4c"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/unlock_all_recipes/functions/uninstall.mcfunction"
+hash = "f39ca2fe7ae8984ae9e097a173ff55ec4ae6cf9f1c3551a0da78e4d09b9c8c34"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/unlock_all_recipes/functions/unlock_recipes.mcfunction"
+hash = "1157022986c3293174aad9b041e6e444f71b72bae619c6cbcd3d723180db4df1"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/unlock_all_recipes/tags/functions/after.json"
+hash = "e88f3962af6a1d51102151e8e7047ab8fd146aabae28a8915ffa461d87b0661f"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/unlock_all_recipes/tags/functions/before.json"
+hash = "e88f3962af6a1d51102151e8e7047ab8fd146aabae28a8915ffa461d87b0661f"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/allay.json"
+hash = "7b9094a5a6219f59024e36c508633acaecb0302bd5032d2ad76e063b6fe16b60"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/armor_stand.json"
+hash = "363a5bf435bfa38724cb501b177c7288c62835c992ff41f339209e17f37aa2f0"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/axolotl.json"
+hash = "c757b40548024c66e698e33322c2e5a4d55da4794e1abe5269d575bf3e27781c"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/bat.json"
+hash = "c92757b61e609af1ac4d570750fdd1360535d14e68166bd015009a1c99942420"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/bee.json"
+hash = "e5ef9cc8b74cbdb81eb143c28049beb113b24d284885e29d1b2299bba00dd0d0"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/blaze.json"
+hash = "f7ea2475766f4c02e6e851790e41dd463ea4910afcde106bcd40fa2d01efa2ee"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/camel.json"
+hash = "a445c3f8456eb17b36a3fd52874e1da378dc351435ba6eb60cb23dfe74490867"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/cat.json"
+hash = "fd23fc36702ca634dab18deed4357e9773b5e05237e947272a4298fdd1437127"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/cave_spider.json"
+hash = "2cd057dace2fe0e4dc2a4e470b2db8c6246feb65c31ce4fb904653bc9ff932e8"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/chicken.json"
+hash = "996aa46d95213b806993f0244164f2dc013aad7f461848b1b33f5e2c16616f77"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/cod.json"
+hash = "87721e9cf77f81168bce4a7fda0670f8912add6ca55db93f03380ccef8bd0842"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/cow.json"
+hash = "820fa3937ccfcf27c703b4aab133929a9a21fc99c6475e83f97e3dcfea9f11bd"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/creeper.json"
+hash = "f850e4d3c3125440e42e37709261f44f8206194d7d848035f6f8c855191b06bb"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/dolphin.json"
+hash = "26fc89a3a87a8cc7d23b04c0d217820f8c08a815ed90380751a4297434ffc0c7"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/donkey.json"
+hash = "e2c92ef365552528394e3cd4aded6bfe2b7fa8d4054797b87948d0606cc55381"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/drowned.json"
+hash = "4b7409224a205de1e22d7f4f4961601568f1739c427ad7b169d65bcbcf05b421"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/elder_guardian.json"
+hash = "c2001077a61848908f9d930362b6b4a90fd8964e9362b078bdc2a07b52368e81"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/ender_dragon.json"
+hash = "e8ed8f9054911358b1b587904de71f6f415a51c5dcd851f53f18c5b2b79de157"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/enderman.json"
+hash = "120e5351da371ca7d8ef3c02fa85f7e9808f2f9bae9af1b1ae91fdeee4da64e4"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/endermite.json"
+hash = "a98365a553b2ebbf07f2f281bc0a3922f54be05b723ab60815c53163a402f71b"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/evoker.json"
+hash = "bd12ef1a2db976175514ed096434decd000257b0584612edd3eef79c68831107"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/fox.json"
+hash = "1639488899680c1463f8224064e91fe777a97f0d026362fdebd776a9520af020"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/frog.json"
+hash = "b8ad4e82126d96924a54bba3e36c44f2fbee18c206e8facd1c9e7decfac526bb"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/ghast.json"
+hash = "ddfe8a0de2c15e4ea554af9bb11d094c497e39cd64e4de0e21c20ec739835649"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/giant.json"
+hash = "6e691fda866c0780076228a128c9606ef9ff90605b601cccf32321d7f1be46d8"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/glow_squid.json"
+hash = "8784ca1417dada64cc5026909b99fd3d116a0f4e7a967037d390bab57fa7d423"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/goat.json"
+hash = "64607c4f134775a9f7fa3a8ff3fc325977bb7119dbd12e693298dad4411e48cb"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/guardian.json"
+hash = "62f09ac1f49d3ad04e1f2105ce0c7101bf699a07043714249bcd78c4b5e9d840"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/hoglin.json"
+hash = "bdf137cbe764ee1a7291130d6fa2cb57a8e7ca377e57d3f14324d1f722064cf3"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/horse.json"
+hash = "13ab80c2f547eb78109ffe99d56f4d96b46c226683e2be9f65772bece87fca26"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/husk.json"
+hash = "4956aec2d8f5384e60cbafac9fd0e23726d28ba73eba149f3fd3c7b143f8c984"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/illusioner.json"
+hash = "4432d988f5f292aa99b0c66270e71b5038868866d938a7dab4b082afdb9aedd1"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/iron_golem.json"
+hash = "9ba05dfe32aa01beb1ad5f829cd5c26091cab9f0e59255eaab414a30e3139b02"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/llama.json"
+hash = "de18cb9e6fc190780d3fa9a86c82511133cb97de2b9c212f4ecfcec6a5bd394b"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/magma_cube.json"
+hash = "d2dd5b7c8bf50f44b25fa5d48fa266467dd96e31fbbdebe3f66b1e7a77f19999"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/mooshroom.json"
+hash = "93db187928c0280f3933cd297ed60372dab35c1c2150b8927abebb8dcb5b31c7"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/mule.json"
+hash = "f7a58bb9a4ce0a68622be0913616cc06d4081a5ca5f2dc1fd7707728c6006ec1"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/ocelot.json"
+hash = "d2e3e53951495551a20b918425d0316ad1731b96459a90e1b78c145995ecdefb"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/panda.json"
+hash = "b1e6fedc9c131a734bd18892cece4fb882b547a4097f9f85a05e7489e5d768df"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/parrot.json"
+hash = "ff6f3994baf5b405980139ca6ef79d48d890ede96d667bd0e49d4acee4225626"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/phantom.json"
+hash = "e3e8199f8dc2e691592ac6b0e92ee1a5d052812374a924d0778438e3d27534e4"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/pig.json"
+hash = "27bc34ca53514ae04db76d8e12679831cba99ca3585408dde8b79aef38cb7296"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/piglin.json"
+hash = "98a3a84c8a3ddd2fbb434328c0d29b080d86335c0846e0825b2525c1f8cb3f75"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/piglin_brute.json"
+hash = "4b685175c77c4c3fdde21306409385b23beadfcac19a943302be5a37ee960c3e"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/pillager.json"
+hash = "a9dfc3535a2654f90aa1420810f0c4ae3f8274a9eb39262803016d3c95a70cdf"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/player.json"
+hash = "62e8cf37f6cf0419f61eea76d5eb2ace0e77a9e17aff22e6ae408398e1ae836f"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/polar_bear.json"
+hash = "12de8dc731efd3903ba8c97350dc92b1a19fd8d30085b29501dab5cded0a8f6e"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/pufferfish.json"
+hash = "cdac2736ec480fc524738cb5527047725da321253203379d88a45a8e95b4c7f6"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/rabbit.json"
+hash = "ca3dc3db632b6de0605b71dcfbe2115a6da841d4fe14412d5aa6d23c11dc584a"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/ravager.json"
+hash = "1d2a3b83bc9c742f9d24c3ece4fdc94a3294e92245f05f6f13ccc0936e385206"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/salmon.json"
+hash = "1893199f1fe0467271a6de7a39a859423c531593bb8955cde6462e8c06ea6d3a"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/sheep.json"
+hash = "eb5ec8ab1a24bacc48c70f464db7826d204edda68ef4d978e9f15a70f8830635"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/sheep/black.json"
+hash = "f008b67f75a9ba5b817512a384de1685789b1f9d13b8b1d6ef71a44f75866b22"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/sheep/blue.json"
+hash = "61972a03f0b2c19f05486c41699fa15788266b632c1e935f17f6b7978cf7ddad"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/sheep/brown.json"
+hash = "2b810b45a90aea526de17a0e0386ea715d255b11840cbba347763f50bd16dc1a"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/sheep/cyan.json"
+hash = "deb461b5b7397762013cfab5b0bd3fad9e00ae2ff4dffa32695286c509462b1a"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/sheep/gray.json"
+hash = "0da1fc90cc36643b7d6010f1c4f2ce4a6e5bab31e79d49a6492d6f4179e2b93b"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/sheep/green.json"
+hash = "db3fa7938feecd94074f2e0ff820c342116bc815c6d31883ba6f479d15354c72"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/sheep/light_blue.json"
+hash = "04c05008188bc464e6d0dd71774f5e2dff5bf6b3b03f5d4abb861460244996f4"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/sheep/light_gray.json"
+hash = "e781f18282257f9863f9058f2be5d5a3d995bf5c80a843cdf41e3e4bc769ed4d"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/sheep/lime.json"
+hash = "75b4948ed7e21204f1d009cbf7bf9824b95fa4614062f8ec7de14881911097a6"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/sheep/magenta.json"
+hash = "20b6c3009ee0241db4b98f506e2904819815afe9185574a7fe68b4095a661dc9"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/sheep/orange.json"
+hash = "f9ef8d0106c375683cab8e607be42a602357a706a214d10b712b20405777d491"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/sheep/pink.json"
+hash = "07750ef3b9ef7e6f706a101d3c68fbc8ff30642522fa57b59367b1cb2f854c14"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/sheep/purple.json"
+hash = "22dbb4893577d696badcc5ae417cc0f6bc0b3119a52c2c64757ba2359c41038d"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/sheep/red.json"
+hash = "163f872d84df3058fc2a1f4d8de32ae222d9157ed2436d679dead712bd3d326c"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/sheep/white.json"
+hash = "cd153f6f27f9ead96cf3d9bfbc5e0a900d7388472315a495b2c23be2e3bf587e"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/sheep/yellow.json"
+hash = "12ecf0363da66a4d0aa380232fc8679980599a1e8fcef9bd262d22971af9aff4"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/shulker.json"
+hash = "3d565e9732e26540a22bf330c2e9cfc2ba13e3553308b2d6e08bb308dbe20f95"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/silverfish.json"
+hash = "7ef999d0110c03a2b942edcbb4d4632c90b4687ed7ec28de29dd4731a52c8f2e"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/skeleton.json"
+hash = "28ba69f2a53613fb17ae0ac9b3daabbeb360060a1eb860da9412d63c6275d9be"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/skeleton_horse.json"
+hash = "6584ccf3a238fd1399197b5449dcabaf638c44bb3e49fde9ed260b644bb45250"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/slime.json"
+hash = "b2597c393dd54bf4602951d50493bb46b48ab5511b0d1c84dcd3f4e80af41750"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/sniffer.json"
+hash = "1fba1370a69cf2c916f63906fab211119f431be0a676878e31a7e46336c80115"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/snow_golem.json"
+hash = "d96c1dae27fdabc87e0e52613a061a4d90ace02a69e7ebfd67564f1079a82229"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/spider.json"
+hash = "9cfe40acb97fce7d65cf67f4c43dd0bf6d00c10eaece1d78110b21b7362d76cc"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/squid.json"
+hash = "5212f0b1e41703a271237694842bf3654bdfd2fcced9f55dadca9a6aa7791aa4"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/stray.json"
+hash = "8ea1e713267b28212700a57b28d81102e4cbba9aa0ebc6255ee890b6e8096f69"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/strider.json"
+hash = "df92decf96ff265bca28674f98d8954e8edfff475131d9876307062022918374"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/tadpole.json"
+hash = "e13d7a9f6df2a9d6b84ef2a785f3f892cca12beb0c60f4ff1a3d5e632d628189"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/trader_llama.json"
+hash = "b2b8f9c907d96c537fd239592896b15f40e9838f51676430f0cfb62f5a6cca21"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/tropical_fish.json"
+hash = "a59c90bd9698e30311a23305d2c6304ba71dc727a7b727cd44a8a3abb3e38d3f"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/turtle.json"
+hash = "997c2b8190c1872faf578ec4fb4dc76eb768f2f9f72641d2e6c91717bc38c524"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/vex.json"
+hash = "6ecd46b391bcb08d0b58485f15c9441bef74c5c56190407d95ea40a55929881c"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/villager.json"
+hash = "8bbbd8400953808f9dcc81b0613a86b921daa67b11580f32b0bae99b61b065b9"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/vindicator.json"
+hash = "d47b5be8e3d5cee376f6d53c614cb569515b0b5d1b71e95b04a3cc9d2ef927a1"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/wandering_trader.json"
+hash = "c42fc8fb75f87d56247ff7c22fd55586db7b0665997187b5cc370b84c6dd35c7"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/warden.json"
+hash = "61761eee28eb05fe880aee64bf63db9718a398d965f5ba699edb6ebf7e86b16d"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/witch.json"
+hash = "34abaddaf23e72085397d03ebaee14e54666f221bfdb21a8dbdf5bccd547c2d2"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/wither.json"
+hash = "1297a721efeda080174613734f665b466868b1b482e877a787969d4543e828b1"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/wither_skeleton.json"
+hash = "6bd26b8fd8efef2448c38c2ee5fcffa3ec97c4fce942930424526a7d0713e058"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/wolf.json"
+hash = "8f98077287be09136967e24b7644940844f9cf993696c452473723c9bca6b473"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/zoglin.json"
+hash = "b881ee7cb80d91b7236873b73bbbbcd818244d23b33de94b82eda09536c945b0"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/zombie.json"
+hash = "f07dea44dfe429a53b86eb6426fb0ebb80ce234959e63ff7bc7e01ec1f8f92f1"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/zombie_horse.json"
+hash = "bfe2c2067f11a8f0b30766a3a8c3b43f199d4781a207c6ef08dd21a7c258183b"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/zombie_villager.json"
+hash = "24ceb8e446f147c4ebf63fe56652aa52b53f3a8041ad85e6c106d03126fca6ba"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/zombified_piglin.json"
+hash = "11b671bb03cbe977e2500b6de03ffca38b4401032cc7834cdddd358cbf46a529"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanillatweaks/advancements/confetti_creepers.json"
+hash = "515c644b10c96969d1cbe1bf2e156a17d19a96faa73c2d6bd1cea9c5f11f8624"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanillatweaks/advancements/more_mob_heads.json"
+hash = "f23989dd545bda3877a79e75ea68870d4388133cd639d83a7b9d16655fc59696"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanillatweaks/advancements/player_head_drops.json"
+hash = "cee1643ab0f7c0d0987da4cc295cea97d4f15d16d7e3d56274eb1049e0f16554"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanillatweaks/advancements/root.json"
+hash = "1c1904d38cf405f427730101ea35e1a44358ccae6d7b7aff71fa77ba758a2544"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanillatweaks/advancements/spawn.json"
+hash = "bc48604954a9a018880e5cf1e17234293c59dcb38d38cb3a1361defc5eed34f2"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanillatweaks/advancements/unlock_all_recipes.json"
+hash = "2623c705c4c483136c5cfc3b0f022b4ca45056949c1461da89a4c5c331e396cc"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanillatweaks/tags/functions/uninstall.json"
+hash = "73648c102bfa486ddd27bdf309b631464098a3ed615a7824f0da037e53ed2e65"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/wool_to_string/advancements/recipes/building_blocks/wool_to_string/string.json"
+hash = "05236b7d42ed9d490156449293921db24e123059f2b65107aa47aa7624072563"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/wool_to_string/recipes/string.json"
+hash = "0792f00f7a403c5274bb8e8826d004a41170ccffc9ff608f013102ae130c0d54"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/pack.mcmeta"
+hash = "eaf79425edf011213568da4f7e97e0111c159e7e7cd3a99b22c4254385ee1985"
 
 [[files]]
 file = "config/paxi/datapacks/repurposed-structures-friends-and-foes-compat.pw.toml"

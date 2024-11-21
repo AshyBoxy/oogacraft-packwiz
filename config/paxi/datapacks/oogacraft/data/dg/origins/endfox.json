@@ -1,0 +1,21 @@
+{
+	"powers": [
+                "dg:lunge",
+                "dg:endstash",
+                "dg:faster",
+                "origins:extra_reach",
+                "dg:player_riding",
+                "dg:echest",
+                "dg:small",
+                "dg:hp",
+                "dg:suit",
+                "origins:pumpkin_hate",
+                "origins:water_vulnerability"
+
+	],
+	"icon": "minecraft:end_stone_bricks",
+	"order": 10,
+	"impact": 3,
+	"name": "End Fox",
+	"description": "A fox that followed the builders of old to end."
+}

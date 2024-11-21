@@ -1,0 +1,9 @@
+{
+    "type": "origins:model_color",
+    "red": 0.96078431372,
+    "green": 0.3294117647,
+	"blue": 0.15294117647,
+    "alpha": 0.8,
+	"name": "Vampiric Red",
+	"description": "As being a fox messes with your biology you natrually have redder skin" 
+}

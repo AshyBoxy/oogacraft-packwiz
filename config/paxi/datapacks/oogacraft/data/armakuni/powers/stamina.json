@@ -1,0 +1,76 @@
+{
+    "name": "Stamina",
+    "description": "Some actions consume stamina, and depleted stamina takes time to recover. Stamina cannot recover midair.",
+    "badges": [
+        {
+            "type": "origins:tooltip",
+            "sprite": "minecraft:textures/block/emerald_block.png",
+            "text": "Abilities with this badge use stamina."
+        }
+    ],
+    "type": "origins:multiple",
+    "gauge": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 100,
+        "start_value": 100,
+        "hud_render": {
+            "should_render": true,
+            "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
+            "bar_index": 24,
+            "condition": {
+                "type": "origins:resource",
+                "resource": "*:*_gauge",
+                "comparison": "<=",
+                "compare_to": 99
+            }
+        }
+    },
+    "using_stamina": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 1,
+        "start_value": 0,
+        "hud_render": {
+            "should_render": false
+        }
+    },
+    "consume": {
+        "type": "origins:action_over_time",
+        "interval": 3,
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "*:*_gauge",
+            "change": -1
+        },
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_using_stamina",
+            "comparison": "==",
+            "compare_to": 1
+        }
+    },
+    "replenish": {
+        "type": "origins:action_over_time",
+        "interval": 2,
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "*:*_gauge",
+            "change": 1
+        },
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "resource": "*:*_using_stamina",
+                    "comparison": "==",
+                    "compare_to": 0
+                },
+                {
+                    "type": "origins:on_block"
+                }
+            ]
+        }
+    }
+}

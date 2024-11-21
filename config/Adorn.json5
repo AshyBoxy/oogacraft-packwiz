@@ -8,7 +8,7 @@
 		// If true, Adorn items will also be shown in matching vanilla item tabs.
 		"showItemsInStandardGroups": false,
 		// The fluid unit to show fluid amounts in. Options: [litres, droplets]
-		"displayedFluidUnit": "droplets"
+		"displayedFluidUnit": "litres"
 	},
 	// Default values for game rules in new worlds
 	"gameRuleDefaults": {

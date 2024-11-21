@@ -1,0 +1,35 @@
+{
+	"type": "origins:multiple",
+	"name": "Biting Fever",
+	"description": "You can only heal and saturate from biteing mobs.",
+	"hungerfortheliving": {
+		"type": "origins:prevent_item_use",
+		"item_condition": {
+			"type": "origins:food"
+
+		}
+	},
+	"feedonhit": {
+		"type": "origins:self_action_on_hit",
+		"cooldown": 0,
+		"entity_action": {
+			"type": "origins:and",
+			"actions": [{
+					"type": "origins:feed",
+					"food": 6.0,
+					"saturation": 6
+				},
+				{
+					"type": "origins:play_sound",
+					"sound": "minecraft:entity.fox.bite"
+				}
+			]
+		},
+		"target_condition": {
+			"type": "origins:entity_group",
+			"group": "undead",
+			"inverted": true
+		}
+	}
+}
+

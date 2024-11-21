@@ -1,0 +1,78 @@
+{
+    "type": "origins:multiple",
+    "name": "Explode",
+    "description": "Boom!",
+    "effects": {
+        "type": "origins:action_on_callback",
+        "entity_action_gained": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "function armakuni:special/explode_particles"
+                },
+                {
+                    "type": "origins:explode",
+                    "power": 4,
+                    "destruction_type": "none",
+                    "damage_self": true,
+                    "create_fire": false
+                },
+                {
+                    "type": "origins:area_of_effect",
+                    "radius": 6,
+                    "bientity_action": {
+                        "type": "origins:target_action",
+                        "action": {
+                            "type": "origins:set_on_fire",
+                            "duration": 5
+                        }
+                    }
+                },
+                {
+                    "type": "origins:if_else",
+                    "condition": {
+                        "type": "origins:entity_type",
+                        "entity_type": "minecraft:armor_stand"
+                    },
+                    "if_action": {
+                        "type": "origins:execute_command",
+                        "command": "kill @s"
+                    }
+                }
+            ]
+        }
+    },
+    "disablebar": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 1,
+        "start_value": 1,
+        "hud_render": {
+            "should_render": false
+        }
+    },
+    "disabletimer": {
+        "type": "origins:action_over_time",
+        "interval": 20,
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "*:*_disablebar",
+            "change": -1
+        }
+    },
+    "revokepower": {
+        "type": "origins:action_over_time",
+        "interval": 1,
+        "entity_action": {
+            "type": "origins:execute_command",
+            "command": "power remove @s armakuni:explode"
+        },
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_disablebar",
+            "comparison": "==",
+            "compare_to": 0
+        }
+    }
+}

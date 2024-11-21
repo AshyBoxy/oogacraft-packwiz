@@ -1,0 +1,27 @@
+{
+    "name": "§2§nBandit's Knowledge",
+    "description": "After years of being an outlaw, you have learned to make some items more useful and craft some stuff cheaper.",
+    "hidden": true,
+    "type": "origins:recipe",
+    "recipe": {
+        "id": "banditbundle",
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+            "SLS",
+            "L L",
+            " L "
+        ],
+        "key": {
+            "L": {
+                "item": "minecraft:leather"
+            },
+            "S": {
+                "item": "minecraft:string"
+            }
+        },
+        "result": {
+            "item": "minecraft:bundle",
+            "count": 1
+        }
+    }
+}

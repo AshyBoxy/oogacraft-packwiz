@@ -1,0 +1,8 @@
+{
+	"replace": false,
+	"values": [
+		"minecraft:chainmail_leggings",
+		"immersive_armors:bone_leggings",
+		"immersive_armors:wither_leggings"
+	]
+}

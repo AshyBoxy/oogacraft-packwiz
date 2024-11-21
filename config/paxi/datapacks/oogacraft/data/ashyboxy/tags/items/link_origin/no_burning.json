@@ -1,0 +1,10 @@
+{
+	"replace": false,
+	"values": [
+		"#ashyboxy:link_origin/no_burning_helmets",
+		"#ashyboxy:link_origin/no_burning_chestplates",
+		"#ashyboxy:link_origin/no_burning_leggings",
+		"#ashyboxy:link_origin/no_burning_boots",
+		"#advancednetherite:tiers/armor"
+	]
+}

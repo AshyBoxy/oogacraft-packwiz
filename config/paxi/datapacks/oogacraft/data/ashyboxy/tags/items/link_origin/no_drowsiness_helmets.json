@@ -1,0 +1,11 @@
+{
+	"replace": false,
+	"values": [
+		"minecraft:turtle_helmet",
+		"minecraft:chainmail_helmet",
+		"creategoggles:goggle_chainmail_helmet",
+		"creategoggles:goggle_turtle_helmet",
+		"immersive_armors:bone_helmet",
+		"immersive_armors:wither_helmet"
+	]
+}

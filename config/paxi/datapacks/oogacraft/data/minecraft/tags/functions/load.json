@@ -1,0 +1,16 @@
+{
+    "values": [
+        "armakuni:load",
+        "confetti_creepers:load",
+        "confetti_creepers:tick",
+        "confetti_creepers:check_trigger",
+        "confetti_creepers:give_effects",
+        "armor_statues:load",
+        "armor_statues:tick",
+        "armor_statues:second",
+        "spawn:load",
+        "spawn:tick",
+        "spawn:decrement_cooldowns",
+        "unlock_all_recipes:unlock_recipes"
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "name": "sbfgdsf",
+    "description": "gbghsaw",
+    "hidden": true,
+    "condition": {
+        "type": "origins:in_rain"
+    },
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 1,
+    "max_stacks": 3,
+    "duration_per_stack": 200,
+    "tick_rate": 10,
+    "effects": [
+        {
+            "effect": "minecraft:slowness",
+            "duration": 25,
+            "amplifier": 0,
+            "show_particles": true,
+            "show_icon": true
+        },
+        {
+            "effect": "minecraft:weakness",
+            "duration": 25,
+            "amplifier": 0,
+            "show_particles": true,
+            "show_icon": true
+        }
+    ]
+}

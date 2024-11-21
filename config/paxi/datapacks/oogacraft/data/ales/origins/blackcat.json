@@ -1,0 +1,25 @@
+{
+    "name": "Black Cat",
+    "description": "A cat endowed with the abilities of magicks and freed from the witch holding them captive.",
+    "powers": [
+        "origins:nine_lives",
+        "origins:fall_immunity",
+        "origins:scare_creepers",
+        "origins:velvet_paws",
+        "origins:carnivore",
+        "ales:agile",
+        "ales:attack",
+        "ales:claws",
+        "ales:darkvision",
+        "ales:hydro",
+        "ales:hydrorain",
+        "ales:effects",
+        "ales:nyoom",
+        "alescat:small"
+    ],
+    "icon": {
+        "item": "minecraft:black_wool"
+    },
+    "order": 10,
+    "impact": 2
+}

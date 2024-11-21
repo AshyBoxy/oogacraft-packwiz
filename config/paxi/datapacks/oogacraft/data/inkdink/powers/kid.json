@@ -1,0 +1,18 @@
+{
+	"type": "origins:active_self",
+	"entity_action": {
+		"type": "origins:change_resource",
+		"resource": "inkdink:squid",
+		"change": 1
+	},
+	"cooldown": 1,
+	"hud_render": {
+		"should_render": false
+	},
+	"key": {
+		"key": "key.origins.primary_active",
+		"continuous": false
+	},
+	"name": "Kid",
+	"description": "In Kid form you can shoot ink at Concrete, Sand, Gravel, Terracotta, Clay, Wool, and your Enemies by having colored ink in your hand and in your tank."
+}

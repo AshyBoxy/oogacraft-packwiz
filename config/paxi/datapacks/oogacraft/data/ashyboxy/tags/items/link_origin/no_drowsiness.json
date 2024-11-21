@@ -1,0 +1,10 @@
+{
+	"replace": false,
+	"values": [
+		"#ashyboxy:link_origin/no_drowsiness_helmets",
+		"#ashyboxy:link_origin/no_drowsiness_chestplates",
+		"#ashyboxy:link_origin/no_drowsiness_leggings",
+		"#ashyboxy:link_origin/no_drowsiness_boots",
+		"#advancednetherite:tiers/armor"
+	]
+}

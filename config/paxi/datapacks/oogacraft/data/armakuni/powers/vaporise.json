@@ -1,0 +1,67 @@
+{
+    "type": "origins:multiple",
+    "name": "Vaporise",
+    "description": "A d i o s",
+    "effects": {
+        "type": "origins:action_on_callback",
+        "entity_action_gained": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:if_else",
+                    "condition": {
+                        "type": "origins:in_tag",
+                        "tag": "armakuni:ancient_blacklist",
+                        "inverted": true
+                    },
+                    "if_action": {
+                        "type": "origins:execute_command",
+                        "command": "function armakuni:special/vaporise"
+                    }
+                },
+                {
+                    "type": "origins:damage",
+                    "amount": 10,
+                    "source": {
+                        "name": "outOfWorld",
+                        "unblockable": true,
+                        "bypasses_armor": true,
+                        "out_of_world": true
+                    }
+                }
+            ]
+        }
+    },
+    "disablebar": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 1,
+        "start_value": 1,
+        "hud_render": {
+            "should_render": false
+        }
+    },
+    "disabletimer": {
+        "type": "origins:action_over_time",
+        "interval": 20,
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "*:*_disablebar",
+            "change": -1
+        }
+    },
+    "revokepower": {
+        "type": "origins:action_over_time",
+        "interval": 1,
+        "entity_action": {
+            "type": "origins:execute_command",
+            "command": "power remove @s armakuni:vaporise"
+        },
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_disablebar",
+            "comparison": "==",
+            "compare_to": 0
+        }
+    }
+}

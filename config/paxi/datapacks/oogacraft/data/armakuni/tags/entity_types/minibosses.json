@@ -1,0 +1,11 @@
+{
+    "values": [
+        "minecraft:player",
+        "minecraft:piglin_brute",
+        "minecraft:elder_guardian",
+        "minecraft:evoker",
+        "minecraft:ghast",
+        "minecraft:iron_golem",
+        "minecraft:illusioner"
+    ]
+}

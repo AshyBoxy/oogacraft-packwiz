@@ -1,0 +1,20 @@
+{
+	"replace": false,
+	"values": [
+		"minecraft:iron_leggings",
+		"minecraft:golden_leggings",
+		"minecraft:netherite_leggings",
+		"betterend:aeternium_leggings",
+		"betterend:crystalite_leggings",
+		"betterend:terminite_leggings",
+		"betterend:thallasium_leggings",
+		"betternether:cincinnasite_leggings",
+		"betternether:flaming_ruby_leggings",
+		"betternether:nether_ruby_leggings",
+		"immersive_armors:divine_leggings",
+		"immersive_armors:heavy_leggings",
+		"immersive_armors:robe_leggings",
+		"immersive_armors:steampunk_leggings",
+		"immersive_armors:warrior_leggings"
+	]
+}

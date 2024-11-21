@@ -1,0 +1,280 @@
+{
+	"name": "Bullet Time",
+	"description": "Slow your fall midair when using bows.",
+	"badges": [
+        {
+            "type": "origins:tooltip",
+            "sprite": "minecraft:textures/block/emerald_block.png",
+            "text": "Uses stamina."
+        }
+    ],
+	"type": "origins:multiple",
+	"fall": {
+		"type": "origins:modify_falling",
+		"velocity": 0.001,
+		"take_fall_damage": true,
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:using_item",
+					"item_condition": {
+						"type": "origins:ingredient",
+						"ingredient": {
+							"tag": "armakuni:bows"
+						}
+					}
+				},
+				{
+					"type": "origins:fall_distance",
+					"comparison": ">=",
+					"compare_to": 0.001
+				},
+				{
+					"type": "origins:on_block",
+					"inverted": true
+				},
+				{
+					"type": "origins:resource",
+					"resource": "*:stamina_gauge",
+					"comparison": ">=",
+					"compare_to": 1
+				}
+			]
+		}
+	},
+	"stop": {
+		"type": "origins:active_self",
+		"entity_action": {
+			"type": "origins:add_velocity",
+			"y": -0.05,
+			"set": true
+		},
+		"key": {
+			"key": "key.use"
+		},
+		"cooldown": 1,
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:equipped_item",
+					"equipment_slot": "mainhand",
+					"item_condition": {
+						"type": "origins:ingredient",
+						"ingredient": {
+							"tag": "armakuni:bows"
+						}
+					}
+				},
+				{
+					"type": "origins:fall_distance",
+					"comparison": ">=",
+					"compare_to": 0.001
+				},
+				{
+					"type": "origins:on_block",
+					"inverted": true
+				},
+				{
+					"type": "origins:resource",
+					"resource": "*:stamina_gauge",
+					"comparison": ">=",
+					"compare_to": 1
+				}
+			]
+		}
+	},
+	"effects": {
+		"type": "origins:stacking_status_effect",
+		"min_stacks": 0,
+		"max_stacks": 1,
+		"duration_per_stack": 15,
+		"tick_rate": 10,
+		"effects": [
+			{
+				"effect": "minecraft:slowness",
+				"duration": 15,
+				"amplifier": 1,
+				"is_ambient": false,
+				"show_particles": false,
+				"show_icon": false
+			}
+		],	
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:using_item",
+					"item_condition": {
+						"type": "origins:ingredient",
+						"ingredient": {
+							"tag": "armakuni:bows"
+						}
+					}
+				},
+				{
+					"type": "origins:fall_distance",
+					"comparison": ">=",
+					"compare_to": 0.001
+				},
+				{
+					"type": "origins:on_block",
+					"inverted": true
+				},
+				{
+					"type": "origins:resource",
+					"resource": "*:stamina_gauge",
+					"comparison": ">=",
+					"compare_to": 1
+				}
+			]
+		}
+	},
+	"particles": {
+        "type": "origins:action_over_time",
+        "interval": 2,
+        "entity_action": {
+			"type": "origins:spawn_particles",
+			"particle": {
+				"type": "minecraft:end_rod"
+			},
+			"count": 30,
+			"speed": 0.01,
+			"force": true,
+			"spread": {
+				"x": 10.0,
+				"y": 5.0,
+				"z": 10.0
+			}
+        },
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:using_item",
+					"item_condition": {
+						"type": "origins:ingredient",
+						"ingredient": {
+							"tag": "armakuni:bows"
+						}
+					}
+				},
+				{
+					"type": "origins:fall_distance",
+					"comparison": ">=",
+					"compare_to": 0.001
+				},
+				{
+					"type": "origins:on_block",
+					"inverted": true
+				},
+				{
+					"type": "origins:resource",
+					"resource": "*:stamina_gauge",
+					"comparison": ">=",
+					"compare_to": 1
+				}
+			]
+		}
+    },
+	"glider_deactivate": {
+        "type": "origins:action_over_time",
+        "interval": 1,
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "*:paraglider_check",
+            "change": -1
+        },
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:using_item",
+					"item_condition": {
+						"type": "origins:ingredient",
+						"ingredient": {
+							"tag": "armakuni:bows"
+						}
+					}
+				},
+				{
+					"type": "origins:fall_distance",
+					"comparison": ">=",
+					"compare_to": 0.001
+				},
+				{
+					"type": "origins:on_block",
+					"inverted": true
+				}
+			]
+		}
+    },
+	"stamina": {
+        "type": "origins:action_over_time",
+        "interval": 1,
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "*:stamina_using_stamina",
+            "change": 1,
+            "operation": "set"
+        },
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:using_item",
+					"item_condition": {
+						"type": "origins:ingredient",
+						"ingredient": {
+							"tag": "armakuni:bows"
+						}
+					}
+				},
+				{
+					"type": "origins:fall_distance",
+					"comparison": ">=",
+					"compare_to": 0.001
+				},
+				{
+					"type": "origins:on_block",
+					"inverted": true
+				}
+			]
+		}
+    },
+	"_stamina": {
+        "type": "origins:action_over_time",
+        "interval": 1,
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "*:stamina_using_stamina",
+            "change": 0,
+            "operation": "set"
+        },
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:using_item",
+					"item_condition": {
+						"type": "origins:ingredient",
+						"ingredient": {
+							"tag": "armakuni:bows"
+						}
+					},
+					"inverted": true
+				},
+				{
+					"type": "origins:on_block"
+				},
+				{
+					"type": "origins:resource",
+					"resource": "*:paraglider_check",
+					"comparison": "==",
+					"compare_to": 0
+				}
+			]
+		}
+    }
+}

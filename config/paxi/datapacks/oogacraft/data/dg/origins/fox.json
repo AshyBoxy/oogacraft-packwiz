@@ -1,0 +1,17 @@
+{
+	"powers": [
+                "dg:lunge",
+                "dg:stash",
+                "dg:faster",
+                "dg:player_riding",
+                "dg:small",
+                "dg:hp",
+                "dg:suit"
+
+	],
+	"icon": "minecraft:sweet_berries",
+	"order": 10,
+	"impact": 2,
+	"name": "Fox",
+	"description": "A fox.....thats it"
+}

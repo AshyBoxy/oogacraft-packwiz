@@ -1,0 +1,8 @@
+{
+	"replace": false,
+	"values": [
+		"minecraft:chainmail_chestplate",
+		"immersive_armors:bone_chestplate",
+		"immersive_armors:wither_chestplate"
+	]
+}

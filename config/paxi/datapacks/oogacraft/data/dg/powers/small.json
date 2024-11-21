@@ -1,0 +1,44 @@
+{
+    "type": "origins:multiple",
+
+    "height": {
+        "type": "origins:action_on_callback",
+        "entity_action_chosen": {
+            "type": "origins:execute_command",
+            "command": "scale set pehkui:height 0.8"
+        },
+        "entity_action_respawned": {
+            "type": "origins:execute_command",
+            "command": "scale set pehkui:height 0.8"
+        },
+        "entity_action_lost": {
+            "type": "origins:execute_command",
+            "command": "scale set pehkui:height 1"
+        },
+        "entity_action_removed": {
+            "type": "origins:execute_command",
+            "command": "scale set pehkui:height 1"
+        }
+    },
+    "width": {
+        "type": "origins:action_on_callback",
+        "entity_action_chosen": {
+            "type": "origins:execute_command",
+            "command": "scale set pehkui:width 0.8"
+        },
+        "entity_action_respawned": {
+            "type": "origins:execute_command",
+            "command": "scale set pehkui:width 0.8"
+        },
+        "entity_action_lost": {
+            "type": "origins:execute_command",
+            "command": "scale set pehkui:width 1"
+        },
+        "entity_action_removed": {
+            "type": "origins:execute_command",
+            "command": "scale set pehkui:width 1"
+        }
+    },
+    "name": "Fox Body",
+    "description": "You are slightly smaller than a human"
+}

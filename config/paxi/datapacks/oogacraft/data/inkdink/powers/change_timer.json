@@ -1,0 +1,16 @@
+{
+	"type": "origins:action_over_time",
+	"entity_action": {
+		"type": "origins:change_resource",
+		"resource": "inkdink:color_change_timer",
+		"change": 1
+	},
+	"interval": 12000,
+	"condition": {
+		"type": "origins:resource",
+		"resource": "inkdink:color_change_timer",
+		"comparison": "<=",
+		"compare_to": 1
+	},
+	"hidden": true
+}

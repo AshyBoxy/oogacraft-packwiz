@@ -436,10 +436,27 @@ Datapacks, resourcepacks, whatever<br>
 Datapacks should be available on both sides
 ## Datapacks
 - Repurposed Structures - Friends and Foes Compat
+- Oogacraft Datapack
+    - some vanillatweaks packs
+    - some origins
+    - other custom stuff
+        - custom recipes
+        - tags
 ## Resourcepacks
 - RAY's 3D Rails
 
 # Other todo
+- default keybindings
+- set up almost unified
+- set up duplicate blocks being replaced (unified)
+    - https://modrinth.com/mod/block-swap ?
+- figure out how to add vanilla tweaks packs to packwiz
+    - am i allowed to redistribute?
+- how do i ensure certain mod provided resource packs are enabled on new installs?
+    - traditional approach was to have them enabled in the distributed options.txt...
+- come up with a better recipe for the orb of origins
+- command blocks need to be enabled for create structures to work
+### Configs
 - add configs
     - the following need extra thought:
     - wthit/jade defaults
@@ -452,73 +469,51 @@ Datapacks should be available on both sides
             - there's no tag so it's a manual problem
         - default client settings
     - default keybinds
-    - shulkerbox tooltip colors for modded supported items
-        - reinforced shulker boxes
-        - ender backpack
-        - i probably forgot some
     - xaeros' default settings
-    - spectrum
-        - stuff like storm stones should be disabled, they get annoying
-            - not sure how to work this into progression yet
-    - advancement plaques
-        - should wthit/jade popups be hidden?
     - dimensional doors has a lot of interesting options
-    - space dimensions
-        - mobs immune to space damage
-    - modernfix
-        - should dynamic resources be enabled?
-- longer term configs (stuff that either needs constantly updating, or i'm too lazy to do now)
-    - item alchemy emc
-    - enabling other modded crafting tables in visual workbench if any are added
-    - inventorysorter
-        - watch out for inventories that need to be blacklisted
-    - fallingleaves
-        - windless dimensions
-    - snow under trees supported biomes
-    - yung's better*
-        - maybe add modded items to the loot and gear pools?
-    - simplehats drop chance
-    - fabric seasons
-        - season length
-        - biome denylist
-        - basically everything
-    - amendments inverse potions
-    - emi
-        - watch out for functions that should be disabled in emi loot
-    - artifacts rarities
-        - possibly some renewable way to get them
-        - mimics are disabled
-        - perhaps with the tech and magic mods?
 
-- default keybindings
-- add stuff to item obliterator
-    - mostly just broken things or overpowered things
-    - e.g. one of the create addons has some broken items
-    - advanced reborns' permanent light generators
-        - these are literally just free energy
-- set up almost unified
-- set up duplicate blocks being replaced (unified)
-    - https://modrinth.com/mod/block-swap ?
-- download mods to more uniform filenames?
-- figure out how to add vanilla tweaks packs to packwiz
-    - am i allowed to redistribute?
-- how do i ensure certain mod provided resource packs are enabled on new installs?
-    - traditional approach was to have them enabled in the distributed options.txt...
+### Longer Term Configs
+(stuff that either needs constantly updating, or i'm too lazy to do now)
+- item alchemy emc
+- enabling other modded crafting tables in visual workbench if any are added
+- inventorysorter
+    - watch out for inventories that need to be blacklisted
+- fallingleaves
+    - windless dimensions
+- snow under trees supported biomes
+- yung's better*
+    - maybe add modded items to the loot and gear pools?
+- simplehats drop chance
+- fabric seasons
+    - season length
+    - biome denylist
+    - basically everything
+- amendments inverse potions
+- emi
+    - watch out for functions that should be disabled in emi loot
+- artifacts rarities
+    - possibly some renewable way to get them
+    - mimics are disabled
+    - perhaps with the tech and magic mods?
+- space dimensions
+    - mobs immune to space damage
+- add overpowered things to item obliterator
+
+### Stretch Goals
 - a lot of mods could do with compat datapacks
 - a lot of mods could also do with compat mods
     - e.g. space dimensions with reborn energy
 - create a custom log config to reduce log spam
-- come up with a better recipe for the orb of origins
-- does every enchantment have a description translation?
 - adding estrogen models for all armor (very low priority)
 - custom splashes could be cool?
-- command blocks need to be enabled for create structures to work
 - certain mods should really be using different tags
     - yes, this one is broad, it would be a lot of work
 - mod compat recipes
     - adorn's brewer has a lot of potential
     - create addition's rolling
     - create should be able to make tech reborn plates
+- download mods to more uniform filenames?
+- reorganise oogacraft datapack to be less of a mess
 
 ## Current Issues
 errors, broken mods, etc

@@ -1,0 +1,24 @@
+{
+	"powers": [
+                "dg:lunge",
+                "dg:givesword",
+                "dg:faster",
+                "dg:player_riding",
+                "dg:stash",
+                "dg:bun",
+                "dg:flamebody",
+                "dg:small",
+                "dg:hp",
+                "dg:raven",
+                "dg:undead",
+                "dg:fresh_kill_two",
+                "dg:fresh_kill",
+                "dg:suit"
+
+	],
+	"icon": "minecraft:red_nether_brick_wall",
+	"order": 10,
+	"impact": 3,
+	"name": "Vampiric Fox",
+	"description": "Be it a failed feast or a lords pet you as a fox somehow became a vampire."
+}

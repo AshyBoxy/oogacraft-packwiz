@@ -1,0 +1,21 @@
+{
+	"type": "origins:swimming",
+	"condition": {
+		"type": "origins:and",
+		"conditions": [{
+				"type": "origins:in_block",
+				"block_condition": {
+					"type": "origins:in_tag",
+					"tag": "inkdink:phasableall"
+				}
+			},
+			{
+				"type": "origins:resource",
+				"resource": "inkdink:squid",
+				"comparison": "==",
+				"compare_to": 1
+			}
+		]
+	},
+	"hidden": true
+}

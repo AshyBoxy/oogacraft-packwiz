@@ -1,0 +1,15 @@
+{
+	"replace": false,
+	"values": [
+		"minecraft:leather_helmet",
+		"minecraft:diamond_helmet",
+		"minecraft:netherite_helmet",
+		"biomemakeover:cladded_helmet",
+		"create:netherite_diving_helmet",
+		"creategoggles:goggle_diamond_helmet",
+		"creategoggles:goggle_leather_helmet",
+		"creategoggles:goggle_netherite_diving_helmet",
+		"creategoggles:goggle_netherite_helmet",
+		"immersive_armors:robe_helmet"
+	]
+}

@@ -1,0 +1,187 @@
+{
+    "name": "Quiver",
+    "description": "You can fire special arrows, including fire, ice, shock, and bomb arrows.",
+    "badges": [
+        {
+            "type": "origins:keybind",
+            "sprite": "origins:textures/gui/badge/active.png",
+            "text": "Cycle through different arrow types with %s!"
+        },
+        {
+            "type": "origins:tooltip",
+            "sprite": "origins:textures/gui/badge/info.png",
+            "text": "Fire Arrows - Set entities on fire.\nIce Arrows - Freeze entities.\nShock Arrows - Shock entities, making them drop items, dismount, and lose hunger. Charges Creepers.\nBomb Arrows (Unstable) - Explode. What else did you think would happen? May also burn loot."
+        },
+        {
+            "type": "origins:tooltip",
+            "sprite": "origins:textures/gui/badge/info.png",
+            "text": "Don't forget to try them out with different enchants, and aim at different blocks!\nFor example, try shooting a Shock Arrow at a lightning rod.\nPutting flame on your may not be a good choice..."
+        }
+    ],
+    "type": "origins:multiple",
+    "res": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 5,
+        "start_value": 0,
+        "hud_render": {
+            "should_render": false
+        }
+    },
+    "cycle": {
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:play_sound",
+                    "sound": "minecraft:block.respawn_anchor.charge",
+                    "pitch": 2,
+                    "volume": 0.25
+                },
+                {
+                    "type": "origins:play_sound",
+                    "sound": "minecraft:item.armor.equip_leather",
+                    "pitch": 1
+                },
+                {
+                    "type": "origins:if_else_list",
+                    "actions": [
+                        {
+                            "action": {
+                                "type": "origins:and",
+                                "actions": [
+                                    {
+                                        "type": "origins:change_resource",
+                                        "resource": "*:*_res",
+                                        "change": 1
+                                    },
+                                    {
+                                        "type": "origins:execute_command",
+                                        "command": "title @s actionbar {\"text\":\"Fire Arrows\",\"color\":\"red\"}",
+                                        "permission_level": 4
+                                    }
+                                ]
+                            },
+                            "condition": {
+                                "type": "origins:resource",
+                                "resource": "*:*_res",
+                                "comparison": "==",
+                                "compare_to": 0
+                            }
+                        },
+                        {
+                            "action": {
+                                "type": "origins:and",
+                                "actions": [
+                                    {
+                                        "type": "origins:change_resource",
+                                        "resource": "*:*_res",
+                                        "change": 1
+                                    },
+                                    {
+                                        "type": "origins:execute_command",
+                                        "command": "title @s actionbar {\"text\":\"Ice Arrows\",\"color\":\"aqua\"}",
+                                        "permission_level": 4
+                                    }
+                                ]
+                            },
+                            "condition": {
+                                "type": "origins:resource",
+                                "resource": "*:*_res",
+                                "comparison": "==",
+                                "compare_to": 1
+                            }
+                        },
+                        {
+                            "action": {
+                                "type": "origins:and",
+                                "actions": [
+                                    {
+                                        "type": "origins:change_resource",
+                                        "resource": "*:*_res",
+                                        "change": 1
+                                    },
+                                    {
+                                        "type": "origins:execute_command",
+                                        "command": "title @s actionbar {\"text\":\"Shock Arrows\",\"color\":\"yellow\"}",
+                                        "permission_level": 4
+                                    }
+                                ]
+                            },
+                            "condition": {
+                                "type": "origins:resource",
+                                "resource": "*:*_res",
+                                "comparison": "==",
+                                "compare_to": 2
+                            }
+                        },
+                        {
+                            "action": {
+                                "type": "origins:and",
+                                "actions": [
+                                    {
+                                        "type": "origins:change_resource",
+                                        "resource": "*:*_res",
+                                        "change": 1
+                                    },
+                                    {
+                                        "type": "origins:execute_command",
+                                        "command": "title @s actionbar {\"text\":\"Bomb Arrows\",\"color\":\"dark_red\"}",
+                                        "permission_level": 4
+                                    }
+                                ]
+                            },
+                            "condition": {
+                                "type": "origins:resource",
+                                "resource": "*:*_res",
+                                "comparison": "==",
+                                "compare_to": 3
+                            }
+                        },
+                        {
+                            "action": {
+                                "type": "origins:and",
+                                "actions": [
+                                    {
+                                        "type": "origins:change_resource",
+                                        "resource": "*:*_res",
+                                        "change": -5
+                                    },
+                                    {
+                                        "type": "origins:execute_command",
+                                        "command": "title @s actionbar {\"text\":\"Special Arrows Disabled\",\"color\":\"white\"}",
+                                        "permission_level": 4
+                                    }
+                                ]
+                            },
+                            "condition": {
+                                "type": "origins:resource",
+                                "resource": "*:*_res",
+                                "comparison": ">=",
+                                "compare_to": 4
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "key": {
+            "key": "key.origins.secondary_active"
+        },
+        "cooldown": 1,
+        "hud_render": {
+            "should_render": false
+        },
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "item": "minecraft:bow"
+                }
+            }
+        }
+    }
+}

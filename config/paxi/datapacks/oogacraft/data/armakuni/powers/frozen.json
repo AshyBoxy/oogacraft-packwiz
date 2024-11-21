@@ -1,0 +1,48 @@
+{
+    "type": "origins:multiple",
+    "name": "Frozen",
+    "description": "You are very cold!",
+    "particle": {
+        "type": "origins:particle",
+        "particle": {
+            "type": "minecraft:item",
+            "params": "minecraft:ice"
+        },
+        "frequency": 1
+    },
+    "effects": {
+        "type": "origins:freeze"
+    },
+    "disablebar": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 15,
+        "start_value": 15,
+        "hud_render": {
+            "should_render": false
+        }
+    },
+    "disabletimer": {
+        "type": "origins:action_over_time",
+        "interval": 20,
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "*:*_disablebar",
+            "change": -1
+        }
+    },
+    "revokepower": {
+        "type": "origins:action_over_time",
+        "interval": 1,
+        "entity_action": {
+            "type": "origins:execute_command",
+            "command": "power remove @s armakuni:frozen"
+        },
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_disablebar",
+            "comparison": "==",
+            "compare_to": 0
+        }
+    }
+}

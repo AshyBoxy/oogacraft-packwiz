@@ -1,0 +1,11 @@
+{
+	"replace": false,
+	"values": [
+		"minecraft:leather_boots",
+		"minecraft:diamond_boots",
+		"minecraft:netherite_boots",
+		"biomemakeover:cladded_boots",
+		"create:netherite_diving_boots",
+		"immersive_armors:robe_boots"
+	]
+}

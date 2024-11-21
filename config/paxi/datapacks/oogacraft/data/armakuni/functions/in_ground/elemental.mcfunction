@@ -1,0 +1,5 @@
+execute as @e[tag=fire_arrow,predicate=armakuni:in_ground] at @e[tag=fire_arrow,predicate=armakuni:in_ground] run function armakuni:in_ground/fire
+execute as @e[tag=ice_arrow,predicate=armakuni:in_ground] at @e[tag=ice_arrow,predicate=armakuni:in_ground] run function armakuni:in_ground/ice
+execute as @e[tag=shock_arrow,predicate=armakuni:in_ground,nbt=!{inBlockState:{Name:"minecraft:lightning_rod"}}] at @e[tag=shock_arrow,predicate=armakuni:in_ground,nbt=!{inBlockState:{Name:"minecraft:lightning_rod"}}] run function armakuni:in_ground/shock
+execute as @e[tag=bomb_arrow,predicate=armakuni:in_ground] at @e[tag=bomb_arrow,predicate=armakuni:in_ground] run function armakuni:in_ground/bomb
+execute as @e[tag=ancient_arrow,predicate=armakuni:in_ground] at @e[tag=ancient_arrow,predicate=armakuni:in_ground] run function armakuni:in_ground/ancient

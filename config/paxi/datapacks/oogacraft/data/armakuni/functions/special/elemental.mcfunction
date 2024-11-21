@@ -1,0 +1,1 @@
+execute as @e[tag=shock_arrow,nbt={inGround:1b},nbt={inBlockState:{Name:"minecraft:lightning_rod"}}] at @e[tag=shock_arrow,nbt={inGround:1b},nbt={inBlockState:{Name:"minecraft:lightning_rod"}}] run function armakuni:special/shock

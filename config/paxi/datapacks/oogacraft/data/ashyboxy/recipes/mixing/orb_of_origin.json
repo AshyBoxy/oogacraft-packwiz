@@ -1,0 +1,23 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "ashyboxy:orbs"
+    },
+    {
+      "amount": 81000,
+      "fluid": "estrogen:liquid_estrogen",
+      "nbt": {}
+    },
+    {
+      "amount": 81000,
+      "fluid": "estrogen:testosterone_mixture",
+      "nbt": {}
+    }
+  ],
+  "results": [
+    {
+      "item": "origins:orb_of_origin"
+    }
+  ]
+}

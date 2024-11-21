@@ -1,0 +1,56 @@
+{
+    "name": "Emotionally Unstable",
+    "description": "Your past scars make you susceptible to certain forms of attack, mainly beams, elemental damage, and magic.\nTridents give you a feeling of darkness, although you don't know why.",
+    "type": "origins:multiple",
+    "dmg": {
+        "type": "origins:modify_damage_taken",
+        "modifier": {
+            "operation": "multiply_total",
+            "value": 0.75
+        },
+        "damage_condition": {
+            "type": "origins:or",
+            "conditions": [
+                {
+                    "type": "origins:name",
+                    "name": "freeze"
+                },
+                {
+                    "type": "origins:name",
+                    "name": "lightningBolt"
+                },
+                {
+                    "type": "origins:name",
+                    "name": "sonicBoom"
+                },
+                {
+                    "type": "origins:name",
+                    "name": "magic"
+                },
+                {
+                    "type": "origins:fire"
+                }
+            ]
+        }
+    },
+    "trident": {
+        "type": "origins:modify_damage_taken",
+        "modifier": {
+            "operation": "multiply_base",
+            "value": 1
+        },
+        "damage_condition": {
+            "type": "origins:attacker",
+            "entity_condition": {
+                "type": "origins:equipped_item",
+                "equipment_slot": "mainhand",
+                "item_condition": {
+                    "type": "origins:ingredient",
+                    "ingredient": {
+                        "tag": "armakuni:tridents"
+                    }
+                }
+            }
+        }
+    }
+}

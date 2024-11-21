@@ -1,0 +1,77 @@
+{
+	"type": "origins:active_self",
+	"entity_action": {
+		"type": "origins:and",
+		"actions": [{
+				"type": "origins:execute_command",
+				"command": "particle minecraft:cloud ~ ~ ~ 0.5 0.5 0.5 0.01 50 force",
+				"permission_level": 4
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "playsound minecraft:entity.firework_rocket.launch ambient @a[distance=..3]",
+				"permission_level": 4
+			},
+			{
+				"type": "origins:add_velocity",
+				"y": 1
+			},
+			{
+				"type": "origins:delay",
+				"ticks": 1,
+				"action": {
+					"type": "origins:add_velocity",
+					"y": 2.5
+				}
+			},
+			{
+				"type": "origins:apply_effect",
+				"effect": {
+					"effect": "minecraft:slow_falling",
+					"duration": 120,
+					"amplifier": 1,
+					"is_ambient": true,
+					"show_particles": false,
+					"show_icon": false
+				}
+			},
+			{
+				"type": "origins:delay",
+				"ticks": 2,
+				"action": {
+					"type": "origins:change_resource",
+					"resource": "inkdink:swapjump",
+					"change": 28
+				}
+			}
+		]
+	},
+	"cooldown": 120,
+	"hud_render": {
+		"should_render": true,
+		"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
+		"bar_index": 16
+	},
+	"condition": {
+		"type": "origins:and",
+		"conditions": [{
+				"type": "origins:resource",
+				"resource": "inkdink:swapjump",
+				"comparison": "==",
+				"compare_to": 0
+			},
+			{
+				"type": "origins:resource",
+				"resource": "inkdink:squid",
+				"comparison": "==",
+				"compare_to": 1
+			}
+		]
+	},
+	"key": {
+		"key": "key.origins.secondary_active",
+		"continuous": false
+	},
+	"name": "Super Jump",
+	"description": "While in Squid form you can do a super jump going high into the sky.  Mid air you can look at inked terrain in your color and by reactivating the jump you will jump to that general area.  Be carefull if you don't jump in time you will take fall damage."
+}

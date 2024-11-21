@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "enabled": true,
+  "origins": [
+    "dg:vfox",
+    "dg:endfox",
+    "dg:fox",
+    "armakuni:link",
+    "inkdink:inkling",
+    "ales:blackcat"
+  ]
+}

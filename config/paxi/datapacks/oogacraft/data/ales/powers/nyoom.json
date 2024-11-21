@@ -1,0 +1,16 @@
+{
+    "name": "Quickfooted",
+    "description": "You move faster when sprinting.",
+    "condition": {
+        "type": "origins:sprinting"
+    },
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.movement_speed",
+        "operation": "addition",
+        "value": 0.06,
+        "name": "Increased sprinting speed"
+    },
+    "tick_rate": 20,
+    "update_health": true
+}

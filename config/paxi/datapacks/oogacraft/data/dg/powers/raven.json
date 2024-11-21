@@ -1,0 +1,11 @@
+{
+	"type": "origins:modify_exhaustion",
+	"modifier": {
+		"name": "Increased exhaustion",
+		"operation": "multiply_base",
+		"value": 2.55
+	},
+	"hidden": false,
+	"name": "Blood Fueled",
+	"description": "Even if blood is now what you feed of it still is not fully saturating."
+}

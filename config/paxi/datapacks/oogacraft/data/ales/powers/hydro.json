@@ -1,0 +1,32 @@
+{
+    "name": "Hydrophobic",
+    "description": "As a feline creature, you were not built to go near water. Water gives you Weakness and Slowness",
+    "hidden": true,
+    "condition": {
+        "type": "origins:fluid_height",
+        "fluid": "minecraft:water",
+        "comparison": ">",
+        "compare_to": 0
+    },
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 1,
+    "max_stacks": 3,
+    "duration_per_stack": 200,
+    "tick_rate": 10,
+    "effects": [
+        {
+            "effect": "minecraft:slowness",
+            "duration": 25,
+            "amplifier": 0,
+            "show_particles": true,
+            "show_icon": true
+        },
+        {
+            "effect": "minecraft:weakness",
+            "duration": 25,
+            "amplifier": 0,
+            "show_particles": true,
+            "show_icon": true
+        }
+    ]
+}

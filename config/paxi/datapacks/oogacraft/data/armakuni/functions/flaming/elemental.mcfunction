@@ -1,0 +1,2 @@
+execute as @e[tag=ice_arrow,predicate=!armakuni:not_flaming,predicate=!armakuni:not_flaming_watercheck] at @e[tag=ice_arrow,predicate=!armakuni:not_flaming,predicate=!armakuni:not_flaming_watercheck] run function armakuni:flaming/ice
+execute as @e[tag=bomb_arrow,predicate=!armakuni:not_flaming,predicate=!armakuni:not_flaming_watercheck] at @e[tag=bomb_arrow,predicate=!armakuni:not_flaming,predicate=!armakuni:not_flaming_watercheck] run function armakuni:flaming/bomb

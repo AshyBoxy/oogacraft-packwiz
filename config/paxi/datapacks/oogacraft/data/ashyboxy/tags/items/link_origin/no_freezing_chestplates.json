@@ -1,0 +1,10 @@
+{
+	"replace": false,
+	"values": [
+		"minecraft:leather_chestplate",
+		"minecraft:diamond_chestplate",
+		"minecraft:netherite_chestplate",
+		"biomemakeover:cladded_chestplate",
+		"immersive_armors:robe_chestplate"
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"name": "Player riding",
+	"description": "Sneaking and right clicking at a player will let you ride on there shoulder.",
+	"type": "origins:active_self",
+	"entity_action": {
+		"type": "origins:raycast",
+		"distance": 3,
+		"bientity_condition": {
+			"type": "origins:target_condition",
+			"condition": {
+				"type": "origins:entity_type",
+				"entity_type": "minecraft:player"
+			}
+		},
+		"bientity_action": {
+			"type": "origins:mount"
+		}
+	},
+	"cooldown": 20,
+	"hud_render": {
+		"should_render": false
+	},
+	"condition": {
+		"type": "origins:sneaking"
+	},
+	"key": "key.use"
+}

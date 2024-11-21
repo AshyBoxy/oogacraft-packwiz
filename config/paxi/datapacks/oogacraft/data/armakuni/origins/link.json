@@ -1,0 +1,24 @@
+{
+	"powers": [
+		"armakuni:stamina",
+		"armakuni:quiver",
+		"armakuni:ascend",
+		"armakuni:bullet_time",
+		"armakuni:health",
+		"armakuni:paraglider",
+		"armakuni:temperature",
+		"armakuni:emotionally_unstable",
+		"armakuni:fire_arrow",
+		"armakuni:ice_arrow",
+		"armakuni:shock_arrow",
+		"armakuni:bomb_arrow",
+		"armakuni:ancient_arrow",
+		"armakuni:tag_link"
+	],
+	"icon": "minecraft:diamond_sword",
+	"order": 21,
+	"impact": 3,
+	"name": "Link",
+	"description": "The Hero of Hyrule. (Twice)",
+	"unchoosable": false
+}

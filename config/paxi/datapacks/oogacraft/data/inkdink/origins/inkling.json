@@ -1,0 +1,33 @@
+{
+	"powers": [
+		"inkdink:colors",
+		"inkdink:kid",
+		"inkdink:squid",
+		"inkdink:super_jump",
+		"inkdink:fragile",	
+		"inkdink:pink",
+		"inkdink:red",
+		"inkdink:orange",
+		"inkdink:yellow",
+		"inkdink:lime",
+		"inkdink:green",
+		"inkdink:cyan",
+		"inkdink:lightblue",
+		"inkdink:blue",
+		"inkdink:purple",
+		"inkdink:magenta",
+		"inkdink:swapjump",
+		"inkdink:jump_timer",
+		"inkdink:color_change_timer",
+		"inkdink:change_timer",
+		"inkdink:color_change",
+		"inkdink:tflipflop",
+		"inkdink:squidswim",
+		"inkdink:hydrophobia"
+	],
+	"icon": "minecraft:bucket",
+	"order": 10,
+	"impact": 2,
+	"name": "Inkling",
+	"description": "You are a species of humanoid cephalopods having the ability to change between a Squid form and a Kid form."
+}

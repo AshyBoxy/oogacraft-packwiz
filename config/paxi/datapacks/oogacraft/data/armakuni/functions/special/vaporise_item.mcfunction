@@ -1,0 +1,1 @@
+execute as @e[type=item,type=item_frame,type=armor_stand,type=experience_orb,distance=..0.4] run function armakuni:special/vaporise
