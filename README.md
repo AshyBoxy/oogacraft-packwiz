@@ -537,8 +537,10 @@ errors, broken mods, etc
     - a lot of elytra trims
         - i feel like this is a logic error in one of the mods
 
-- missing recipes
+- bad recipes
     - spectrum has a few missing titration barrel recipes
+    - "Your custom createaddition:... recipe specified a duration. Durations have no impact on this type of recipe."
+    - a LOT of unknown recipe categories. is this vanilla or EMI?
 
 - bad paths in resourcepacks:
     - item alchemy references some .java files

@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "README.md"
-hash = "ddcbd748f4495da78b8bb26c13fa712482995d13c21b05c6f2757238018dfbc3"
+hash = "1616446c0cc4c2f4b2cb1c8845f50dc792f2325cb15cc8a6befd8dfe520379d9"
 
 [[files]]
 file = "config/NoChatReports/NCR-Client.json"
@@ -1496,7 +1496,7 @@ metafile = true
 
 [[files]]
 file = "mods/uwuifier-mc.pw.toml"
-hash = "ac715905f4410fee4b670fc9ad320e503e8f05c4da2b7f1161be1adb1f5c8226"
+hash = "7909cffa2ae0c4c53413e55eccd7cba08735ca89ae073408deb44f194f1feb9c"
 metafile = true
 
 [[files]]

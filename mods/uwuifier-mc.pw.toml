@@ -1,6 +1,6 @@
 name = "uwuifier-mc"
 filename = "uwuifier-mc-1.1.1.jar"
-side = "both"
+side = "server"
 
 [download]
 url = "https://cdn.modrinth.com/data/px7I0IlH/versions/HhsAQFRg/uwuifier-mc-1.1.1.jar"
