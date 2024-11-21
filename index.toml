@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "README.md"
-hash = "1616446c0cc4c2f4b2cb1c8845f50dc792f2325cb15cc8a6befd8dfe520379d9"
+hash = "0b731712987609808a4c73a204d49ec78d192fabca093b6964edf5b8f65e7b76"
 
 [[files]]
 file = "config/NoChatReports/NCR-Client.json"
@@ -53,6 +53,14 @@ file = "config/connectivity.json"
 hash = "aa12efc61c68a1032b480b840e417d67c29af34ea696d418a92809bf10f08503"
 
 [[files]]
+file = "config/create-server.toml"
+hash = "21bc3a693ae0056deb63b59a7eb5d77dde57e74a666be8414680f1e25adcb2b8"
+
+[[files]]
+file = "config/create-track-map.json"
+hash = "13dba5e531f5ddc3065e8d52c4738994cd082ae1f78040b8f7fa1b30e1db783d"
+
+[[files]]
 file = "config/createaddition-common.toml"
 hash = "b4d6d217d86b4c1ba41f8894d95ca5cb858c2130e6c9262f777f8fd14a6f3595"
 
@@ -101,6 +109,14 @@ file = "config/defaultoptions/extra/config/lambdynlights.toml"
 hash = "22207efe2e630f99ad3b7897b0a8641f31fb9a3a8a019483fd3b7fe1755023be"
 
 [[files]]
+file = "config/defaultoptions/extra/config/shulkerboxtooltip.json5"
+hash = "098b6db28d3005d024ec48450f2f4f7d8bccaf4144017c065a8bff480d81233e"
+
+[[files]]
+file = "config/defaultoptions/extra/config/uwuifier.json"
+hash = "49033f5f8f2bbfab19c4145aca9167c3390f1c36c5435aac04de7a98da0195a9"
+
+[[files]]
 file = "config/defaultoptions/extra/config/xaerominimap.txt"
 hash = "f5bba53b7422e2b5b6b1c6a6e3aacb0285e0a9182abe0e7fd0cac17888a2a5ee"
 
@@ -111,6 +127,10 @@ hash = "50b7f24881400d3f192242a1ce207aedddf8db3a478b6c42491b19d637e14316"
 [[files]]
 file = "config/fallingtree.json"
 hash = "8857ddc12f3e79af1a39b0d82ec76fb9703bcb911758e46e0003460502e7f102"
+
+[[files]]
+file = "config/identity.json5"
+hash = "1b276effabb48ff524d9ab29a0f8e931881a0cdeee27ce690b2a6865d68b6d97"
 
 [[files]]
 file = "config/item_obliterator.json5"
@@ -159,8 +179,16 @@ file = "config/presencefootsteps/updater.json"
 hash = "1e7c61df09c105e1eeca8cf3dcbdfeb976700e9904bcb3983fc7791adb7fad2e"
 
 [[files]]
+file = "config/simplehats.json"
+hash = "ac3257c9c077165803cc1aaaf71560a89aa805a6a2b47a6e1039120d37fe28c4"
+
+[[files]]
 file = "config/simplehats/common.toml"
 hash = "c81511de55a399321bb6f8123dad15ac6451d2f68c60f9b3aa33928f41292876"
+
+[[files]]
+file = "config/the_bumblezone.json"
+hash = "bd4825439f0c3591ac84002dfe18cf2bb9ffaf4703b191b57e945487aa179786"
 
 [[files]]
 file = "config/visualworkbench-client.toml"
