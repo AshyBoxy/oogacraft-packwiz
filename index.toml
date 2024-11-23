@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "README.md"
-hash = "f9c307c2aabb1a69333ebd3626998c515a97eb2d1a622d0203c20242f1cbe226"
+hash = "06140da28583fc019087eb43bc57eda8d9dd30d0bef845c33043891a9d670c17"
 
 [[files]]
 file = "config/Adorn.json5"
@@ -27,6 +27,10 @@ hash = "509a865329d92890241221d9b12c252e82a6a11164dfbf4e85b45c55533195a7"
 [[files]]
 file = "config/anvil_fix.json5"
 hash = "25283f34381fb8106ec5f9064a210b645b82cbe58e592b8aff492c1f3c799b80"
+
+[[files]]
+file = "config/artifacts/client.json5"
+hash = "467dc7f60302c4a5b0be92d23e1daa0724601185a1acabc727b6becc341c1bc7"
 
 [[files]]
 file = "config/artifacts/common.json5"
@@ -93,72 +97,16 @@ file = "config/creeperoverhaul.jsonc"
 hash = "92d711d3dcd68e93d829a084b7527dc8d90a67d7350e7696a54e3c8c322fee7c"
 
 [[files]]
-file = "config/defaultoptions/extra/config/ae2/client.json"
-hash = "47be002b54462677e99477a6d8c4dc42ceba1cd74fbc182a9339d5b45c84ba5c"
+file = "config/defaultoptions/keybindings.txt"
+hash = "537dfef311dfd7e7b0a79fe5d12beb0002903423805798f5c00c4f40b60c71a6"
 
 [[files]]
-file = "config/defaultoptions/extra/config/artifacts/client.json5"
-hash = "467dc7f60302c4a5b0be92d23e1daa0724601185a1acabc727b6becc341c1bc7"
+file = "config/defaultoptions/options.txt"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
-file = "config/defaultoptions/extra/config/capes.json5"
-hash = "954fcdf93acad81a8cf73db063806d6829677b4c028858adb138f8201323c7a1"
-
-[[files]]
-file = "config/defaultoptions/extra/config/deathlog.json5"
-hash = "4237c79a83d0d5ffc8f4eae6bc580e12cff8deb4cc3c8d8c5d5fddecd05cc186"
-
-[[files]]
-file = "config/defaultoptions/extra/config/do_a_barrel_roll-client.json"
-hash = "65113ba53fca553668bb54342a244cf83cab70bce8240900c62a77c7e9e36e83"
-
-[[files]]
-file = "config/defaultoptions/extra/config/enhanced_bes.properties"
-hash = "60b10d48302b50bf3e28cb5cdcba0cb2998043ad73c74d082f8353982a28e49c"
-
-[[files]]
-file = "config/defaultoptions/extra/config/estrogen-client.toml"
-hash = "f5bdbe15140599e989e455eac7ef2fe35b6d4a7a755be82d566ff273f78ec9bc"
-
-[[files]]
-file = "config/defaultoptions/extra/config/genshinstrument-client.toml"
-hash = "0ddbf7e9804f59658776dd8c3b181e211230d377d59b4d7c1796ed0568a54e03"
-
-[[files]]
-file = "config/defaultoptions/extra/config/inventorysorter/config.json5"
-hash = "cd28d343ff523c63068766d12d0d3f9430c84035745d58f618c1a88fc6ff667a"
-
-[[files]]
-file = "config/defaultoptions/extra/config/iris.properties"
-hash = "f3dcd50bafe02f964c359c0c20220f80a3ca521210cd33b5f69eb7bccca593b8"
-
-[[files]]
-file = "config/defaultoptions/extra/config/lambdabettergrass.toml"
-hash = "530bec62fb75cee3edff10ea45502f7fd2d3293525ca600e9b20294cdd639c7e"
-
-[[files]]
-file = "config/defaultoptions/extra/config/lambdynlights.toml"
-hash = "22207efe2e630f99ad3b7897b0a8641f31fb9a3a8a019483fd3b7fe1755023be"
-
-[[files]]
-file = "config/defaultoptions/extra/config/shulkerboxtooltip.json5"
-hash = "098b6db28d3005d024ec48450f2f4f7d8bccaf4144017c065a8bff480d81233e"
-
-[[files]]
-file = "config/defaultoptions/extra/config/uwuifier.json"
-hash = "49033f5f8f2bbfab19c4145aca9167c3390f1c36c5435aac04de7a98da0195a9"
-
-[[files]]
-file = "config/defaultoptions/extra/config/xaerominimap.txt"
-hash = "f5bba53b7422e2b5b6b1c6a6e3aacb0285e0a9182abe0e7fd0cac17888a2a5ee"
-
-[[files]]
-file = "config/defaultoptions/extra/config/xaerominimap_entities.json"
-hash = "50b7f24881400d3f192242a1ce207aedddf8db3a478b6c42491b19d637e14316"
-
-[[files]]
-file = "config/defaultoptions/extra/config/zoomify.json"
-hash = "55a93314139715580f52b66f7d14664537862c5e8313599c6dc656268ce37e2b"
+file = "config/defaultoptions/servers.dat"
+hash = "6fec48091321c495f713cc941771013b3bb813f843a56ab7065356514317aa84"
 
 [[files]]
 file = "config/dimdoors-config.json5"
@@ -167,6 +115,10 @@ hash = "27ce44b21e38133a1cdca77d0f192a7b202aa957bf45719ec5b8c8b2616445d0"
 [[files]]
 file = "config/elytra-trims.json"
 hash = "cd729c4b4424128b6b3c36c00e9e593a678c1fd07a16ada134c0c868b0feddd1"
+
+[[files]]
+file = "config/estrogen-client.toml"
+hash = "32ed2c1b04df14f064694ff19f2b44c08038ce0b751dd5b1433c6e44cb8188d8"
 
 [[files]]
 file = "config/extendedgears-common.toml"
@@ -207,6 +159,10 @@ hash = "d7c8625f8e3a620180bc324fbbba44119e1aab5dd583686136532d03e595994a"
 [[files]]
 file = "config/modelfix-client.json"
 hash = "d7435276b71f9ed4a49da3c06ec54004ba8b1ed46f3c32ea3a000737507d3e7b"
+
+[[files]]
+file = "config/modernfix-mixins.properties"
+hash = "4b8dbbba950a5345673929ebdbc4b1ea3c93309d0633b69e9e61ecc40300a7ef"
 
 [[files]]
 file = "config/modmenu.json"
@@ -553,6 +509,382 @@ file = "config/paxi/datapacks/oogacraft/data/armakuni/tags/items/tridents.json"
 hash = "d0ff6fd30bb12a70e003409fa0c47681fb7c6e0c6b5cce349b87ef2751cad33d"
 
 [[files]]
+file = "config/paxi/datapacks/oogacraft/data/armor_statues/advancements/crafting.json"
+hash = "d5afe334f6463fcc6a07624ed5c311e9f32e9fad3cc560ce719144130303352f"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armor_statues/advancements/enable.json"
+hash = "b83de50f5d36cf6cdf420e9d67da1111f2c6c0fd2731da13c09dbfacba16a58c"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armor_statues/advancements/root.json"
+hash = "6932cfe668cbc5be30bf7e37d26118c661780301783b4e7b8d445d7da9837538"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armor_statues/functions/admin.mcfunction"
+hash = "4705afd182a7202bba912e3064020ac982626264a9029e8834d01d7b76de6a66"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armor_statues/functions/admin/book_from_help_toggle.mcfunction"
+hash = "5948fb1bc3c6685dce947b0d3d0fea132faa76d353ec3c93673f0506de8ee0ab"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armor_statues/functions/admin/craft_book_toggle.mcfunction"
+hash = "adfaee42700b056fd4b5525cafb7854651a7b9ff83bc80a56d4643ea7240b3ab"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armor_statues/functions/admin/fixed_item_frame_toggle.mcfunction"
+hash = "7c92287fc655c06da9770e4641284151db0177f2e950a584076ee2dd93d29adb"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armor_statues/functions/admin/marker.mcfunction"
+hash = "94be62c6a0d079ed0143a0ce9016e5741dd21168aa7f095457f9648258f38e8f"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armor_statues/functions/admin/unused.mcfunction"
+hash = "275ddb698be3446e3d128cda657253030b16a89df91b29d1caf67e58361311fd"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armor_statues/functions/admin/uuid_lock_toggle.mcfunction"
+hash = "341ec139629af6e21d4dde4396f7bce7547446f8011d3febd35854f749680450"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armor_statues/functions/bugfix.mcfunction"
+hash = "e91e65c049cf7778688248883d4fb36cd4719c6aab45a7231a83ec0ddcc08dc6"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armor_statues/functions/craft_book.mcfunction"
+hash = "329c3c6ec28c538dfda87699b1382d5ccc7e6862eefa4b5973bb93f0524a5eec"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armor_statues/functions/enable.mcfunction"
+hash = "45cd26ba7e14eab5038c8056a7cb6872bc91b1ed65ee4c781ed175f8eaea00e4"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armor_statues/functions/give.mcfunction"
+hash = "0621c22759d28712547d923f80e38b06066d205920d15d5682919325e89cf612"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armor_statues/functions/help.mcfunction"
+hash = "a4a2eb6ddb62d05d15b5a3217cef24de7e450e994f7fe1306b2fce44d348ec29"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armor_statues/functions/help/chat_actionbar_toggle.mcfunction"
+hash = "a8446bd117d806301be4367e01d0015615ad2a1640b01b9b9284a08340d095de"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armor_statues/functions/help/credits.mcfunction"
+hash = "a5db39febeb05929dafef2c47553ad1ae0d1a7583e3f81b9357a0beb8a44010d"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armor_statues/functions/help/get_book.mcfunction"
+hash = "11245731897fa586cff0f3d5ed06d1c71a8d667755d9b23e65c4bc433e9396e2"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armor_statues/functions/help/main.mcfunction"
+hash = "c2d00325221c750e82059e259a50870c779f3448df3ec27fc103726d5d5e9879"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armor_statues/functions/if_trigger.mcfunction"
+hash = "47067ab626ccb835c40ba82dab99bb8b78b10f5c2bf791b67fcaa6afb5f4d5ad"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armor_statues/functions/item_frames/fixed.mcfunction"
+hash = "5deab3a4f93e1ed3ecf8a08e2940464d6b8e15d224f6d866e9b7c7de35613915"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armor_statues/functions/item_frames/invisible.mcfunction"
+hash = "bd859664c308c39a01af4bd6376194219de4398a3568acd2726874ddbca389e9"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armor_statues/functions/item_frames/invisible_old.mcfunction"
+hash = "d560879920912c74198c622424de7c9828720c2413316aab4039ab1d2df053fc"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armor_statues/functions/item_frames/visible.mcfunction"
+hash = "86e748b5924d7139aa1cd317766310dbbe2351bd41b89eb5424ff2cfbb8f01c1"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armor_statues/functions/load.mcfunction"
+hash = "02838623a4c0cb4dd3aeee0cf86d0dc1952469adfb80b60de64ba56c00b12e30"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armor_statues/functions/locking/lock.mcfunction"
+hash = "bb6e6c437a0d9f68e1a794ccdfab12f4be7c290684019011f19dbfe82e0303f6"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armor_statues/functions/locking/lock_check.mcfunction"
+hash = "7581673802e23113e34215f4b3bca6999104c1a2e4a4efbffd49cf7cd08f0664"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armor_statues/functions/locking/unlock.mcfunction"
+hash = "e35863ec5db6d5760fa92dbb881b6565c437e9b405d31ccc72c707af5698c4ae"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armor_statues/functions/locking/uuid_check.mcfunction"
+hash = "826a2153c65ebc86a3016a5fdce17b1ba571bc510302b1bfbfb05af4433974f8"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armor_statues/functions/randomizer/body.mcfunction"
+hash = "faa47c019810dc07437b999610f043fc03b2973c81d2ef51006cf28f3ca040e1"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armor_statues/functions/randomizer/body_angle.mcfunction"
+hash = "d413959d994544d6c727096bb05eed4cdd9bda81bea28c17799e1e168e1ba476"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armor_statues/functions/randomizer/head.mcfunction"
+hash = "5b9db21004cc179d2a9c5a552a578a133576276fd2f695a5d8938ab7fc1b8551"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armor_statues/functions/randomizer/head_angle.mcfunction"
+hash = "f9db81bfc83f8f5fb70eca8212b0dc5d5e4e1aacf5a6a9fdc4e96ee677bf4de3"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armor_statues/functions/randomizer/left_arm.mcfunction"
+hash = "985f71704ac6cf2c9a09c022d56c57d5883031ccf1790e8a27da8e8b1e529ac7"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armor_statues/functions/randomizer/left_leg.mcfunction"
+hash = "3e896959a4377b7c41dd6bdc6a24c6aa42fd3effbf4a1a631daac6ab3342cab0"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armor_statues/functions/randomizer/left_leg_angle.mcfunction"
+hash = "241954820c7b7cc5d1d4a57cb68d96f8e58e44f796e50472fe3efe711af632d3"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armor_statues/functions/randomizer/right_arm.mcfunction"
+hash = "fb286daf6b4ae7d10ced4b34d2e32c7b7cf176fa6cd6091544ef5eb764944295"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armor_statues/functions/randomizer/right_leg.mcfunction"
+hash = "16fe4da3b10325f2cea2218baf1e0ce5ee5c99373dfaafcc1f591a03104ed537"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armor_statues/functions/randomizer/right_leg_angle.mcfunction"
+hash = "3a0a7f0641d3370fd01f3625f2a6cd23b96e0ceb46962180c4ce1dc0e61bd06c"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armor_statues/functions/relative_position_aligned_nudge.mcfunction"
+hash = "ae28e659284a1cabff7075720b22425339ab20b1d3d8936ee3af0cb828974b73"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armor_statues/functions/relative_position_nudge.mcfunction"
+hash = "e9e5ab3614afbe58735165858fa8d3f86cc10da837045f6796a1b920fcfdfb9e"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armor_statues/functions/replace_book.mcfunction"
+hash = "fa4011a19c0028bf8f4ae8d426b7dab5830c41aca1efcedc579c25dedce277c3"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armor_statues/functions/sealing/seal.mcfunction"
+hash = "3712d79cfd3c1e62a472956b13a0e3bb5b141628b2edd56b86e7de53368d51c6"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armor_statues/functions/sealing/unseal.mcfunction"
+hash = "74bec6714f6848ec8dfff7e70b79c5657132272f207840cf24f1e61d5027e3e6"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armor_statues/functions/second.mcfunction"
+hash = "f9c726a57ecc05a263db370d99283ca63dfe5beb61c668e7b92e77f36f2eae9c"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armor_statues/functions/shrine/create.mcfunction"
+hash = "2ba55e96891653a324650d4c4f8366b70e9ff288608386bdbd231cfea8c734e2"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armor_statues/functions/shrine/main.mcfunction"
+hash = "9294791cb1b74c703327ef786e4f375f0da8baf340011239691058b2bdb4c764"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armor_statues/functions/shrine/remove.mcfunction"
+hash = "ead09973cecf2b0a94a3dbb669cf06e8edec97f064f3c82cf581c8ec78067573"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armor_statues/functions/storage_in.mcfunction"
+hash = "261faf2bd502a92df06f7255766cec9ae5e05b100f4904af2a5c333bb523dfad"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armor_statues/functions/storage_out.mcfunction"
+hash = "350127f14c358a6d2a4442c58e31435da53eda8a13745f222145b8171b04bb8c"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armor_statues/functions/tick.mcfunction"
+hash = "ae98348b5568aaf0f2043878d494c62270e2a1065f5dff3a12da4954ad3d4171"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armor_statues/functions/trigger.mcfunction"
+hash = "66966785ff1faf454dd7ec4e4f7d8e59b9936a68799f087896f321c5b708799c"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armor_statues/functions/trigger/adjust.mcfunction"
+hash = "312a9501a2077b545dff5cc6af8eccb0324067ebd96c2c114e956b6e85579e4d"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armor_statues/functions/trigger/align.mcfunction"
+hash = "d250440c2f7f5add2a2955e84becae1d22a8f29bdfe8ae5d034abe23b58a408b"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armor_statues/functions/trigger/align_small.mcfunction"
+hash = "1a7fa5b67dc47aea41b0d3962c58d96b8f57ccf460c36c20f60a40f8682d9798"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armor_statues/functions/trigger/copy.mcfunction"
+hash = "8dc375c06789b7f9ee163bf3cc552b24923eeec3ad2c0af66e6edcb9c7fccda7"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armor_statues/functions/trigger/facing.mcfunction"
+hash = "a7c5a40c471f743aa5ff04a3754eca14b789353a545f5901738ff0bb49954b37"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armor_statues/functions/trigger/flip.mcfunction"
+hash = "ee702333144315efecbf9d175dabf74587ec07bf17dff80a57ca83f8b062e351"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armor_statues/functions/trigger/last_edit.mcfunction"
+hash = "06d2347bdb6a888ecc42abea3859a3d7156ffdf092480cf17a62f2fff2e8746e"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armor_statues/functions/trigger/lock.mcfunction"
+hash = "81572bb4265715d42bde3e6c42fef88df7dc48243ada67237a5be77b92334dd9"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armor_statues/functions/trigger/mirror.mcfunction"
+hash = "531a351a4aa3a3486155540a1ddc608a5efc59e8a6914a0dc3d79b26c637031d"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armor_statues/functions/trigger/paste.mcfunction"
+hash = "3a43f873a54be8eca87570998a2cb2f361830fb170e6841996d2e9227d59c46f"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armor_statues/functions/trigger/pointing.mcfunction"
+hash = "4ea9293652a72d525dbc42419a729d76009aa0e2c77045ba16bbeaf46da907de"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armor_statues/functions/trigger/pointing_small.mcfunction"
+hash = "f5093a30e6c5cc44cc0b772bd9a4d717209e949faffe93ca15c1952ba14e294b"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armor_statues/functions/trigger/position.mcfunction"
+hash = "77e94ada4d28aedf8296014ccac6bab021ee93e2becceea0f8a3d95f3a6d3af5"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armor_statues/functions/trigger/position_relative.mcfunction"
+hash = "29ac215b2ff5eb379296ba97ed24d19df106becda1f062ccb9ca0f3fa72045e7"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armor_statues/functions/trigger/presets.mcfunction"
+hash = "a773168dddecbb268c31abf0c52a39930efe75693be121ceafcb6deb7514c5e1"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armor_statues/functions/trigger/rack.mcfunction"
+hash = "78d6ab10d9e922da3a36b85b61ff364f34a26ffc6ae0a607e72bafb6d7831108"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armor_statues/functions/trigger/rack_small.mcfunction"
+hash = "50e52b9b2e712625410e7a5cb7b76ff06a7f67dcf817f3c99fad9a526a3f676d"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armor_statues/functions/trigger/random_pose.mcfunction"
+hash = "87166d0727264c821d59fa746af820cbb88a98824ae2dcca530ffec9bf6df072"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armor_statues/functions/trigger/rotation.mcfunction"
+hash = "bc600a0c299b72c258a9e4515bc6e40e525357db3618653a3724ae559bda1967"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armor_statues/functions/trigger/settings.mcfunction"
+hash = "c566cc08ccee5c447fff3c30246c175b4f64f8d095edb1c59933d1d0147492ea"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armor_statues/functions/trigger/slots.mcfunction"
+hash = "0f45129ccaa01f38af777a18291ccc548a24b513c77866cd8e9b11ca336865c2"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armor_statues/functions/uninstall.mcfunction"
+hash = "c66b72075f8b142e5ec0920c8034cce96d53ab3d8f71046dcc5a044c0832b200"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armor_statues/loot_tables/book.json"
+hash = "7fb0dbd9583a2173f72a551c9a94bbe39bd7abf588c0cdece2e8a79133b6cab2"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armor_statues/loot_tables/book.txt"
+hash = "8c0a9c9355393dfa28273b38429a5ab1491795546c5b5f8c2279ca32a3254a84"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armor_statues/loot_tables/random_pose.json"
+hash = "86c6bd8970d2fe84d1449143bae1b916ef1677d2877f72f9b699bac041675807"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armor_statues/loot_tables/replace.json"
+hash = "f3548ebde76c2017f6d42b055b100612ba5ece6296ea163d19381aecabb97235"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armor_statues/predicates/book.json"
+hash = "b0cdb7bdbb9551ea3f840f257419efda16f413b0c0c0946538984d942488ca0a"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armor_statues/predicates/bothhands.json"
+hash = "694486187807a338e2a0f1ec796b8f8a01390b9436a75ef40bb464564747c213"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armor_statues/predicates/mainhand_potion.json"
+hash = "0f847d3821c598e34f2b313b14eebaa79fa161b4697c3d7edf7bb88ea41c0147"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armor_statues/predicates/offhand_potion.json"
+hash = "d62f60b7341fb59d10a152e98a9ba5c474895397e4df8e4b221152f1e9473157"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armor_statues/predicates/random_chance_10.json"
+hash = "fd694f813b2d6f48690c8b76c486f3ebedcb571932cc19dd3e164c64a93e4445"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armor_statues/predicates/random_chance_15.json"
+hash = "fd694f813b2d6f48690c8b76c486f3ebedcb571932cc19dd3e164c64a93e4445"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armor_statues/predicates/random_chance_20.json"
+hash = "3115db8a34fad663c4bca597577549ce000772275e5193cea1f1ce5fd36ee922"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armor_statues/predicates/random_chance_30.json"
+hash = "fcba3ec5d8a30b7a870a28aa91df278ca49d8124c7494bdbde36f814752d6432"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armor_statues/predicates/random_chance_40.json"
+hash = "3e7f9984ee80d67fd7e7ae2e148ec08df51f5f7359f71296017cce8d02200484"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armor_statues/predicates/random_chance_50.json"
+hash = "1911ece8598995c970ae19cf1789a69341915eba0e2cadf132ff61835af6be4f"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armor_statues/predicates/random_chance_70.json"
+hash = "f69e074ee2d5156cc808c5f287cb2b9b26077646aa611009222a86620c51949c"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armor_statues/predicates/random_chance_85.json"
+hash = "d92529292bf9a2d1ae6de3d0513ed4a682ba3b44e8bf478594ebd1f6fba9e939"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armor_statues/predicates/savedpose.json"
+hash = "2e253fd47999b932c5b2eac8a692a388e274a93593bb81490e9e1ef028777732"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armor_statues/predicates/savedpose_mainhand.json"
+hash = "4dd5772fd587f917b88aec0bba8dd0e701467cbf25ef36017626b3f13aa0845b"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armor_statues/predicates/savedpose_offhand.json"
+hash = "89a0bd4d2cadc0c822c3e68f3f2daced6c1740580c1d0d08453c31e77c7928cf"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/armor_statues/tags/items/potions.json"
+hash = "933bf893c7f5eb670f52ede4c81c1bc467591006f65c9739b46ea9ccff502bce"
+
+[[files]]
 file = "config/paxi/datapacks/oogacraft/data/ashyboxy/recipes/crushing/crying_obsidian.json"
 hash = "e9eac252483a4cfabb6f06d2d147a782d9c5d0d4cadbad74a7d33eb1e8b2b881"
 
@@ -659,6 +991,10 @@ hash = "70c37192bf51736bd85094df737e93ecbbfd3884bc92048362c7ef92c66b17a9"
 [[files]]
 file = "config/paxi/datapacks/oogacraft/data/c/tags/items/gold_wires.json"
 hash = "69561c9ceea2168b7ccd161c4b55863345ff4446c873fa38a59301640901c2f1"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/c/tags/items/hidden_from_recipe_viewers.json"
+hash = "4edf9c43fd2a764397466be1d707b1342a40a568711726a9e6fc53c1d09fccb2"
 
 [[files]]
 file = "config/paxi/datapacks/oogacraft/data/c/tags/items/iron_ingots.json"
@@ -1499,6 +1835,10 @@ hash = "b646a837d8516ca1a38f52b931b479890e2a82c1bcb1316766e179f2f8f9d55c"
 [[files]]
 file = "config/paxi/datapacks/oogacraft/data/minecraft/tags/functions/tick.json"
 hash = "f52addd72f5bf09aaa4b9c1971301d49a02ec098b7c98800feb5161d17e308af"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/oogacraft/tags/items/dimdoors.json"
+hash = "3e65366b6bb63e0df72497d50fd4d123a8b91be0d7289ef2aa791714b47b13c0"
 
 [[files]]
 file = "config/paxi/datapacks/oogacraft/data/origins/origin_layers/origin.json"
@@ -2741,6 +3081,10 @@ file = "config/paxi/datapacks/oogacraft/data/vanilla/loot_tables/entities/zombif
 hash = "11b671bb03cbe977e2500b6de03ffca38b4401032cc7834cdddd358cbf46a529"
 
 [[files]]
+file = "config/paxi/datapacks/oogacraft/data/vanillatweaks/advancements/armor_statues.json"
+hash = "cd75297734ecf22a718b90919d9458fdc1e350ee6a0929b29583e6126cf1e9a1"
+
+[[files]]
 file = "config/paxi/datapacks/oogacraft/data/vanillatweaks/advancements/confetti_creepers.json"
 hash = "515c644b10c96969d1cbe1bf2e156a17d19a96faa73c2d6bd1cea9c5f11f8624"
 
@@ -2766,7 +3110,7 @@ hash = "2623c705c4c483136c5cfc3b0f022b4ca45056949c1461da89a4c5c331e396cc"
 
 [[files]]
 file = "config/paxi/datapacks/oogacraft/data/vanillatweaks/tags/functions/uninstall.json"
-hash = "73648c102bfa486ddd27bdf309b631464098a3ed615a7824f0da037e53ed2e65"
+hash = "77d8d7795a1033ccd943bfad36fd4033ab56590dbc29a7726d68db707028cafe"
 
 [[files]]
 file = "config/paxi/datapacks/oogacraft/data/wool_to_string/advancements/recipes/building_blocks/wool_to_string/string.json"
@@ -2786,11 +3130,6 @@ hash = "4062b56e7e43679c61575eb1f09930f2987bbfc150fbd910d30c1633e5f5e157"
 metafile = true
 
 [[files]]
-file = "config/paxi/resourcepacks/rays-3d-rails.pw.toml"
-hash = "93f70dd650cdec259ca9150a84cb17605d9702f65f467bcf61d3d0f896b7be3b"
-metafile = true
-
-[[files]]
 file = "config/presencefootsteps/updater.json"
 hash = "1e7c61df09c105e1eeca8cf3dcbdfeb976700e9904bcb3983fc7791adb7fad2e"
 
@@ -2807,12 +3146,92 @@ file = "config/simplehats/common.toml"
 hash = "c81511de55a399321bb6f8123dad15ac6451d2f68c60f9b3aa33928f41292876"
 
 [[files]]
+file = "config/snowundertrees.config.json"
+hash = "084e0a6e133c185b270eabfab9d3b9c442357648c90743b537d50ebc2be327a7"
+
+[[files]]
 file = "config/the_bumblezone.json"
 hash = "bd4825439f0c3591ac84002dfe18cf2bb9ffaf4703b191b57e945487aa179786"
 
 [[files]]
 file = "config/visualworkbench-client.toml"
 hash = "77beec969ff3ab0405265c520af716364115a595074af6fee27d7248845f77e2"
+
+[[files]]
+file = "config/xaerominimap_entities.json"
+hash = "ec0a6ce99a90591e83b0600eab3a8a622e16e5ab763b7768ab3888e04098a74f"
+
+[[files]]
+file = "configureddefaults/config/ae2/client.json"
+hash = "12c432e13d7e599247b9913c4ae3071ff88121fc3ee37e732bede095e94f5670"
+
+[[files]]
+file = "configureddefaults/config/armorpointspp.json5"
+hash = "c36c3bc3a0a0a32357cf97b94f3783f10e96367db558e6575463b7c97de7175c"
+
+[[files]]
+file = "configureddefaults/config/capes.json5"
+hash = "954fcdf93acad81a8cf73db063806d6829677b4c028858adb138f8201323c7a1"
+
+[[files]]
+file = "configureddefaults/config/deathlog.json5"
+hash = "4237c79a83d0d5ffc8f4eae6bc580e12cff8deb4cc3c8d8c5d5fddecd05cc186"
+
+[[files]]
+file = "configureddefaults/config/do_a_barrel_roll-client.json"
+hash = "22d6678a60c101e625f1eeea6179f08e9063bf4b0523372482956d0c283c5964"
+
+[[files]]
+file = "configureddefaults/config/emi.css"
+hash = "eb370cd96a5de810eddaaf14e426aa1444278769f04207bee9ed3b0be61f284c"
+
+[[files]]
+file = "configureddefaults/config/enhanced_bes.properties"
+hash = "60b10d48302b50bf3e28cb5cdcba0cb2998043ad73c74d082f8353982a28e49c"
+
+[[files]]
+file = "configureddefaults/config/genshinstrument-client.toml"
+hash = "28bc663f85f25efd2607c2d2365adcaa4092e1c0dfaef43d22ba0c2e4b4caa7c"
+
+[[files]]
+file = "configureddefaults/config/inventorysorter/config.json5"
+hash = "92173a10ab3848607ec832fcbd1c13495db826167fcf45f9716d012f28016211"
+
+[[files]]
+file = "configureddefaults/config/iris.properties"
+hash = "f3dcd50bafe02f964c359c0c20220f80a3ca521210cd33b5f69eb7bccca593b8"
+
+[[files]]
+file = "configureddefaults/config/lambdabettergrass.toml"
+hash = "530bec62fb75cee3edff10ea45502f7fd2d3293525ca600e9b20294cdd639c7e"
+
+[[files]]
+file = "configureddefaults/config/lambdynlights.toml"
+hash = "22207efe2e630f99ad3b7897b0a8641f31fb9a3a8a019483fd3b7fe1755023be"
+
+[[files]]
+file = "configureddefaults/config/shulkerboxtooltip.json5"
+hash = "098b6db28d3005d024ec48450f2f4f7d8bccaf4144017c065a8bff480d81233e"
+
+[[files]]
+file = "configureddefaults/config/uwuifier.json"
+hash = "49033f5f8f2bbfab19c4145aca9167c3390f1c36c5435aac04de7a98da0195a9"
+
+[[files]]
+file = "configureddefaults/config/xaerominimap.txt"
+hash = "f5bba53b7422e2b5b6b1c6a6e3aacb0285e0a9182abe0e7fd0cac17888a2a5ee"
+
+[[files]]
+file = "configureddefaults/config/xaeroworldmap.txt"
+hash = "327a1927e73b4f218ec7e5225debada54b0b65fc3761be39fcc4d248b4023ba7"
+
+[[files]]
+file = "configureddefaults/config/zoomify.json"
+hash = "55a93314139715580f52b66f7d14664537862c5e8313599c6dc656268ce37e2b"
+
+[[files]]
+file = "configureddefaults/options.txt"
+hash = "bc62c2beb7b176533281161f67fffbe7de53fcf67309652fb328c43de6a5ac4d"
 
 [[files]]
 file = "defaultconfigs/computercraft-server.toml"
@@ -3008,11 +3427,6 @@ hash = "18e2faccc79b619b0114337b704e9d3ce22178c18914c6cf3ebe2eb706e02422"
 metafile = true
 
 [[files]]
-file = "mods/can-i-mine-this-block.pw.toml"
-hash = "716f1cbf8e3eae9f8fd455325d74c86e51251b8985cd412c25419a24131bc939"
-metafile = true
-
-[[files]]
 file = "mods/capes.pw.toml"
 hash = "ec2c437fe50a3f8ea6077215974ba9f769cb94eb29432156cbbe43137a74013f"
 metafile = true
@@ -3110,6 +3524,11 @@ metafile = true
 [[files]]
 file = "mods/computer-cartographer.pw.toml"
 hash = "2b2396d224bff6580bc2636e49f046d6a66889bf2ae83b61ae9b7c28c13143a6"
+metafile = true
+
+[[files]]
+file = "mods/configured-defaults.pw.toml"
+hash = "f476a0195ec74c69376e3cae61b371d3f3a7237259ace46fbf0c915aefa77170"
 metafile = true
 
 [[files]]
@@ -3657,6 +4076,21 @@ hash = "5dbbebb1be98bfa055096c70fcbf668553b736ad2f9d20a5ff2d2cafc40968c1"
 metafile = true
 
 [[files]]
+file = "mods/jade-addons-fabric.pw.toml"
+hash = "254cf931c0da94dc08afde44489e7d79ef101e7e17d695a06d91a9a25d9bcb82"
+metafile = true
+
+[[files]]
+file = "mods/jade.pw.toml"
+hash = "390c9242cd4bc9eac27379a72081e5e60b6af0ba39706bb4b43dd55399c664f8"
+metafile = true
+
+[[files]]
+file = "mods/jei.pw.toml"
+hash = "5e83a4294f11fd592e58b0fe8a4041ebdf30875c9dd16060cb74189a7aad240d"
+metafile = true
+
+[[files]]
 file = "mods/joy-of-painting.pw.toml"
 hash = "d05198eff022c2e1e750da3fef268dc0bacfbfbac3a2da72b630acb451311be1"
 metafile = true
@@ -4189,11 +4623,6 @@ metafile = true
 [[files]]
 file = "mods/windchimes.pw.toml"
 hash = "7ef1612adfce02572d20a2a9682f35ff4f2b2da50fa7645b8c73a46c108b12a9"
-metafile = true
-
-[[files]]
-file = "mods/wthit.pw.toml"
-hash = "aa63bc4f9714daccf01fc5a898fc913f87f1ef5d9dcc3c9a25ba8a2e3362aa5c"
 metafile = true
 
 [[files]]

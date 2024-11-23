@@ -5,13 +5,19 @@
   "excludeMode": "ONLY",
   "excludeList": [
     "minecraft:glow_item_frame",
-    "minecraft:item_frame"
+    "minecraft:item_frame",
+    "create:contraption",
+    "create:carriage_contraption",
+    "create:crafting_blueprint",
+    "create_stationary_contraption",
+    "create:seat",
+    "create:super_glue"
   ],
   "name": "gui.xaero_entity_category_root",
   "protection": true,
   "settingOverrides": {
-    "displayHeight": 0.0,
     "displayed": true,
+    "displayHeight": 0.0,
     "heightBasedFade": true,
     "renderOrder": 0.0,
     "color": 13.0,
@@ -22,8 +28,8 @@
     "startFadingAt": 0.0,
     "renderOverMinimapFrame": 1.0,
     "icons": 2.0,
-    "names": 1.0,
     "heightLimit": 20.0,
+    "names": 1.0,
     "iconScale": 1.0
   },
   "subCategories": [

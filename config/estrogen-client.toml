@@ -62,7 +62,7 @@
 	xOffset = -23
 	#.
 	#Custom Splashes on the main menu! Requires resource reload
-	estrogenSplashes = true
+	estrogenSplashes = false
 	#.
 	#Enable the estrogen button in the create screen
 	enabled = true
@@ -71,7 +71,7 @@
 [misc]
 	#.
 	#Allows you to pat entities by shift right-clicking them!
-	entityPatting = true
+	entityPatting = false
 #.
 #Settings for Equippable Items
 [accessory]

@@ -155,16 +155,14 @@ Tools are more things that use physical items and blocks, utilities are more thi
 - Appleskin
 - Better Mount HUD
 - Better Statistics Screen
-- WTHIT
-    - cAn i MiNe thIS bLOCk?
+- Jade
+    - Jade Addons
 - Carry On
 - Couplings
 - Crawl
 - DeathLog
 - Do a Barrel Roll
 - Dragon Drops Elytra
-- FSit
-- Identity
 - Infinite Trading
 - infinitebanners
 - Inventory Essentials
@@ -182,6 +180,7 @@ Tools are more things that use physical items and blocks, utilities are more thi
     - EMI Enchanting (client only)
     - EMI Ores
     - AE2 EMI Crafting Integration (client only)
+    - JEI
 #### Xaeros
 - way2wayfabric
 - Xaero's Minimap
@@ -198,6 +197,11 @@ Tools are more things that use physical items and blocks, utilities are more thi
 - Mixin Conflict Helper
 - Paxi
 - Default Options
+    - For default keybinds, and servers
+- Configured Defaults
+    - For certain default mod configs
+    - Default Options seems to run too late for most of these
+    - For actual options.txt too, since default options doesn't seem to actually change what they default to on a new instance
 #### Server Utils
 - No Chat Reports
 
@@ -373,14 +377,19 @@ Should still be kept at a minimum, singleplayer should be totally functional
 - raesbetterfarming-1.0.1.jar
 
 ### Unwanted
-- AdvancementInfo
-    - Replaced by Paginated Advancements
 - Bobby
     - Not worth it on lower end devices
 - DashLoader
 - Origins++
 - Skin Layers 3D
     - Most people just seem to not like this
+- RAY's 3D Rails (resourcepack)
+
+### Replaced
+- AdvancementInfo (Paginated Advancements)
+- WTHIT (Jade)
+- REI (EMI)
+- cAn i MiNe thIS bLOCk? (Jade)
 
 ### Outdated
 - CreateFabricREIBugFix-0.1.0-create0.5.1-mc1.20.x.jar.disabled
@@ -392,6 +401,8 @@ Should still be kept at a minimum, singleplayer should be totally functional
 - Overworld Mirror
 - Create Bitterballen
 - gravestones-v1.15
+- FSit
+- Identity
 
 
 ## Considering
@@ -402,7 +413,6 @@ Should still be kept at a minimum, singleplayer should be totally functional
 - Gamma Utils - kind of cheaty
 - Quality Sounds - doesn't Repurposed Footsteps offer the same?
 - Simple Discord Link - replace with BOC-Discord
-- WTHIT - replace with Jade
 - Entity Model Features
 - Entity Texture Features
 - Enhanced Block Entities
@@ -413,7 +423,6 @@ Should still be kept at a minimum, singleplayer should be totally functional
 - possibly more create addons
 - BOC-Discord (then BOC-MsgClient)
 - Almost Unified
-- Jade
 - EMI integrations for resources and such
 - [Hephaestus (Tinkers' Construct)](https://modrinth.com/mod/hephaestus)
 - https://modrinth.com/mod/spectrum-jetpacks
@@ -421,7 +430,6 @@ Should still be kept at a minimum, singleplayer should be totally functional
 - https://modrinth.com/mod/xercamod
 - tpcommands
 - things with more rail variants, think the copper rail
-    - will need to create 3d rail models for these
 - more reborn energy based tech
 - https://modrinth.com/mod/toms-storage
 - https://modrinth.com/mod/simple-copper-pipes
@@ -430,6 +438,8 @@ Should still be kept at a minimum, singleplayer should be totally functional
     - plus creating a datapack for extra mod support
 - https://modrinth.com/mod/better-combat
 - https://modrinth.com/mod/every-compat
+- FSit
+- Identity
 
 # Packs
 Datapacks, resourcepacks, whatever<br>
@@ -443,27 +453,14 @@ Datapacks should be available on both sides
         - custom recipes
         - tags
 ## Resourcepacks
-- RAY's 3D Rails
 
 # Other todo
-- default keybindings
 - set up almost unified
 - set up duplicate blocks being replaced (unified)
     - https://modrinth.com/mod/block-swap ?
-- figure out how to add vanilla tweaks packs to packwiz
-    - am i allowed to redistribute?
-- how do i ensure certain mod provided resource packs are enabled on new installs?
-    - traditional approach was to have them enabled in the distributed options.txt...
 - come up with a better recipe for the orb of origins
 - command blocks need to be enabled for create structures to work
 ### Configs
-- add configs
-    - the following need extra thought:
-    - wthit/jade defaults
-    - emi defaults
-    - default keybinds
-    - xaeros' default settings
-    - dimensional doors has a lot of interesting options
 
 ### Longer Term Configs
 (stuff that either needs constantly updating, or i'm too lazy to do now)
@@ -492,6 +489,9 @@ Datapacks should be available on both sides
     - mobs immune to space damage
 - add overpowered things to item obliterator
 - finish the oogacraft:dimdoors tag
+- default keybindings for new mods
+- watch out for entities that need hiding from xaeros
+- dimensional doors has a lot of interesting options
 
 ### Stretch Goals
 - a lot of mods could do with compat datapacks
@@ -508,11 +508,11 @@ Datapacks should be available on both sides
     - create should be able to make tech reborn plates
 - download mods to more uniform filenames?
 - reorganise oogacraft datapack to be less of a mess
+- make client side configs not be downloaded by servers
 
 ## Current Issues
 errors, broken mods, etc
-- i do still want fsit
-- identity crashes when trying to open its menu
+- i do still want fsit and identity
 - something seems to be breaking mipmaps for the block atlas?
 - estrogen moth elytra item model is missing
 - "Game took 144.804 seconds to start"
@@ -524,6 +524,7 @@ errors, broken mods, etc
 - "Unknown block '...' in 'matchBlocks' element '...' at index 4 in file 'minecraft:optifine/ctm/_overlays/....properties' in pack 'fabric'"
 - "No texture minecraft:textures/missingno.png" funny
 - clients often just get disconnected from the server when joining?
+- Spectrum crashes randomly sometimes at `SpectrumClientEventListeners.java:113`
 
 
 - missing sounds:
@@ -543,7 +544,6 @@ errors, broken mods, etc
     - missing variants:
         - dimdoors:limbo_air
         - itemalchemy:emc_cable
-        - create's cart assembler needs adapting for 3d rails
 - missing models:
     - a lot of elytra trims
         - i feel like this is a logic error in one of the mods
@@ -564,13 +564,14 @@ errors, broken mods, etc
     - dimensional doors' enchant descriptions
     - lots of status effect descriptions
     - LOTS of tags
+    - create jetpacks keybinds title
 
 - various mods making all the trims warn about them not having layer0 textures
     - dynamic trim also seems mad about these
     - this could be harmless and just a result of them using 3d item models
     - if so just disable these log messages
     - might also need to disable trimming these armors?
-- something is trying to use additional entity attributes
+- additional entity attributes seems broken
 - a lot of model loaders are apparently not registered?
 - invalid descriptors on some fastanim mixins?
 - origins doesn't open its picker on new joins?
