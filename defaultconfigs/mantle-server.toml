@@ -1,0 +1,2 @@
+#Preferences for outputs from tags used in automatic compat in recipes
+tagPreferences = ["minecraft", "kubejs", "crafttweaker", "create", "tconstruct", "techreborn", "modern_industrialization", "indrev"]

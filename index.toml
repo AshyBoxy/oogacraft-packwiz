@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "README.md"
-hash = "77ad12919ff94e726a9b1bf9950fa89c3fe09fd2269ed36dde4712f715b19c01"
+hash = "146f25223ad8cdd05fcafd37f36e66f7fd987ea253f1a8a4d56afc8bd1e227a9"
 
 [[files]]
 file = "config/Adorn.json5"
@@ -23,6 +23,14 @@ hash = "7d20bcad0824d4b3c568fd7af8fc770b71de484da8575e1e0bdda1ac1bb3c2a3"
 [[files]]
 file = "config/ae2/common.json"
 hash = "509a865329d92890241221d9b12c252e82a6a11164dfbf4e85b45c55533195a7"
+
+[[files]]
+file = "config/almostunified/duplicates.json"
+hash = "fe03cb28977f4ee8ea2090027d309e89b81c1a0f4cd82a4f6f4f7063474c1351"
+
+[[files]]
+file = "config/almostunified/unify.json"
+hash = "668134e256a7aaebe14d7e4a77962b7ad5f7de22a2c983b9cf036dd45a2e3385"
 
 [[files]]
 file = "config/anvil_fix.json5"
@@ -145,6 +153,10 @@ file = "config/identity.json5"
 hash = "1b276effabb48ff524d9ab29a0f8e931881a0cdeee27ce690b2a6865d68b6d97"
 
 [[files]]
+file = "config/inventorysorter/blacklist.json5"
+hash = "f770eab7b00cdaafa3ec57a64287078390453c90c4b2e8e4da022e87871e1559"
+
+[[files]]
 file = "config/item_obliterator.json5"
 hash = "1e44d6a22d02976a604585b1b3a56c387f5305ff55e55b70ab568b0b56ebf82c"
 
@@ -159,6 +171,10 @@ hash = "d341410037970de3771f55a69df8ea4f12b9b527d51183551192de4d3a0ff16d"
 [[files]]
 file = "config/liroth/liroth.json5"
 hash = "d7c8625f8e3a620180bc324fbbba44119e1aab5dd583686136532d03e595994a"
+
+[[files]]
+file = "config/mantle-client.toml"
+hash = "8167e5525801979375c1a9fa4e849dd7af40c4dfb56ea83013444326ce70aa99"
 
 [[files]]
 file = "config/modelfix-client.json"
@@ -1002,7 +1018,7 @@ hash = "4edf9c43fd2a764397466be1d707b1342a40a568711726a9e6fc53c1d09fccb2"
 
 [[files]]
 file = "config/paxi/datapacks/oogacraft/data/c/tags/items/iron_ingots.json"
-hash = "55711d20f4f699ac397818dd75469393ce62aced2447e555ab6113373bce41a5"
+hash = "0c615d27d6e7932dab70603593b0d4b2098f06e605c17c7e8549a677ec84ef94"
 
 [[files]]
 file = "config/paxi/datapacks/oogacraft/data/c/tags/items/wheat_dough.json"
@@ -1011,6 +1027,10 @@ hash = "d456326aa00f122d2c4e5bac5544c472210caa1b5c74f25995912176a16cd3db"
 [[files]]
 file = "config/paxi/datapacks/oogacraft/data/c/tags/items/wires/gold.json"
 hash = "77e622d74daae54357d16b867c9666ebab31dd12b17b95f555fcb5f18a137968"
+
+[[files]]
+file = "config/paxi/datapacks/oogacraft/data/c/tags/items/zinc_dusts.json"
+hash = "15efae6ab16d1bdf36d07c870ef169ad73c509841196a7b16c670c990c0cd6e7"
 
 [[files]]
 file = "config/paxi/datapacks/oogacraft/data/confetti_creepers/functions/check_effect_cloud.mcfunction"
@@ -3154,6 +3174,10 @@ file = "config/snowundertrees.config.json"
 hash = "084e0a6e133c185b270eabfab9d3b9c442357648c90743b537d50ebc2be327a7"
 
 [[files]]
+file = "config/tconstruct-common.toml"
+hash = "c66240d9ca71dd8c579b62fb419364a41335fe67ebd2009ab0f1f4dbfce8353b"
+
+[[files]]
 file = "config/the_bumblezone.json"
 hash = "bd4825439f0c3591ac84002dfe18cf2bb9ffaf4703b191b57e945487aa179786"
 
@@ -3242,6 +3266,10 @@ file = "defaultconfigs/computercraft-server.toml"
 hash = "98c4d97aa14966d2c9c70a6168dde2673c346398360acf3cfdede5b4e2bd01aa"
 
 [[files]]
+file = "defaultconfigs/mantle-server.toml"
+hash = "69cd2101f255fde6c09927223ad7d5892038c6c5e45b504f36ff1862f241842f"
+
+[[files]]
 file = "mods/AnvilFix-development+20230626064221-1.20.1.jar"
 hash = "69f2cdea57e84b2be0e74183c68fed894031fe5ecd166776268261ec58627cf2"
 
@@ -3288,6 +3316,11 @@ metafile = true
 [[files]]
 file = "mods/allthetrims.pw.toml"
 hash = "526442c47ba82b999b269a20b865435de668c864068adcf1606deb33a20f9624"
+metafile = true
+
+[[files]]
+file = "mods/almost-unified.pw.toml"
+hash = "44e496203d0c024a7d43ab9e9f4c3f67f8f39b0fac9da1ed769f057c76bcc046"
 metafile = true
 
 [[files]]
@@ -3993,6 +4026,11 @@ metafile = true
 [[files]]
 file = "mods/grass-seeds.pw.toml"
 hash = "97088ea104b2ba4ba6c6b29142565cebfc6fe0a3376fe7312a8710143cb128ec"
+metafile = true
+
+[[files]]
+file = "mods/hephaestus.pw.toml"
+hash = "91c9f826f91a79126962578e39284f763b681e7d2dd50dd83d2323c3ef5f9c17"
 metafile = true
 
 [[files]]

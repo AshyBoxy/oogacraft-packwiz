@@ -87,6 +87,7 @@ Tools are more things that use physical items and blocks, utilities are more thi
 - Reinforced Barrels
 - Reinforced Chests
 - Reinforced Shulker Boxes
+- [Hephaestus (Tinkers' Construct)](https://modrinth.com/mod/hephaestus)
 
 ### Tech/Magic
 - Tech Reborn
@@ -202,6 +203,7 @@ Tools are more things that use physical items and blocks, utilities are more thi
     - For certain default mod configs
     - Default Options seems to run too late for most of these
     - For actual options.txt too, since default options doesn't seem to actually change what they default to on a new instance
+- Almost Unified
 #### Server Utils
 - No Chat Reports
 
@@ -421,25 +423,24 @@ Should still be kept at a minimum, singleplayer should be totally functional
 - Proximity Voice Chat
 - Sound Physics Remastered
 - possibly more create addons
-- BOC-Discord (then BOC-MsgClient)
-- Almost Unified
-- EMI integrations for resources and such
-- [Hephaestus (Tinkers' Construct)](https://modrinth.com/mod/hephaestus)
 - https://modrinth.com/mod/spectrum-jetpacks
-- https://modrinth.com/mod/music-maker-mod
-- https://modrinth.com/mod/xercamod
 - tpcommands
 - things with more rail variants, think the copper rail
 - more reborn energy based tech
 - https://modrinth.com/mod/toms-storage
 - https://modrinth.com/mod/simple-copper-pipes
-- https://modrinth.com/mod/chalk
 - https://modrinth.com/mod/chest-cavity
     - plus creating a datapack for extra mod support
-- https://modrinth.com/mod/better-combat
+- https://modrinth.com/mod/copycats
+- https://modrinth.com/mod/chalk
+- https://modrinth.com/mod/xercamod
 - https://modrinth.com/mod/every-compat
+- https://modrinth.com/mod/music-maker-mod
+- https://modrinth.com/mod/better-combat
 - FSit
 - Identity
+- BOC-Discord (then BOC-MsgClient)
+- EMI integrations for resources and such
 
 # Packs
 Datapacks, resourcepacks, whatever<br>
@@ -455,7 +456,6 @@ Datapacks should be available on both sides
 ## Resourcepacks
 
 # Other todo
-- set up almost unified
 - set up duplicate blocks being replaced (unified)
     - https://modrinth.com/mod/block-swap ?
 - come up with a better recipe for the orb of origins
@@ -492,6 +492,7 @@ Datapacks should be available on both sides
 - default keybindings for new mods
 - watch out for entities that need hiding from xaeros
 - dimensional doors has a lot of interesting options
+- watch out for anything that needs unifying
 
 ### Stretch Goals
 - a lot of mods could do with compat datapacks
