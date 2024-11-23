@@ -9,7 +9,7 @@
     "create:contraption",
     "create:carriage_contraption",
     "create:crafting_blueprint",
-    "create_stationary_contraption",
+    "create:stationary_contraption",
     "create:seat",
     "create:super_glue"
   ],

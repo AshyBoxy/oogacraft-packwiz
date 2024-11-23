@@ -1,0 +1,8 @@
+name = "Oogacraft Compat"
+filename = "oogacraft-compat-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://github.com/AshyBoxy/oogacraft-compat/releases/download/v1.0.0/oogacraft-compat-1.0.0.jar"
+hash-format = "sha512"
+hash = "1aeee168415479483306736e6a4410498b765138295e0eeaeda6912b78ab89a0bc4803d022e7a0fe677552207b270063d99f748f48d7f0bf5a7f76f3f464008f"

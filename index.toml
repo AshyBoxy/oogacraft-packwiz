@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "README.md"
-hash = "06140da28583fc019087eb43bc57eda8d9dd30d0bef845c33043891a9d670c17"
+hash = "77ad12919ff94e726a9b1bf9950fa89c3fe09fd2269ed36dde4712f715b19c01"
 
 [[files]]
 file = "config/Adorn.json5"
@@ -98,7 +98,7 @@ hash = "92d711d3dcd68e93d829a084b7527dc8d90a67d7350e7696a54e3c8c322fee7c"
 
 [[files]]
 file = "config/defaultoptions/keybindings.txt"
-hash = "537dfef311dfd7e7b0a79fe5d12beb0002903423805798f5c00c4f40b60c71a6"
+hash = "91c11db2e5efa3a61ab0b5916c92473e6644e8207d4c3f5e49a6599701c513f9"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
@@ -119,6 +119,10 @@ hash = "cd729c4b4424128b6b3c36c00e9e593a678c1fd07a16ada134c0c868b0feddd1"
 [[files]]
 file = "config/estrogen-client.toml"
 hash = "32ed2c1b04df14f064694ff19f2b44c08038ce0b751dd5b1433c6e44cb8188d8"
+
+[[files]]
+file = "config/estrogen-common.toml"
+hash = "71f1d5bef8e6f14bdfc592c1aa405727ce5fb333b2699540346625931b78a1fb"
 
 [[files]]
 file = "config/extendedgears-common.toml"
@@ -3159,7 +3163,7 @@ hash = "77beec969ff3ab0405265c520af716364115a595074af6fee27d7248845f77e2"
 
 [[files]]
 file = "config/xaerominimap_entities.json"
-hash = "ec0a6ce99a90591e83b0600eab3a8a622e16e5ab763b7768ab3888e04098a74f"
+hash = "c4969566654a99cb7d3ddad53bb40dc7d76c1b6cd09ab0c2c577f48cf3e40d62"
 
 [[files]]
 file = "configureddefaults/config/ae2/client.json"
@@ -3231,7 +3235,7 @@ hash = "55a93314139715580f52b66f7d14664537862c5e8313599c6dc656268ce37e2b"
 
 [[files]]
 file = "configureddefaults/options.txt"
-hash = "bc62c2beb7b176533281161f67fffbe7de53fcf67309652fb328c43de6a5ac4d"
+hash = "6d77e42eff78846da69eaf1b27faebbabe82040b58980d5a8ccca728c338ca54"
 
 [[files]]
 file = "defaultconfigs/computercraft-server.toml"
@@ -3443,7 +3447,7 @@ metafile = true
 
 [[files]]
 file = "mods/cc-tweaked.pw.toml"
-hash = "6ec1787d0fc9247eefa406a8b60688de61a00e8369affd80204e9eb26b190202"
+hash = "61fe0368e62d8926d1c7429532f74d22afc3e7044bee9385452095bd492976ef"
 metafile = true
 
 [[files]]
@@ -3538,7 +3542,7 @@ metafile = true
 
 [[files]]
 file = "mods/connectivity.pw.toml"
-hash = "750d76b66efd13d8754ab14e29c3fe465e6e9db2e4fb108bacb38d2c7548f019"
+hash = "684f4251c27322369a364ad8594859f06e1c7a32423da7d116e457f3d4b93af8"
 metafile = true
 
 [[files]]
@@ -3618,7 +3622,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-jetpack.pw.toml"
-hash = "e5a350a26699fb065c64616f05e7b79c25d46344d9b40e82f6e35cd1d87836e8"
+hash = "5a6081e7d74cca40fbac91b83e74161c184e9053bbb65e5e500c2293b49a74c2"
 metafile = true
 
 [[files]]
@@ -3823,7 +3827,7 @@ metafile = true
 
 [[files]]
 file = "mods/entitytexturefeatures.pw.toml"
-hash = "cf0d22c615de599912978e0352bde47a818d9ba306e34f832b578a86f2912433"
+hash = "cbc6ac7cd925b77d81d59f8f56a8d7bfdf5327570d9778b597760d61d8156e43"
 metafile = true
 
 [[files]]
@@ -3833,7 +3837,7 @@ metafile = true
 
 [[files]]
 file = "mods/estrogen.pw.toml"
-hash = "3ecb28755cea4ba5ed365953eccc8e5a9d08ec0b2d8355341697e1e8040ee526"
+hash = "157d7826377eefc4746e7f8037e2169a90571c3c34d4d2ce1505c7767c6fbbb9"
 metafile = true
 
 [[files]]
@@ -4202,7 +4206,7 @@ metafile = true
 
 [[files]]
 file = "mods/moonlight.pw.toml"
-hash = "2c06ee7dc714f27e599c6d383234b1a91b1b47ecfffb7505dbb5fb79d161c5de"
+hash = "0ad670719a1c2449db1516a1925bbfe377f855f9367fa83036484090cd902158"
 metafile = true
 
 [[files]]
@@ -4273,6 +4277,11 @@ metafile = true
 [[files]]
 file = "mods/onastick.pw.toml"
 hash = "e5f31ad407179a0f773eb5e11d6c15b89c29d283fa495de3fdc130043b45d878"
+metafile = true
+
+[[files]]
+file = "mods/oogacraft-compat.pw.toml"
+hash = "a39d90e799e7043551e2399c05273bcf03bda18029c0d4ed432446d02c058684"
 metafile = true
 
 [[files]]
@@ -4347,7 +4356,7 @@ metafile = true
 
 [[files]]
 file = "mods/presence-footsteps.pw.toml"
-hash = "3107213a52ef2fb87e81db0a330f1a06665afde112a3482ba3747128c6e99aa3"
+hash = "a9769ced0531122518321833966d375196753db1c3a47b975aed4bb6837fae7a"
 metafile = true
 
 [[files]]
@@ -4522,12 +4531,12 @@ metafile = true
 
 [[files]]
 file = "mods/supplementaries-squared.pw.toml"
-hash = "5520f823b88c5276425f53f141a3e79c7896a1d22139243d229e61344df9ac0c"
+hash = "6beeb6ee9c6003b06e6d9ab5ab0aaf90f6fb32d3a791d72c932a04c189e6c05d"
 metafile = true
 
 [[files]]
 file = "mods/supplementaries.pw.toml"
-hash = "5e67e96ab4d6c876dc26256b8025ab517d1f11e5b3909e194a7d9ce2826d7568"
+hash = "481c61790292ee785f7fe95cad50e18de3189edec609bf059958473aebbbe4b3"
 metafile = true
 
 [[files]]

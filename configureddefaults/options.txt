@@ -122,7 +122,7 @@ key_key.hotbar.9:key.keyboard.9
 key_key.estrogen.dash:key.keyboard.x
 key_key.emotecraft.fastchoose:key.keyboard.r
 key_key.emotecraft.stop:key.keyboard.unknown
-key_key.itemalchemy.charge:key.keyboard.equal
+key_key.itemalchemy.charge:key.keyboard.unknown
 key_key.ae2.wireless_terminal:key.keyboard.unknown
 key_key.ae2.portable_item_cell:key.keyboard.unknown
 key_key.ae2.portable_fluid_cell:key.keyboard.unknown
@@ -234,8 +234,8 @@ key_gui.xaero_toggle_map_waypoints:key.keyboard.unknown
 key_gui.xaero_toggle_map:key.keyboard.unknown
 key_gui.xaero_enlarge_map:key.keyboard.z
 key_gui.xaero_waypoints_key:key.keyboard.u
-key_gui.xaero_zoom_in:key.keyboard.unknown
-key_gui.xaero_zoom_out:key.keyboard.unknown
+key_gui.xaero_zoom_in:key.keyboard.equal
+key_gui.xaero_zoom_out:key.keyboard.minus
 key_gui.xaero_new_waypoint:key.keyboard.apostrophe
 key_gui.xaero_display_all_sets:key.keyboard.unknown
 key_gui.xaero_toggle_light_overlay:key.keyboard.unknown

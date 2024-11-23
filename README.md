@@ -524,7 +524,6 @@ errors, broken mods, etc
 - "Unknown block '...' in 'matchBlocks' element '...' at index 4 in file 'minecraft:optifine/ctm/_overlays/....properties' in pack 'fabric'"
 - "No texture minecraft:textures/missingno.png" funny
 - clients often just get disconnected from the server when joining?
-- Spectrum crashes randomly sometimes at `SpectrumClientEventListeners.java:113`
 
 
 - missing sounds:
