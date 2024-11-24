@@ -91,7 +91,6 @@ Tools are more things that use physical items and blocks, utilities are more thi
 - Reinforced Chests
 - Reinforced Shulker Boxes
 - [Hephaestus (Tinkers' Construct)](https://modrinth.com/mod/hephaestus)
-- [Plant In A Jar](https://modrinth.com/mod/plant-in-a-jar)
 
 ### Tech/Magic
 - Tech Reborn
@@ -418,6 +417,7 @@ Should still be kept at a minimum, singleplayer should be totally functional
 - gravestones-v1.15
 - FSit
 - Identity
+- [Plant In A Jar](https://modrinth.com/mod/plant-in-a-jar) - crashes the server on use
 
 ### Incompatible
 - [Sound Physics Remastered](https://modrinth.com/mod/sound-physics-remastered) - incompatible with Create

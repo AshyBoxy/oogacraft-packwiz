@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "README.md"
-hash = "321886619bc1315dae2b737e17f39b3297c4eb68458356ff7a8351823a2de3a7"
+hash = "26373507e67a46dca5f4219cdebfa86fc2af5103a217054a85605649fc790a7c"
 
 [[files]]
 file = "config/Adorn.json5"
@@ -4413,11 +4413,6 @@ metafile = true
 [[files]]
 file = "mods/pipepump.pw.toml"
 hash = "420b092c9345e2f03e55fc52253736244a852c63172619e86b71f49682910c52"
-metafile = true
-
-[[files]]
-file = "mods/plant-in-a-jar.pw.toml"
-hash = "500de33d1a76f62c4aafd18ec1f01e6a08abd5bedfc75bb191108c7cdf9ac15f"
 metafile = true
 
 [[files]]
