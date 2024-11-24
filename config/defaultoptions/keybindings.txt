@@ -49,7 +49,7 @@ key_artifacts.key.helium_flamingo.activate:key.keyboard.unknown:NONE
 key_artifacts.key.night_vision_goggles.toggle:key.keyboard.unknown:NONE
 key_artifacts.key.universal_attractor.toggle:key.keyboard.unknown:NONE
 key_key.botania_corporea_request:key.keyboard.f9:NONE
-key_key.carry.desc:key.keyboard.unknown:NONE
+key_key.carry.desc:key.keyboard.left.alt:NONE
 key_keyinfo.copycats.fill_copycat:key.keyboard.left.alt:NONE
 key_key.crawl:key.keyboard.right.alt:NONE
 key_create.keyinfo.toolmenu:key.keyboard.left.alt:NONE
@@ -76,7 +76,7 @@ key_key.jetpack.toggle_active.description:key.keyboard.period:NONE
 key_key.jetpack.toggle_hover.description:key.keyboard.comma:NONE
 key_key.gamma_utils.gamma_toggle:key.keyboard.pause:NONE
 key_key.gamma_utils.increase_gamma:key.keyboard.unknown:NONE
-key_key.gamma_utils.decrease_gamma:key.keyboard.down:NONE
+key_key.gamma_utils.decrease_gamma:key.keyboard.unknown:NONE
 key_key.gamma_utils.max_gamma:key.keyboard.unknown:NONE
 key_key.gamma_utils.min_gamma:key.keyboard.unknown:NONE
 key_key.gamma_utils.night_vision_toggle:key.keyboard.h:NONE
@@ -103,8 +103,8 @@ key_key.jei.showRecipe:key.keyboard.unknown:NONE
 key_key.jei.showRecipe2:key.keyboard.unknown:NONE
 key_key.jei.showUses:key.keyboard.unknown:NONE
 key_key.jei.showUses2:key.keyboard.unknown:NONE
-key_key.jei.transferRecipeBookmark:key.mouse.left:NONE
-key_key.jei.maxTransferRecipeBookmark:key.mouse.left:NONE
+key_key.jei.transferRecipeBookmark:key.keyboard.unknown:NONE
+key_key.jei.maxTransferRecipeBookmark:key.keyboard.unknown:NONE
 key_key.jei.clearSearchBar:key.keyboard.unknown:NONE
 key_key.jei.previousSearch:key.keyboard.unknown:NONE
 key_key.jei.nextSearch:key.keyboard.unknown:NONE
@@ -144,7 +144,7 @@ key_key.tconstruct.leggings_interact:key.keyboard.unknown:NONE
 key_key.the_bumblezone.beehemoth_up:key.keyboard.space:NONE
 key_key.the_bumblezone.beehemoth_down:key.keyboard.caps.lock:NONE
 key_key.toms_storage.open_terminal:key.keyboard.unknown:NONE
-key_key.push_to_talk:key.key.keyboard.n:NONE
+key_key.push_to_talk:key.keyboard.n:NONE
 key_key.whisper:key.keyboard.unknown:NONE
 key_key.mute_microphone:key.keyboard.n:NONE
 key_key.disable_voice_chat:key.keyboard.unknown:NONE
@@ -189,3 +189,16 @@ key_iris.keybind.toggleShaders:key.keyboard.unknown:NONE
 key_iris.keybind.shaderPackSelection:key.keyboard.semicolon:NONE
 key_iris.keybind.wireframe:key.keyboard.unknown:NONE
 key_key.ae2.guide:key.keyboard.unknown:NONE
+key_key.chestcavity.utility_abilities:key.keyboard.unknown:NONE
+key_key.chestcavity.attack_abilities:key.keyboard.unknown:NONE
+key_key.chestcavity.creepy:key.keyboard.unknown:NONE
+key_key.chestcavity.dragon_breath:key.keyboard.unknown:NONE
+key_key.chestcavity.dragon_bombs:key.keyboard.unknown:NONE
+key_key.chestcavity.forceful_spit:key.keyboard.unknown:NONE
+key_key.chestcavity.furnace_powered:key.keyboard.unknown:NONE
+key_key.chestcavity.iron_repair:key.keyboard.unknown:NONE
+key_key.chestcavity.pyromancy:key.keyboard.unknown:NONE
+key_key.chestcavity.ghastly:key.keyboard.unknown:NONE
+key_key.chestcavity.grazing:key.keyboard.unknown:NONE
+key_key.chestcavity.shulker_bullets:key.keyboard.unknown:NONE
+key_key.chestcavity.silk:key.keyboard.unknown:NONE

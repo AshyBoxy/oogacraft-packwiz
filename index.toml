@@ -110,7 +110,7 @@ hash = "92d711d3dcd68e93d829a084b7527dc8d90a67d7350e7696a54e3c8c322fee7c"
 
 [[files]]
 file = "config/defaultoptions/keybindings.txt"
-hash = "693aeded92c87c3a1e01764ffb90d74f6be6db8c238e054285a9207910dfe956"
+hash = "43362f0ceb3818d64917495576e537c66aba9d33658b0fffad53f14bafb8f74b"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
@@ -3267,7 +3267,7 @@ hash = "55a93314139715580f52b66f7d14664537862c5e8313599c6dc656268ce37e2b"
 
 [[files]]
 file = "configureddefaults/options.txt"
-hash = "3c38ec268f47ade3b14cd34381add8d25cdde16b5b8e48359d84a10353943f95"
+hash = "80aa966bc765c7d0e46c2cd4d4ae886e1a1e3ffc5737a7bb264e8d7fcbf17669"
 
 [[files]]
 file = "defaultconfigs/computercraft-server.toml"
