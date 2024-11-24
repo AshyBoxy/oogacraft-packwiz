@@ -5,6 +5,8 @@ Most mods here are available on Modrinth<br>
 You can probably just search the name listed here to find them<br>
 If not, have a look at the toml file
 
+This doesn't include mods embedded by other mods
+
 Tools are more things that use physical items and blocks, utilities are more things that change game menus and such
 
 ## Both Sides
@@ -59,6 +61,7 @@ Tools are more things that use physical items and blocks, utilities are more thi
 - Rechiseled
     - Rechiseled: Create
 - Windchimes
+- [More Chests Variants](https://modrinth.com/mod/more-chest-variants-lieonlion)
 
 ### Tools
 - Advanced Netherite
@@ -111,18 +114,24 @@ Tools are more things that use physical items and blocks, utilities are more thi
     - Structures
     - Estrogen
     - Extended Cogwheels
+    - [Copycats+](https://modrinth.com/mod/copycats)
+    - [Railways Navigator](https://modrinth.com/mod/create-railways-navigator)
+    - [New Age](https://modrinth.com/mod/create-new-age)
 - Botania
-- CC: Tweaked
-    - CC:C Bridge
-    - Computer Cartographer
-    - Plethora Peripherals
+- [CC: Tweaked](https://modrinth.com/mod/cc-tweaked)
+    - [CC:C Bridge](https://modrinth.com/mod/cccbridge)
+    - [Computer Cartographer](https://modrinth.com/mod/computer-cartographer)
+    - [Plethora Peripherals](https://modrinth.com/mod/plethora-peripherals)
 - Coxinha Utilities
 - Extra Alchemy
 - Kibe
 - Simple Pipes
     - PipePlus
     - PipePump
-- Spectrum
+- [Spectrum](https://modrinth.com/mod/spectrum)
+- [Tom's Storage](https://modrinth.com/mod/toms-storage)
+    - [Create Contraption Terminals](https://modrinth.com/mod/create-contraption-terminals)
+
 
 ### Misc
 - All The Fan Made Discs
@@ -140,6 +149,7 @@ Tools are more things that use physical items and blocks, utilities are more thi
 - Mooshroom Tweaks
 - More Mob Variants
 - VillagersPlus
+- [Chest Cavity](https://modrinth.com/mod/chest-cavity)
 #### Fixes
 - AttributeFix
 - Max Health Fix
@@ -281,6 +291,7 @@ https://xkcd.com/927/ (a lot of these do the same things)
 - YetAnotherConfigLib
 - YUNG's API
 - Fzzy Config
+- Quad
 
 
 ## Client Only
@@ -423,15 +434,8 @@ Should still be kept at a minimum, singleplayer should be totally functional
 - Proximity Voice Chat
 - Sound Physics Remastered
 - possibly more create addons
-- https://modrinth.com/mod/spectrum-jetpacks
-- tpcommands
 - things with more rail variants, think the copper rail
 - more reborn energy based tech
-- https://modrinth.com/mod/toms-storage
-- https://modrinth.com/mod/simple-copper-pipes
-- https://modrinth.com/mod/chest-cavity
-    - plus creating a datapack for extra mod support
-- https://modrinth.com/mod/copycats
 - https://modrinth.com/mod/chalk
 - https://modrinth.com/mod/xercamod
 - https://modrinth.com/mod/every-compat
@@ -439,6 +443,7 @@ Should still be kept at a minimum, singleplayer should be totally functional
 - https://modrinth.com/mod/better-combat
 - FSit
 - Identity
+- tpcommands
 - BOC-Discord (then BOC-MsgClient)
 - EMI integrations for resources and such
 
@@ -496,6 +501,7 @@ Datapacks should be available on both sides
 
 ### Stretch Goals
 - a lot of mods could do with compat datapacks
+    - chest cavity
 - a lot of mods could also do with compat mods
     - e.g. space dimensions with reborn energy
 - create a custom log config to reduce log spam

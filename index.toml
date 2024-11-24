@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "README.md"
-hash = "146f25223ad8cdd05fcafd37f36e66f7fd987ea253f1a8a4d56afc8bd1e227a9"
+hash = "952c84d9dfd905932d1870bff10d06cbc6d4af93fd635e9b479cf8a28466b152"
 
 [[files]]
 file = "config/Adorn.json5"
@@ -3589,6 +3589,11 @@ hash = "d99ee7eb38c2d720172fbf302a9fd2eb7a8fe63e2864be761e5a96c7a464ff91"
 metafile = true
 
 [[files]]
+file = "mods/copycats.pw.toml"
+hash = "ac7153ccd646c14f801c2fe70c50eec5633db769ff1837f5ae00f45ff78a16e4"
+metafile = true
+
+[[files]]
 file = "mods/coroutil.pw.toml"
 hash = "429284603e4c5ca44777cb4ce2455477fcc1eee4dc9a4ae2f759c4895bf332e7"
 metafile = true
@@ -3629,6 +3634,11 @@ hash = "cc2cac1fb50df9f827166546ea0fb645795a052553fc640207216ab0f8889e91"
 metafile = true
 
 [[files]]
+file = "mods/create-contraption-terminals.pw.toml"
+hash = "2b59237de53c179aa6906a3ef1335922025e9ce922402a49e33dc78e1a954a6d"
+metafile = true
+
+[[files]]
 file = "mods/create-cooking.pw.toml"
 hash = "73c3cc4e87a75c34e273de5dfe019e69ae24d4dc13687e6da8feb80f09054df6"
 metafile = true
@@ -3656,6 +3666,16 @@ metafile = true
 [[files]]
 file = "mods/create-jetpack.pw.toml"
 hash = "5a6081e7d74cca40fbac91b83e74161c184e9053bbb65e5e500c2293b49a74c2"
+metafile = true
+
+[[files]]
+file = "mods/create-new-age.pw.toml"
+hash = "2c65b7ed826a2d147f0eb4788152b9f1ae878e0df102af58a9ea23ebd1c48f04"
+metafile = true
+
+[[files]]
+file = "mods/create-railways-navigator.pw.toml"
+hash = "8cf794fb79858ccbc1be9f4203b5a6603536b296650c17854a6b9dcc129476af"
 metafile = true
 
 [[files]]
@@ -4178,6 +4198,11 @@ hash = "470d30cd94b769b646f714432ba4cd01969910f6016957a6b218d2d2900d914c"
 metafile = true
 
 [[files]]
+file = "mods/lootr.pw.toml"
+hash = "e9aabc3f7f33eb0fd1b31ad33e188feb1a65dce5531b141fa988ec9fbade0146"
+metafile = true
+
+[[files]]
 file = "mods/luckperms.pw.toml"
 hash = "ed322399f2f703b5cc9f6652d85e8eb215a53c7acbeef27964c0d6af7400561a"
 metafile = true
@@ -4250,6 +4275,11 @@ metafile = true
 [[files]]
 file = "mods/mooshroom-tweaks.pw.toml"
 hash = "c32d94df0cd64ed2463608a4dc4b119165419f6120fc30693b4332c189b40d00"
+metafile = true
+
+[[files]]
+file = "mods/more-chest-variants-lieonlion.pw.toml"
+hash = "f545f624a693f87a495c94451be8275d9e83778d9f35dcf6253b4d84c49d0c84"
 metafile = true
 
 [[files]]
@@ -4400,6 +4430,11 @@ metafile = true
 [[files]]
 file = "mods/puzzles-lib.pw.toml"
 hash = "974fc9a82d211049b57b4d9dd0b7bb2e203d5a9b88d20a3f8ce2c3a16ee4426b"
+metafile = true
+
+[[files]]
+file = "mods/quad.pw.toml"
+hash = "6bdd9d1dc74b38676c4fc6829246bb613a4ac3c8e4d4a3acae685bd3153a3ff4"
 metafile = true
 
 [[files]]
@@ -4600,6 +4635,11 @@ metafile = true
 [[files]]
 file = "mods/the-bumblezone-fabric.pw.toml"
 hash = "3fcc949447af0f74ed670433af4988bcd9e24196e878db50367969e6bc724f1f"
+metafile = true
+
+[[files]]
+file = "mods/toms-storage.pw.toml"
+hash = "fe163268dc062dc702c3accbb0f9fc01823b466f8e91f86d5b9dea472a1becd2"
 metafile = true
 
 [[files]]
