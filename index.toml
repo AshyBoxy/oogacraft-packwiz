@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "README.md"
-hash = "ddf4191662ad5eee14de05812dd6e8178a3ec77bf0c71ac1d1df5b16ea354b49"
+hash = "321886619bc1315dae2b737e17f39b3297c4eb68458356ff7a8351823a2de3a7"
 
 [[files]]
 file = "config/Adorn.json5"
@@ -30,7 +30,7 @@ hash = "fe03cb28977f4ee8ea2090027d309e89b81c1a0f4cd82a4f6f4f7063474c1351"
 
 [[files]]
 file = "config/almostunified/unify.json"
-hash = "668134e256a7aaebe14d7e4a77962b7ad5f7de22a2c983b9cf036dd45a2e3385"
+hash = "b1b2a76e84e33487b9886c4c5be05504a440476556b659d57f44c9d10500af38"
 
 [[files]]
 file = "config/anvil_fix.json5"
@@ -67,6 +67,10 @@ hash = "9129a797bd663ee1b6a0e9048804628c11c3d09ef96bb8b4abb1ee07842f4416"
 [[files]]
 file = "config/carpet/default_carpet.conf"
 hash = "57ec3e1d167c4ca1d433f165430a93a6e779b5addd903271f8ae8e74061479f3"
+
+[[files]]
+file = "config/chestcavity.json"
+hash = "73858a2cedbd7e666ec0889f3c7659404ad7540970cd42c73be3ac6af2d776a7"
 
 [[files]]
 file = "config/collective.json5"
@@ -106,7 +110,7 @@ hash = "92d711d3dcd68e93d829a084b7527dc8d90a67d7350e7696a54e3c8c322fee7c"
 
 [[files]]
 file = "config/defaultoptions/keybindings.txt"
-hash = "4bc083efe15dc1d74224d09fc0550b3db2b52bfaa12d4070e37f1af2bade3f46"
+hash = "693aeded92c87c3a1e01764ffb90d74f6be6db8c238e054285a9207910dfe956"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
@@ -994,7 +998,7 @@ hash = "ab04fba28deed17de011cd59d27dfa613e890eee4ad4563548985810ed34f27a"
 
 [[files]]
 file = "config/paxi/datapacks/oogacraft/data/c/tags/items/cheeses.json"
-hash = "9a37d3989c4fbeb25e5816d462ec929548f84f83ab769b676c9d71be3d20d74b"
+hash = "0e4ca7c6bee01a71c4c203e0a40b6ec4aaf57cfaf9771e7046aa781749c557e0"
 
 [[files]]
 file = "config/paxi/datapacks/oogacraft/data/c/tags/items/diamond_dusts.json"
@@ -2205,6 +2209,10 @@ file = "config/paxi/datapacks/oogacraft/data/trinkets/slots/offhand/ring.json"
 hash = "dff545f46fedbdbd1ef49e40a3a587e4e0b1db85b92c2ecde77c4dc86e2fea71"
 
 [[files]]
+file = "config/paxi/datapacks/oogacraft/data/trinkets/tags/items/charm/charm.json"
+hash = "6cb0a1729645242c169b2b78d1cfd9ea276f3aaeff6061f1b41e98874e3da239"
+
+[[files]]
 file = "config/paxi/datapacks/oogacraft/data/uncraftable_ice/advancements/recipes/building_blocks/ice.json"
 hash = "739f7118766fa4813fbf7e5e69ac1bd6f8a7a2a38c8636036d75e5d04227a074"
 
@@ -3267,7 +3275,7 @@ hash = "98c4d97aa14966d2c9c70a6168dde2673c346398360acf3cfdede5b4e2bd01aa"
 
 [[files]]
 file = "defaultconfigs/mantle-server.toml"
-hash = "69cd2101f255fde6c09927223ad7d5892038c6c5e45b504f36ff1862f241842f"
+hash = "586947b3d7ca296ab50acc84c1bd15e23c4275cb7d6eb799721ac6eef66c2cf6"
 
 [[files]]
 file = "mods/AnvilFix-development+20230626064221-1.20.1.jar"
@@ -3491,6 +3499,11 @@ metafile = true
 [[files]]
 file = "mods/charm-of-undying.pw.toml"
 hash = "9976a89bdb3889054b1501c2471974ec62a0be15dabc0330422adf1a23a88bae"
+metafile = true
+
+[[files]]
+file = "mods/chest-cavity.pw.toml"
+hash = "3ecc912d75ebbe9cd0dce03d8c2ff2e75499a0d6e91b767cb95e3503d73ad8f7"
 metafile = true
 
 [[files]]
@@ -4400,6 +4413,11 @@ metafile = true
 [[files]]
 file = "mods/pipepump.pw.toml"
 hash = "420b092c9345e2f03e55fc52253736244a852c63172619e86b71f49682910c52"
+metafile = true
+
+[[files]]
+file = "mods/plant-in-a-jar.pw.toml"
+hash = "500de33d1a76f62c4aafd18ec1f01e6a08abd5bedfc75bb191108c7cdf9ac15f"
 metafile = true
 
 [[files]]

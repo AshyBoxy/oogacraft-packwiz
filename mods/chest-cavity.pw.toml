@@ -1,0 +1,13 @@
+name = "Chest Cavity"
+filename = "chestcavity-2.16.7.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/eo1wLeXR/versions/yEEmPA6j/chestcavity-2.16.7.jar"
+hash-format = "sha512"
+hash = "979084e7109bba21e87c9b7c1964c20200e052720d3ceba6462536f62fe4a64656a202dbeb9d3c31debe5ee72eeb3584a42d10516b1a6d7430aefa4d7973fc28"
+
+[update]
+[update.modrinth]
+mod-id = "eo1wLeXR"
+version = "yEEmPA6j"

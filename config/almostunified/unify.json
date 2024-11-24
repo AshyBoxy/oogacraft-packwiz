@@ -3,6 +3,7 @@
     "minecraft",
     "kubejs",
     "crafttweaker",
+    "croptopia",
     "create",
     "tconstruct",
     "techreborn",
@@ -32,7 +33,9 @@
     "c:{material}_storage_blocks",
     "c:raw_{material}_ores",
     "c:raw_{material}_blocks",
-    "c:raw_{material}_storage_blocks"
+    "c:raw_{material}_storage_blocks",
+    "c:dough",
+    "c:cheeses"
   ],
   "materials": [
     "aeternium",

@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "create_cooking:cheese"
+    "create_cooking:cheese",
+    "croptopia:cheese"
   ]
 }

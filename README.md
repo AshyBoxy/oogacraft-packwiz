@@ -91,6 +91,7 @@ Tools are more things that use physical items and blocks, utilities are more thi
 - Reinforced Chests
 - Reinforced Shulker Boxes
 - [Hephaestus (Tinkers' Construct)](https://modrinth.com/mod/hephaestus)
+- [Plant In A Jar](https://modrinth.com/mod/plant-in-a-jar)
 
 ### Tech/Magic
 - Tech Reborn
@@ -420,8 +421,7 @@ Should still be kept at a minimum, singleplayer should be totally functional
 
 ### Incompatible
 - [Sound Physics Remastered](https://modrinth.com/mod/sound-physics-remastered) - incompatible with Create
-
-
+t's
 ## Considering
 
 ### Removal
@@ -435,6 +435,7 @@ Should still be kept at a minimum, singleplayer should be totally functional
 - Enhanced Block Entities
 
 ### Addition
+- https://modrinth.com/mod/variant-crafting-tables
 - possibly more create addons
 - things with more rail variants, think the copper rail
 - more reborn energy based tech
