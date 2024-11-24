@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "README.md"
-hash = "952c84d9dfd905932d1870bff10d06cbc6d4af93fd635e9b479cf8a28466b152"
+hash = "ddf4191662ad5eee14de05812dd6e8178a3ec77bf0c71ac1d1df5b16ea354b49"
 
 [[files]]
 file = "config/Adorn.json5"
@@ -106,7 +106,7 @@ hash = "92d711d3dcd68e93d829a084b7527dc8d90a67d7350e7696a54e3c8c322fee7c"
 
 [[files]]
 file = "config/defaultoptions/keybindings.txt"
-hash = "91c11db2e5efa3a61ab0b5916c92473e6644e8207d4c3f5e49a6599701c513f9"
+hash = "4bc083efe15dc1d74224d09fc0550b3db2b52bfaa12d4070e37f1af2bade3f46"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
@@ -3259,7 +3259,7 @@ hash = "55a93314139715580f52b66f7d14664537862c5e8313599c6dc656268ce37e2b"
 
 [[files]]
 file = "configureddefaults/options.txt"
-hash = "6d77e42eff78846da69eaf1b27faebbabe82040b58980d5a8ccca728c338ca54"
+hash = "3c38ec268f47ade3b14cd34381add8d25cdde16b5b8e48359d84a10353943f95"
 
 [[files]]
 file = "defaultconfigs/computercraft-server.toml"
@@ -4543,6 +4543,11 @@ hash = "c0a650dd4779fc0bf065f776609ac9db3ec295af35ee12fe191a29cd567561f9"
 metafile = true
 
 [[files]]
+file = "mods/simple-voice-chat.pw.toml"
+hash = "f42254890af913280ba9713f31986c02660b5f79e3f0869952832e08c5d516c0"
+metafile = true
+
+[[files]]
 file = "mods/simply-swords.pw.toml"
 hash = "53756963029d3281ce1001a6129367541d2e092b34a4bb1cafeff77f3ec28902"
 metafile = true
@@ -4795,4 +4800,24 @@ metafile = true
 [[files]]
 file = "mods/zoomify.pw.toml"
 hash = "5df1b8ef822fe9987a65d412936909b4d700872db2ed107d0092e28452999101"
+metafile = true
+
+[[files]]
+file = "shaderpacks/bsl-shaders.pw.toml"
+hash = "8ddbfb143d609eba1fd8172dab2791b12a855cf1911fdbb366ef2142fd53cfe1"
+metafile = true
+
+[[files]]
+file = "shaderpacks/complementary-reimagined.pw.toml"
+hash = "d1bf2560e353b910e8336fbc7b781bfd4fe2bf4569db572b4c0b38042ffd7138"
+metafile = true
+
+[[files]]
+file = "shaderpacks/complementary-unbound.pw.toml"
+hash = "4fcf841bfa23a9894763dca6caf1e3cc9f31183bd0f4f5178ad9058e76bc88a8"
+metafile = true
+
+[[files]]
+file = "shaderpacks/rethinking-voxels.pw.toml"
+hash = "62ea6037d1b9c80e0f196fe98bdde0d89cba2eab26f58539a45b83591496b2ec"
 metafile = true

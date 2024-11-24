@@ -150,6 +150,7 @@ Tools are more things that use physical items and blocks, utilities are more thi
 - More Mob Variants
 - VillagersPlus
 - [Chest Cavity](https://modrinth.com/mod/chest-cavity)
+- [Simple Voice Chat](https://modrinth.com/plugin/simple-voice-chat)
 #### Fixes
 - AttributeFix
 - Max Health Fix
@@ -417,6 +418,9 @@ Should still be kept at a minimum, singleplayer should be totally functional
 - FSit
 - Identity
 
+### Incompatible
+- [Sound Physics Remastered](https://modrinth.com/mod/sound-physics-remastered) - incompatible with Create
+
 
 ## Considering
 
@@ -431,8 +435,6 @@ Should still be kept at a minimum, singleplayer should be totally functional
 - Enhanced Block Entities
 
 ### Addition
-- Proximity Voice Chat
-- Sound Physics Remastered
 - possibly more create addons
 - things with more rail variants, think the copper rail
 - more reborn energy based tech
